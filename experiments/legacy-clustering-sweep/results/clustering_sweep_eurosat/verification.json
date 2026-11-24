@@ -1,0 +1,241 @@
+{
+  "smoke": false,
+  "diagnostics": {
+    "spherical_kmeans": {
+      "clusters": 120,
+      "noise": 0,
+      "largest": 465
+    },
+    "ward_pca32": {
+      "clusters": 120,
+      "noise": 0,
+      "largest": 395
+    },
+    "dbscan": {
+      "clusters": 3,
+      "noise": 6810,
+      "largest": 6626
+    }
+  },
+  "results": {
+    "baseline": {
+      "anchors": 2324,
+      "added": 0,
+      "added_correct": 0,
+      "beyond_top3": 0,
+      "val_correct": 3621,
+      "accuracy_pct": 67.056
+    },
+    "clip_expansion": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 79,
+      "beyond_top3": 47,
+      "val_correct": 3633,
+      "accuracy_pct": 67.278
+    },
+    "dbscan": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 82,
+      "beyond_top3": 50,
+      "val_correct": 3687,
+      "accuracy_pct": 68.278
+    },
+    "dino_seed_retrieval": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 96,
+      "beyond_top3": 44,
+      "val_correct": 3673,
+      "accuracy_pct": 68.019
+    },
+    "spherical_kmeans": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 91,
+      "beyond_top3": 45,
+      "val_correct": 3646,
+      "accuracy_pct": 67.519
+    },
+    "ward_pca32": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 92,
+      "beyond_top3": 44,
+      "val_correct": 3668,
+      "accuracy_pct": 67.926
+    }
+  },
+  "vs_clip": {
+    "baseline": {
+      "delta_pp": -0.222,
+      "ci95_pp": [
+        -0.852,
+        0.407
+      ]
+    },
+    "dbscan": {
+      "delta_pp": 1.0,
+      "ci95_pp": [
+        0.389,
+        1.611
+      ]
+    },
+    "dino_seed_retrieval": {
+      "delta_pp": 0.741,
+      "ci95_pp": [
+        0.148,
+        1.352
+      ]
+    },
+    "spherical_kmeans": {
+      "delta_pp": 0.241,
+      "ci95_pp": [
+        -0.296,
+        0.796
+      ]
+    },
+    "ward_pca32": {
+      "delta_pp": 0.648,
+      "ci95_pp": [
+        0.13,
+        1.185
+      ]
+    }
+  },
+  "target_classes": [
+    {
+      "arm": "baseline",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "0",
+      "added_correct": "0",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "2"
+    },
+    {
+      "arm": "baseline",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "0",
+      "added_correct": "0",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "236"
+    },
+    {
+      "arm": "clip_expansion",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "19",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "72"
+    },
+    {
+      "arm": "clip_expansion",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "60",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "261"
+    },
+    {
+      "arm": "dino_seed_retrieval",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "34",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "98"
+    },
+    {
+      "arm": "dino_seed_retrieval",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "62",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "245"
+    },
+    {
+      "arm": "spherical_kmeans",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "28",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "79"
+    },
+    {
+      "arm": "spherical_kmeans",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "63",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "253"
+    },
+    {
+      "arm": "ward_pca32",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "28",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "90"
+    },
+    {
+      "arm": "ward_pca32",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "64",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "254"
+    },
+    {
+      "arm": "dbscan",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "24",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "83"
+    },
+    {
+      "arm": "dbscan",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "58",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "260"
+    }
+  ]
+}

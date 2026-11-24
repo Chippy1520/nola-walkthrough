@@ -1,0 +1,2 @@
+run_id,dataset,seed,split_id,arm,split,stage,correct,n,top1_pct
+local-cde-v2/cifar10,cifar10,7777,13ee018e25d4bbabd77fda87651d46068d3fda16432ac2fa56b1133eceffecd7,template_suffix,val,cde,4471,5000,89.42

@@ -1,0 +1,2 @@
+run_id,dataset,seed,split_id,arm,split,stage,correct,n,top1_pct
+local-cde-v2/oxford_pets,oxford_pets,7777,30aa1eaf84a766e5da5f80eb58675987bc67a2b85335b03132fdcaa071481204,release,val,cde,628,736,85.32608695652173

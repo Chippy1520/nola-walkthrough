@@ -1,0 +1,15 @@
+{
+  "run_id": "local-cde-v2/cifar10",
+  "dataset": "cifar10",
+  "seed": 7777,
+  "split_id": "13ee018e25d4bbabd77fda87651d46068d3fda16432ac2fa56b1133eceffecd7",
+  "head_epochs": 50,
+  "prompt_epochs": 50,
+  "batch": 512,
+  "micro": 8,
+  "stage": "development_validation",
+  "sources": {
+    "nola_eval.py": "726a85e8e86872f2ef21d8499a7409f0c9a468b4d62efb2a71fbec04486d5307",
+    "experiments.py": "352a72af8d4e063034958d397c8bfa1e645c691ad426393540f1448491a1a42f"
+  }
+}

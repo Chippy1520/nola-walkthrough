@@ -1,0 +1,68 @@
+{
+  "dataset": "eurosat",
+  "smoke": false,
+  "added": 128,
+  "val_n": 5400,
+  "results": {
+    "clip+dino": {
+      "correct_additions": 96,
+      "val_correct": 3673
+    },
+    "siglip2+dino": {
+      "correct_additions": 108,
+      "val_correct": 3703
+    },
+    "clip+convnext": {
+      "correct_additions": 94,
+      "val_correct": 3695
+    },
+    "siglip2+convnext": {
+      "correct_additions": 102,
+      "val_correct": 3717
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "pp": 0.5555555555555556,
+      "ci95_pp": [
+        0.037037037037037035,
+        1.0740740740740742
+      ]
+    },
+    "clip+convnext vs clip+dino": {
+      "pp": 0.4074074074074074,
+      "ci95_pp": [
+        -0.1111111111111111,
+        0.9444444444444444
+      ]
+    },
+    "siglip2+convnext vs clip+dino": {
+      "pp": 0.8148148148148148,
+      "ci95_pp": [
+        0.25925925925925924,
+        1.3703703703703705
+      ]
+    },
+    "clip+convnext vs siglip2+dino": {
+      "pp": -0.14814814814814814,
+      "ci95_pp": [
+        -0.7407407407407407,
+        0.42592592592592593
+      ]
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "pp": 0.25925925925925924,
+      "ci95_pp": [
+        -0.2222222222222222,
+        0.7407407407407407
+      ]
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "pp": 0.4074074074074074,
+      "ci95_pp": [
+        -0.14814814814814814,
+        0.9814814814814815
+      ]
+    }
+  }
+}

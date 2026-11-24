@@ -1,0 +1,16 @@
+{
+  "dataset": "EuroSAT",
+  "split": "CoOp validation only",
+  "stage": "frozen CLIP ViT-B/32",
+  "threshold": 0.75,
+  "tau": 0.05,
+  "scoring": "normalized weighted log-mean-exp; normalized mean weight 25; raw extra cluster means weighted by group size",
+  "retained": [],
+  "n": 5400,
+  "wrapped_mean_correct": 2784,
+  "hybrid_075_correct": 2784,
+  "cluster_only_correct": 2785,
+  "original_cde_correct": 2753,
+  "fixed": 0,
+  "lost": 0
+}

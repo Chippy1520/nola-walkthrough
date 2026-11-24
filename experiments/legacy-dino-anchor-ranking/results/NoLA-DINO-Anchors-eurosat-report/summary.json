@@ -1,0 +1,151 @@
+{
+  "name": "eurosat",
+  "classes": [
+    "Annual Crop Land",
+    "Forest",
+    "Herbaceous Vegetation Land",
+    "Highway or Road",
+    "Industrial Buildings",
+    "Pasture Land",
+    "Permanent Crop Land",
+    "Residential Buildings",
+    "River",
+    "Sea or Lake"
+  ],
+  "device": "cuda",
+  "evaluation_split": "validation",
+  "n_train_original": 13500,
+  "n_train_unique": 13500,
+  "n_val": 5400,
+  "target_per_class": 270,
+  "realized_per_class": [
+    270,
+    270,
+    7,
+    270,
+    270,
+    157,
+    270,
+    270,
+    270,
+    270
+  ],
+  "candidate_counts": [
+    360,
+    810,
+    7,
+    810,
+    810,
+    157,
+    810,
+    810,
+    810,
+    810
+  ],
+  "candidate_label_rank": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "clip_logit_scale": 100.00000762939453,
+  "neighbor_k": 20,
+  "medoid_iterations": 10,
+  "teacher": {
+    "seed": 0,
+    "epochs": 50,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "hidden_dim": 256,
+    "features": "raw frozen DINO"
+  },
+  "ownership": "reserve top-1 baseline anchors; then top-2/top-3 fallback for empty classes; fill fallback then top-1 pools up to 3x realized count using only unowned IDs",
+  "metadata": {
+    "dataset": "eurosat",
+    "split_origin": "Published CoOp split_zhou_EuroSAT.json",
+    "train_count": 13500,
+    "val_count": 5400,
+    "test_count": 8100,
+    "test_decoded": false,
+    "text_origin": "Released NoLA EuroSAT broad CDE tensor (embeddings.pt::broad, NoLA-EuroSAT-Author-Inputs.zip)",
+    "text_kind": "released_cde",
+    "input_sha256": {
+      "eurosat/clip_mean.npy": "7042a6496549ad5919b3543289cb5cbcf2eea9bf184bd00c4f6b2275f4136c2f",
+      "eurosat/descriptions.json": "fe1076499e4fb8c019e83e677af2e9ecc302cb2240edcca0a1ed7fbb35af2110",
+      "eurosat/split_zhou_EuroSAT.json": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+      "eurosat/text_config.json": "58cd52dd89e59daa49653b58e8a1c0556de67b07d67e0c77b48628ab25818afd"
+    },
+    "archive_checksum": [
+      "md5",
+      "f46e308c4d50d4bf32fedad2d3d62f3b"
+    ],
+    "archive_verified": true,
+    "clip_weights_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "dino_weights_sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+    "clip_scores": "cosine (unscaled)",
+    "clip_logit_scale": 100.00000762939453,
+    "dino_features": "raw CLS",
+    "dtype": "float32",
+    "preprocess": "bicubic short side 224 / center crop 224 / CLIP RGB mean and std for both backbones",
+    "runtime": [
+      "2.14.1+cu130",
+      "0.29.1+cu130",
+      "cuda",
+      "Tesla T4",
+      "11.3.0",
+      "highest",
+      false,
+      true
+    ],
+    "limits": {
+      "train": null,
+      "val": null
+    },
+    "batch_size": 32,
+    "chunk_size": 512,
+    "source_sha256": "b51efd1117e04d72365e779a1bd2ad1da959ba6592f70640727fbfe590f1404b",
+    "pins_sha256": "97fe3ec44d330e78a9baaa649ee0b894579dc234742d048c6b20c0adf4ebcc25",
+    "cache_signature": "6f7e662a684e8a8ee02c23fff491e18103cdfdccece58e9ad446b807759fc990"
+  },
+  "arms": {
+    "confidence": {
+      "anchor_count": 2324,
+      "anchor_precision": 0.7478485370051635,
+      "val_accuracy": 0.6707407407407407,
+      "val_accuracy_delta_vs_confidence": 0.0,
+      "val_fixed_vs_confidence": 0,
+      "val_broken_vs_confidence": 0
+    },
+    "farthest_first": {
+      "anchor_count": 2324,
+      "anchor_precision": 0.5989672977624785,
+      "val_accuracy": 0.6148148148148148,
+      "val_accuracy_delta_vs_confidence": -0.055925925925925934,
+      "val_fixed_vs_confidence": 229,
+      "val_broken_vs_confidence": 531
+    },
+    "medoids": {
+      "anchor_count": 2324,
+      "anchor_precision": 0.6080034423407917,
+      "val_accuracy": 0.6207407407407407,
+      "val_accuracy_delta_vs_confidence": -0.050000000000000044,
+      "val_fixed_vs_confidence": 225,
+      "val_broken_vs_confidence": 495
+    },
+    "neighbor_agreement": {
+      "anchor_count": 2324,
+      "anchor_precision": 0.8192771084337349,
+      "val_accuracy": 0.6974074074074074,
+      "val_accuracy_delta_vs_confidence": 0.026666666666666616,
+      "val_fixed_vs_confidence": 387,
+      "val_broken_vs_confidence": 243
+    }
+  }
+}

@@ -1,0 +1,5 @@
+dataset,status
+eurosat,Complete: 2806/5400 (51.96%). Frozen validation only.
+oxford_pets,Complete: 646/736 (87.77%). Frozen validation only.
+cifar10,Complete: 4443/5000 (88.86%). Frozen validation only.
+dtd,Complete: 578/1128 (51.24%). Frozen validation only.

@@ -1,0 +1,5 @@
+dataset,status
+eurosat,No final result verified in the new four-dataset grid.
+oxford_pets,Not applicable in the observed local run: no eligible additional anchors.
+cifar10,No final result verified in the new four-dataset grid.
+dtd,No final result verified in the new four-dataset grid.

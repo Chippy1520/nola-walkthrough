@@ -1,0 +1,606 @@
+{
+  "dataset": "eurosat",
+  "stage": "frozen CLIP ViT-B/32 validation only",
+  "torch": "2.5.1+cu121",
+  "device": "NVIDIA GeForce GTX 1050 Ti",
+  "clip_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "run_sha256": "75df4bfc4edf08910cba91802eb6d67f2c82b46fdbaa0f5d3a38313f31e601e0",
+  "source_hashes": {
+    "split_zhou_EuroSAT.json": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+    "encoded_features": "717ce4df5aa9cb2cf0e1a43387ace7445e204181725e51b40013f8e08cf83f07",
+    "EuroSAT.json": "fe1076499e4fb8c019e83e677af2e9ecc302cb2240edcca0a1ed7fbb35af2110"
+  },
+  "templates": [
+    "a satellite photo of {}.",
+    "a satellite photo of a {}.",
+    "a satellite photo of the {}.",
+    "a centered satellite photo of {}.",
+    "This is an aerial image of a {}.",
+    "a aerial image of {}."
+  ],
+  "classes": [
+    "Annual Crop Land",
+    "Forest",
+    "Herbaceous Vegetation Land",
+    "Highway or Road",
+    "Industrial Buildings",
+    "Pasture Land",
+    "Permanent Crop Land",
+    "Residential Buildings",
+    "River",
+    "Sea or Lake"
+  ],
+  "clustering_cosine": 0.75,
+  "gates": [
+    0.75,
+    0.9
+  ],
+  "retained": {
+    "075": 0,
+    "090": 2
+  },
+  "clusters": 14,
+  "metrics": {
+    "suffix_mean": {
+      "correct": 2780,
+      "n": 5400,
+      "acc_pct": 51.48148148148148,
+      "fixed_vs_suffix_mean": 0,
+      "lost_vs_suffix_mean": 0
+    },
+    "suffix_blend075": {
+      "correct": 2780,
+      "n": 5400,
+      "acc_pct": 51.48148148148148,
+      "fixed_vs_suffix_mean": 0,
+      "lost_vs_suffix_mean": 0
+    },
+    "suffix_blend090": {
+      "correct": 2765,
+      "n": 5400,
+      "acc_pct": 51.2037037037037,
+      "fixed_vs_suffix_mean": 19,
+      "lost_vs_suffix_mean": 34
+    },
+    "released_separate": {
+      "correct": 2757,
+      "n": 5400,
+      "acc_pct": 51.05555555555556,
+      "fixed_vs_suffix_mean": 104,
+      "lost_vs_suffix_mean": 127
+    },
+    "legacy_mean": {
+      "correct": 2786,
+      "n": 5400,
+      "acc_pct": 51.592592592592595,
+      "fixed_vs_suffix_mean": 106,
+      "lost_vs_suffix_mean": 100
+    },
+    "suffix_lme075": {
+      "correct": 2780,
+      "n": 5400,
+      "acc_pct": 51.48148148148148,
+      "fixed_vs_suffix_mean": 0,
+      "lost_vs_suffix_mean": 0
+    },
+    "suffix_lme090": {
+      "correct": 2786,
+      "n": 5400,
+      "acc_pct": 51.592592592592595,
+      "fixed_vs_suffix_mean": 14,
+      "lost_vs_suffix_mean": 8
+    }
+  },
+  "by_class": {
+    "Annual Crop Land": {
+      "suffix_mean": {
+        "correct": 42,
+        "n": 600,
+        "acc_pct": 7.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 42,
+        "n": 600,
+        "acc_pct": 7.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 42,
+        "n": 600,
+        "acc_pct": 7.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 91,
+        "n": 600,
+        "acc_pct": 15.166666666666666,
+        "fixed_vs_suffix_mean": 49,
+        "lost_vs_suffix_mean": 0
+      },
+      "legacy_mean": {
+        "correct": 37,
+        "n": 600,
+        "acc_pct": 6.166666666666667,
+        "fixed_vs_suffix_mean": 5,
+        "lost_vs_suffix_mean": 10
+      },
+      "suffix_lme075": {
+        "correct": 42,
+        "n": 600,
+        "acc_pct": 7.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 42,
+        "n": 600,
+        "acc_pct": 7.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Forest": {
+      "suffix_mean": {
+        "correct": 381,
+        "n": 600,
+        "acc_pct": 63.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 381,
+        "n": 600,
+        "acc_pct": 63.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 355,
+        "n": 600,
+        "acc_pct": 59.166666666666664,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 26
+      },
+      "released_separate": {
+        "correct": 377,
+        "n": 600,
+        "acc_pct": 62.833333333333336,
+        "fixed_vs_suffix_mean": 13,
+        "lost_vs_suffix_mean": 17
+      },
+      "legacy_mean": {
+        "correct": 409,
+        "n": 600,
+        "acc_pct": 68.16666666666667,
+        "fixed_vs_suffix_mean": 34,
+        "lost_vs_suffix_mean": 6
+      },
+      "suffix_lme075": {
+        "correct": 381,
+        "n": 600,
+        "acc_pct": 63.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 391,
+        "n": 600,
+        "acc_pct": 65.16666666666667,
+        "fixed_vs_suffix_mean": 10,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Herbaceous Vegetation Land": {
+      "suffix_mean": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "legacy_mean": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme075": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 0,
+        "n": 600,
+        "acc_pct": 0.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Highway or Road": {
+      "suffix_mean": {
+        "correct": 312,
+        "n": 500,
+        "acc_pct": 62.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 312,
+        "n": 500,
+        "acc_pct": 62.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 310,
+        "n": 500,
+        "acc_pct": 62.0,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 2
+      },
+      "released_separate": {
+        "correct": 309,
+        "n": 500,
+        "acc_pct": 61.8,
+        "fixed_vs_suffix_mean": 6,
+        "lost_vs_suffix_mean": 9
+      },
+      "legacy_mean": {
+        "correct": 286,
+        "n": 500,
+        "acc_pct": 57.2,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 26
+      },
+      "suffix_lme075": {
+        "correct": 312,
+        "n": 500,
+        "acc_pct": 62.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 313,
+        "n": 500,
+        "acc_pct": 62.6,
+        "fixed_vs_suffix_mean": 1,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Industrial Buildings": {
+      "suffix_mean": {
+        "correct": 417,
+        "n": 500,
+        "acc_pct": 83.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 417,
+        "n": 500,
+        "acc_pct": 83.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 417,
+        "n": 500,
+        "acc_pct": 83.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 405,
+        "n": 500,
+        "acc_pct": 81.0,
+        "fixed_vs_suffix_mean": 1,
+        "lost_vs_suffix_mean": 13
+      },
+      "legacy_mean": {
+        "correct": 431,
+        "n": 500,
+        "acc_pct": 86.2,
+        "fixed_vs_suffix_mean": 15,
+        "lost_vs_suffix_mean": 1
+      },
+      "suffix_lme075": {
+        "correct": 417,
+        "n": 500,
+        "acc_pct": 83.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 417,
+        "n": 500,
+        "acc_pct": 83.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Pasture Land": {
+      "suffix_mean": {
+        "correct": 78,
+        "n": 400,
+        "acc_pct": 19.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 78,
+        "n": 400,
+        "acc_pct": 19.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 78,
+        "n": 400,
+        "acc_pct": 19.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 51,
+        "n": 400,
+        "acc_pct": 12.75,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 27
+      },
+      "legacy_mean": {
+        "correct": 51,
+        "n": 400,
+        "acc_pct": 12.75,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 27
+      },
+      "suffix_lme075": {
+        "correct": 78,
+        "n": 400,
+        "acc_pct": 19.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 78,
+        "n": 400,
+        "acc_pct": 19.5,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Permanent Crop Land": {
+      "suffix_mean": {
+        "correct": 272,
+        "n": 500,
+        "acc_pct": 54.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 272,
+        "n": 500,
+        "acc_pct": 54.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 272,
+        "n": 500,
+        "acc_pct": 54.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 244,
+        "n": 500,
+        "acc_pct": 48.8,
+        "fixed_vs_suffix_mean": 6,
+        "lost_vs_suffix_mean": 34
+      },
+      "legacy_mean": {
+        "correct": 282,
+        "n": 500,
+        "acc_pct": 56.4,
+        "fixed_vs_suffix_mean": 15,
+        "lost_vs_suffix_mean": 5
+      },
+      "suffix_lme075": {
+        "correct": 272,
+        "n": 500,
+        "acc_pct": 54.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 272,
+        "n": 500,
+        "acc_pct": 54.4,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "Residential Buildings": {
+      "suffix_mean": {
+        "correct": 524,
+        "n": 600,
+        "acc_pct": 87.33333333333333,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 524,
+        "n": 600,
+        "acc_pct": 87.33333333333333,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 524,
+        "n": 600,
+        "acc_pct": 87.33333333333333,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 536,
+        "n": 600,
+        "acc_pct": 89.33333333333333,
+        "fixed_vs_suffix_mean": 13,
+        "lost_vs_suffix_mean": 1
+      },
+      "legacy_mean": {
+        "correct": 519,
+        "n": 600,
+        "acc_pct": 86.5,
+        "fixed_vs_suffix_mean": 2,
+        "lost_vs_suffix_mean": 7
+      },
+      "suffix_lme075": {
+        "correct": 524,
+        "n": 600,
+        "acc_pct": 87.33333333333333,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 524,
+        "n": 600,
+        "acc_pct": 87.33333333333333,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      }
+    },
+    "River": {
+      "suffix_mean": {
+        "correct": 228,
+        "n": 500,
+        "acc_pct": 45.6,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 228,
+        "n": 500,
+        "acc_pct": 45.6,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 245,
+        "n": 500,
+        "acc_pct": 49.0,
+        "fixed_vs_suffix_mean": 17,
+        "lost_vs_suffix_mean": 0
+      },
+      "released_separate": {
+        "correct": 204,
+        "n": 500,
+        "acc_pct": 40.8,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 24
+      },
+      "legacy_mean": {
+        "correct": 218,
+        "n": 500,
+        "acc_pct": 43.6,
+        "fixed_vs_suffix_mean": 6,
+        "lost_vs_suffix_mean": 16
+      },
+      "suffix_lme075": {
+        "correct": 228,
+        "n": 500,
+        "acc_pct": 45.6,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 228,
+        "n": 500,
+        "acc_pct": 45.6,
+        "fixed_vs_suffix_mean": 3,
+        "lost_vs_suffix_mean": 3
+      }
+    },
+    "Sea or Lake": {
+      "suffix_mean": {
+        "correct": 526,
+        "n": 600,
+        "acc_pct": 87.66666666666667,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend075": {
+        "correct": 526,
+        "n": 600,
+        "acc_pct": 87.66666666666667,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_blend090": {
+        "correct": 522,
+        "n": 600,
+        "acc_pct": 87.0,
+        "fixed_vs_suffix_mean": 2,
+        "lost_vs_suffix_mean": 6
+      },
+      "released_separate": {
+        "correct": 540,
+        "n": 600,
+        "acc_pct": 90.0,
+        "fixed_vs_suffix_mean": 16,
+        "lost_vs_suffix_mean": 2
+      },
+      "legacy_mean": {
+        "correct": 553,
+        "n": 600,
+        "acc_pct": 92.16666666666667,
+        "fixed_vs_suffix_mean": 29,
+        "lost_vs_suffix_mean": 2
+      },
+      "suffix_lme075": {
+        "correct": 526,
+        "n": 600,
+        "acc_pct": 87.66666666666667,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 0
+      },
+      "suffix_lme090": {
+        "correct": 521,
+        "n": 600,
+        "acc_pct": 86.83333333333333,
+        "fixed_vs_suffix_mean": 0,
+        "lost_vs_suffix_mean": 5
+      }
+    }
+  }
+}

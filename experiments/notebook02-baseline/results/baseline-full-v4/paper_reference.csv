@@ -1,0 +1,5 @@
+dataset,paper_top1_pct,source,comparable
+eurosat,73.5,BMVC 2025 Table 1,not yet verified
+oxford_pets,89.3,BMVC 2025 Table 1,not yet verified
+cifar10,94.9,BMVC 2025 Table 1,not yet verified
+dtd,56.1,BMVC 2025 Table 1,not yet verified

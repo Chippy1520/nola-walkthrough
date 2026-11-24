@@ -1,0 +1,50 @@
+{
+  "n": 5000,
+  "mean_correct": 2925,
+  "hybrid_correct": 2925,
+  "mean_accuracy_pct": 58.5,
+  "hybrid_accuracy_pct": 58.5,
+  "delta_pp": 0.0,
+  "fixed": 0,
+  "lost": 0,
+  "prediction_changes": 0,
+  "delta_pp_ci95": [
+    0.0,
+    0.0
+  ],
+  "mcnemar_exact_p": 1.0,
+  "mean_macro_coarse_pct": 58.5,
+  "hybrid_macro_coarse_pct": 58.5,
+  "stage": "frozen_CLIP_ViT-B/32",
+  "device": "cpu",
+  "precision": "float32",
+  "split": "validation",
+  "test_scored": false,
+  "comparison": [
+    "same_prompt_mean",
+    "hybrid_075"
+  ],
+  "cluster_min_cosine": 0.75,
+  "keep_if_cosine_to_mean_below": 0.75,
+  "tau": 0.05,
+  "aggregation": "normalized weighted log-mean-exp; normalized class mean weighted by total descriptions, retained raw cluster means weighted by size",
+  "n_clusters": 27,
+  "n_retained": 0,
+  "classes_with_retained": [],
+  "bootstrap": {
+    "seed": 42,
+    "reps": 10000,
+    "stratified_by": "fine subtype, preserving the audited split composition"
+  },
+  "python": "3.12.3",
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "split_indices_sha256": "3704fd5869ef075ed9e9ef2949506bcf4cfda2a08761683ba3ea78620dbf74b0",
+  "manifest_sha256": "a3f9dcd28c57dc842834c5f8e5ba803d6b32a883923770e965b416b2c8285369",
+  "descriptions_sha256": "5d20152bf21545f862558591c074d48e9a0c3e0644c9074082c16c74ef2eb677",
+  "weights_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "archive_sha256": "85cd44d02ba6437773c5bbd22e183051d648de2e7d6b014e1ef29b855ba677a7",
+  "scorer_sha256": "5bfc7f530925a02a7d8cc119af1bfd2b5297a18c04cf4b16ebc3d4d103c70fdf",
+  "feature_sha256": "78a4f7c1ca936a60cbeb8f48fe2420f02d0e554f5e6b81a55be56d6a66eb90be",
+  "prediction_sha256": "80a7d202a7b52cae97a4d25baf548a13dd569d81b6c0aac644aeae159e3f8bcd"
+}

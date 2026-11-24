@@ -1,0 +1,5 @@
+stage,arm,anchors,anchor_correct,herb_anchors,herb_anchors_correct,dino_val_correct,dino_herb_correct,split,n,correct,accuracy_pct,epoch,n_train,updates,amp_skips,val_correct,val_n,best_val_correct,stale,seconds
+teacher_done,original,2324,1735,7,4,3624,3,val,5400,3624,67.11111111111111,,,,,,,,,
+epoch_done,original,,,,,,,val,5400,4052,75.03703703703704,1,13500,27,0,4052,5400,4052,0,230.8
+teacher_done,templated075,2371,1808,7,3,3679,4,val,5400,3679,68.12962962962963,,,,,,,,,
+epoch_done,templated075,,,,,,,val,5400,4114,76.18518518518519,1,13500,27,0,4114,5400,4114,0,236.5

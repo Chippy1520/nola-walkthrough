@@ -1,0 +1,11 @@
+split,stage,arm,class_id,class_name,correct,n,recall_pct
+val,cde,merge075,0,airplane,445,500,89.0
+val,cde,merge075,1,automobile,413,500,82.6
+val,cde,merge075,2,bird,439,500,87.8
+val,cde,merge075,3,cat,398,500,79.6
+val,cde,merge075,4,deer,434,500,86.8
+val,cde,merge075,5,dog,435,500,87.0
+val,cde,merge075,6,frog,287,500,57.4
+val,cde,merge075,7,horse,478,500,95.6
+val,cde,merge075,8,ship,489,500,97.8
+val,cde,merge075,9,truck,491,500,98.2

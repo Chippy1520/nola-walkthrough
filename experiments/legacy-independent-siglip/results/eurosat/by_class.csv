@@ -1,0 +1,51 @@
+arm,class_id,name,anchors,correct,correct_fine_subtypes,val_n,val_correct
+clip_only,0,Annual Crop Land,270,178,,600,356
+clip_only,1,Forest,270,165,,600,359
+clip_only,2,Herbaceous Vegetation Land,71,38,,600,98
+clip_only,3,Highway or Road,270,250,,500,407
+clip_only,4,Industrial Buildings,270,266,,500,457
+clip_only,5,Pasture Land,221,182,,400,245
+clip_only,6,Permanent Crop Land,270,84,,500,234
+clip_only,7,Residential Buildings,270,266,,600,587
+clip_only,8,River,270,204,,500,348
+clip_only,9,Sea or Lake,270,201,,600,582
+clip_pool_siglip_rank,0,Annual Crop Land,270,178,,600,362
+clip_pool_siglip_rank,1,Forest,270,165,,600,357
+clip_pool_siglip_rank,2,Herbaceous Vegetation Land,71,50,,600,93
+clip_pool_siglip_rank,3,Highway or Road,270,250,,500,411
+clip_pool_siglip_rank,4,Industrial Buildings,270,266,,500,456
+clip_pool_siglip_rank,5,Pasture Land,221,182,,400,255
+clip_pool_siglip_rank,6,Permanent Crop Land,270,84,,500,241
+clip_pool_siglip_rank,7,Residential Buildings,270,266,,600,589
+clip_pool_siglip_rank,8,River,270,204,,500,355
+clip_pool_siglip_rank,9,Sea or Lake,270,201,,600,584
+siglip_only,0,Annual Crop Land,270,153,,600,349
+siglip_only,1,Forest,270,126,,600,169
+siglip_only,2,Herbaceous Vegetation Land,71,2,,600,53
+siglip_only,3,Highway or Road,270,251,,500,396
+siglip_only,4,Industrial Buildings,270,264,,500,287
+siglip_only,5,Pasture Land,221,189,,400,249
+siglip_only,6,Permanent Crop Land,270,149,,500,171
+siglip_only,7,Residential Buildings,270,141,,600,454
+siglip_only,8,River,270,251,,500,430
+siglip_only,9,Sea or Lake,270,122,,600,581
+clip_native,0,Annual Crop Land,270,178,,600,356
+clip_native,1,Forest,270,165,,600,359
+clip_native,2,Herbaceous Vegetation Land,71,38,,600,98
+clip_native,3,Highway or Road,270,250,,500,407
+clip_native,4,Industrial Buildings,270,266,,500,457
+clip_native,5,Pasture Land,221,182,,400,245
+clip_native,6,Permanent Crop Land,270,84,,500,234
+clip_native,7,Residential Buildings,270,266,,600,587
+clip_native,8,River,270,204,,500,348
+clip_native,9,Sea or Lake,270,201,,600,582
+siglip_native,0,Annual Crop Land,270,153,,600,340
+siglip_native,1,Forest,270,126,,600,123
+siglip_native,2,Herbaceous Vegetation Land,270,72,,600,345
+siglip_native,3,Highway or Road,270,251,,500,388
+siglip_native,4,Industrial Buildings,270,264,,500,290
+siglip_native,5,Pasture Land,270,209,,400,212
+siglip_native,6,Permanent Crop Land,270,149,,500,175
+siglip_native,7,Residential Buildings,270,141,,600,451
+siglip_native,8,River,270,251,,500,413
+siglip_native,9,Sea or Lake,270,122,,600,556

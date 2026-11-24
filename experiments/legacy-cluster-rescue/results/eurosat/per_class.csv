@@ -1,0 +1,31 @@
+arm,class_name,anchors,correct_anchors,val_n,val_correct
+baseline,Annual Crop Land,270,178,600,371
+baseline,Forest,270,165,600,371
+baseline,Herbaceous Vegetation Land,7,4,600,2
+baseline,Highway or Road,270,250,500,405
+baseline,Industrial Buildings,270,266,500,457
+baseline,Pasture Land,157,120,400,236
+baseline,Permanent Crop Land,270,84,500,247
+baseline,Residential Buildings,270,266,600,592
+baseline,River,270,204,500,349
+baseline,Sea or Lake,270,201,600,591
+expanded_clip,Annual Crop Land,270,178,600,379
+expanded_clip,Forest,270,165,600,361
+expanded_clip,Herbaceous Vegetation Land,7,4,600,3
+expanded_clip,Highway or Road,270,250,500,406
+expanded_clip,Industrial Buildings,270,266,500,464
+expanded_clip,Pasture Land,270,227,400,275
+expanded_clip,Permanent Crop Land,270,84,500,245
+expanded_clip,Residential Buildings,270,266,600,591
+expanded_clip,River,270,204,500,348
+expanded_clip,Sea or Lake,270,201,600,590
+dino_clusters,Annual Crop Land,270,178,600,387
+dino_clusters,Forest,270,165,600,369
+dino_clusters,Herbaceous Vegetation Land,7,4,600,2
+dino_clusters,Highway or Road,270,250,500,404
+dino_clusters,Industrial Buildings,270,266,500,467
+dino_clusters,Pasture Land,270,231,400,275
+dino_clusters,Permanent Crop Land,270,84,500,231
+dino_clusters,Residential Buildings,270,266,600,591
+dino_clusters,River,270,204,500,348
+dino_clusters,Sea or Lake,270,201,600,589

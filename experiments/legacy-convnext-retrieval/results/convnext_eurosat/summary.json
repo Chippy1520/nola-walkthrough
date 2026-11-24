@@ -1,0 +1,115 @@
+{
+  "dataset": "eurosat",
+  "smoke": false,
+  "model": "convnext_tiny.dinov3_lvd1689m",
+  "revision": "39c7bb32f83c11bbb13cb23058f8852a4dac88ed",
+  "sha256": "a7637753a2e85d709d1a5474e13382d39e7bc581a35868b477585c970f36847f",
+  "transform": {
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop_pct": 1.0,
+    "crop_mode": "center"
+  },
+  "train_n": 13500,
+  "val_n": 5400,
+  "matched_additions": 128,
+  "reference": "parallel-study/cluster-first/spectral_eurosat",
+  "add_quotas": [
+    0,
+    0,
+    64,
+    0,
+    0,
+    64,
+    0,
+    0,
+    0,
+    0
+  ],
+  "results": {
+    "clip_expansion": {
+      "correct_additions": 79,
+      "val_correct": 3633,
+      "target_classes": {
+        "Herbaceous Vegetation Land": {
+          "new_correct": 19,
+          "val_correct": 72,
+          "val_n": 600,
+          "subtypes": null
+        },
+        "Pasture Land": {
+          "new_correct": 60,
+          "val_correct": 261,
+          "val_n": 400,
+          "subtypes": null
+        }
+      }
+    },
+    "dino_seed_retrieval": {
+      "correct_additions": 96,
+      "val_correct": 3673,
+      "target_classes": {
+        "Herbaceous Vegetation Land": {
+          "new_correct": 34,
+          "val_correct": 98,
+          "val_n": 600,
+          "subtypes": null
+        },
+        "Pasture Land": {
+          "new_correct": 62,
+          "val_correct": 245,
+          "val_n": 400,
+          "subtypes": null
+        }
+      }
+    },
+    "convnext_v3": {
+      "correct_additions": 94,
+      "val_correct": 3695,
+      "target_classes": {
+        "Herbaceous Vegetation Land": {
+          "new_correct": 30,
+          "val_correct": 94,
+          "val_n": 600,
+          "subtypes": null
+        },
+        "Pasture Land": {
+          "new_correct": 64,
+          "val_correct": 261,
+          "val_n": 400,
+          "subtypes": null
+        }
+      }
+    }
+  },
+  "paired": {
+    "clip_expansion": {
+      "delta_pp": 1.1481481481481481,
+      "ci95_pp": [
+        0.6111111111111112,
+        1.7037037037037037
+      ]
+    },
+    "dino_seed_retrieval": {
+      "delta_pp": 0.4074074074074074,
+      "ci95_pp": [
+        -0.1111111111111111,
+        0.9444444444444444
+      ]
+    }
+  }
+}

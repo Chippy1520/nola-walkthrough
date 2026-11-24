@@ -1,0 +1,16 @@
+Historical exports (not replacement completion markers for v2):
+
+- [NoLA-DINO-Anchors-cifar100-report/anchor_audit.csv](NoLA-DINO-Anchors-cifar100-report/anchor_audit.csv)
+- [NoLA-DINO-Anchors-cifar100-report/by_class.csv](NoLA-DINO-Anchors-cifar100-report/by_class.csv)
+- [NoLA-DINO-Anchors-cifar100-report/by_subtype.csv](NoLA-DINO-Anchors-cifar100-report/by_subtype.csv)
+- [NoLA-DINO-Anchors-cifar100-report/predictions.csv](NoLA-DINO-Anchors-cifar100-report/predictions.csv)
+- [NoLA-DINO-Anchors-cifar100-report/summary.json](NoLA-DINO-Anchors-cifar100-report/summary.json)
+- [NoLA-DINO-Anchors-eurosat-report/anchor_audit.csv](NoLA-DINO-Anchors-eurosat-report/anchor_audit.csv)
+- [NoLA-DINO-Anchors-eurosat-report/by_class.csv](NoLA-DINO-Anchors-eurosat-report/by_class.csv)
+- [NoLA-DINO-Anchors-eurosat-report/predictions.csv](NoLA-DINO-Anchors-eurosat-report/predictions.csv)
+- [NoLA-DINO-Anchors-eurosat-report/summary.json](NoLA-DINO-Anchors-eurosat-report/summary.json)
+- [NoLA-DINO-Anchors-resisc45-report/anchor_audit.csv](NoLA-DINO-Anchors-resisc45-report/anchor_audit.csv)
+- [NoLA-DINO-Anchors-resisc45-report/by_class.csv](NoLA-DINO-Anchors-resisc45-report/by_class.csv)
+- [NoLA-DINO-Anchors-resisc45-report/predictions.csv](NoLA-DINO-Anchors-resisc45-report/predictions.csv)
+- [NoLA-DINO-Anchors-resisc45-report/summary.json](NoLA-DINO-Anchors-resisc45-report/summary.json)
+- [reports/combined.csv](reports/combined.csv)

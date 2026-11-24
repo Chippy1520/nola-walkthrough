@@ -1,0 +1,9 @@
+arm,name,added_correct,val_correct,val_n,subtypes
+clip+dino,large_carnivores,20,24,48,leopard;lion;tiger;wolf
+clip+dino,non-insect_invertebrates,18,20,51,crab;lobster;spider;worm
+siglip2+dino,large_carnivores,20,25,48,leopard;lion;tiger;wolf
+siglip2+dino,non-insect_invertebrates,20,22,51,crab;lobster;snail;spider;worm
+clip+convnext,large_carnivores,20,26,48,leopard;lion;tiger
+clip+convnext,non-insect_invertebrates,18,21,51,crab;lobster;snail;spider
+siglip2+convnext,large_carnivores,20,24,48,leopard;lion;tiger;wolf
+siglip2+convnext,non-insect_invertebrates,20,24,51,crab;lobster;snail;spider;worm

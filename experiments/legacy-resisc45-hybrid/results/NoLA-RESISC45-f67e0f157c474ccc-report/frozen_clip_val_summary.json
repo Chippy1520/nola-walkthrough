@@ -1,0 +1,21 @@
+{
+  "n": 6255,
+  "original_correct": 3630,
+  "template_correct": 3506,
+  "original_pct": 58.03357314148681,
+  "template_pct": 56.051159072741804,
+  "delta_pp": -1.982414068745004,
+  "fixed": 206,
+  "lost": 330,
+  "stage": "frozen_clip",
+  "split": "val",
+  "seed": 7777,
+  "bootstrap_reps": 2000,
+  "delta_pp_ci95": [
+    -2.6378896882494005,
+    -1.2789768185451638
+  ],
+  "exact_mcnemar_p": 9.516688089657137e-08,
+  "original_macro_pct": 58.03357314148681,
+  "template_macro_pct": 56.05115907274181
+}

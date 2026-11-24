@@ -1,0 +1,11 @@
+split,stage,arm,class_id,class_name,correct,n,recall_pct
+val,cde,merge080,0,Annual Crop Land,168,600,28.0
+val,cde,merge080,1,Forest,199,600,33.166666666666664
+val,cde,merge080,2,Herbaceous Vegetation Land,3,600,0.5
+val,cde,merge080,3,Highway or Road,405,500,81.0
+val,cde,merge080,4,Industrial Buildings,405,500,81.0
+val,cde,merge080,5,Pasture Land,127,400,31.75
+val,cde,merge080,6,Permanent Crop Land,242,500,48.4
+val,cde,merge080,7,Residential Buildings,451,600,75.16666666666667
+val,cde,merge080,8,River,174,500,34.8
+val,cde,merge080,9,Sea or Lake,368,600,61.333333333333336

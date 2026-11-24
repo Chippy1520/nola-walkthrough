@@ -1,0 +1,9 @@
+arm,name,added_correct,val_correct,val_n,subtypes
+clip+dino,Herbaceous Vegetation Land,34,98,600,
+clip+dino,Pasture Land,62,245,400,
+siglip2+dino,Herbaceous Vegetation Land,46,93,600,
+siglip2+dino,Pasture Land,62,255,400,
+clip+convnext,Herbaceous Vegetation Land,30,94,600,
+clip+convnext,Pasture Land,64,261,400,
+siglip2+convnext,Herbaceous Vegetation Land,40,99,600,
+siglip2+convnext,Pasture Land,62,264,400,

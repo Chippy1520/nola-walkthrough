@@ -1,0 +1,11 @@
+split,stage,arm,class_id,class_name,correct,n,recall_pct
+val,cde,suffix_mean,0,airplane,471,500,94.2
+val,cde,suffix_mean,1,automobile,479,500,95.8
+val,cde,suffix_mean,2,bird,435,500,87.0
+val,cde,suffix_mean,3,cat,446,500,89.2
+val,cde,suffix_mean,4,deer,397,500,79.4
+val,cde,suffix_mean,5,dog,428,500,85.6
+val,cde,suffix_mean,6,frog,367,500,73.4
+val,cde,suffix_mean,7,horse,484,500,96.8
+val,cde,suffix_mean,8,ship,482,500,96.4
+val,cde,suffix_mean,9,truck,473,500,94.6

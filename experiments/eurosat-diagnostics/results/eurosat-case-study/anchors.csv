@@ -1,0 +1,35 @@
+row,path,image,pseudo_class,true_class,correct,assigned_rank,assigned_probability,selector_returned_top1_probability
+78,AnnualCrop/AnnualCrop_181.jpg,anchors/00_078_AnnualCrop_181.jpg,Annual Crop Land,Annual Crop Land,True,1,0.5102517604827881,0.5102517604827881
+63,AnnualCrop/AnnualCrop_2021.jpg,anchors/00_063_AnnualCrop_2021.jpg,Annual Crop Land,Annual Crop Land,True,1,0.41952046751976013,0.41952046751976013
+139,PermanentCrop/PermanentCrop_8.jpg,anchors/00_139_PermanentCrop_8.jpg,Annual Crop Land,Permanent Crop Land,False,1,0.33358174562454224,0.33358174562454224
+95,AnnualCrop/AnnualCrop_2236.jpg,anchors/00_095_AnnualCrop_2236.jpg,Annual Crop Land,Annual Crop Land,True,1,0.3093480169773102,0.3093480169773102
+148,Forest/Forest_818.jpg,anchors/01_148_Forest_818.jpg,Forest,Forest,True,1,0.7517529726028442,0.7517529726028442
+147,HerbaceousVegetation/HerbaceousVegetation_1852.jpg,anchors/01_147_HerbaceousVegetation_1852.jpg,Forest,Herbaceous Vegetation Land,False,1,0.6816410422325134,0.6816410422325134
+61,Forest/Forest_1003.jpg,anchors/01_061_Forest_1003.jpg,Forest,Forest,True,1,0.6433246731758118,0.6433246731758118
+31,HerbaceousVegetation/HerbaceousVegetation_2053.jpg,anchors/01_031_HerbaceousVegetation_2053.jpg,Forest,Herbaceous Vegetation Land,False,1,0.6255146265029907,0.6255146265029907
+88,Industrial/Industrial_999.jpg,anchors/02_088_Industrial_999.jpg,Herbaceous Vegetation Land,Industrial Buildings,False,3,0.005560385528951883,0.8524847030639648
+111,Highway/Highway_1734.jpg,anchors/03_111_Highway_1734.jpg,Highway or Road,Highway or Road,True,1,0.9626550674438477,0.9626550674438477
+43,Highway/Highway_235.jpg,anchors/03_043_Highway_235.jpg,Highway or Road,Highway or Road,True,1,0.9614473581314087,0.9614473581314087
+42,Highway/Highway_294.jpg,anchors/03_042_Highway_294.jpg,Highway or Road,Highway or Road,True,1,0.8886773586273193,0.8886773586273193
+82,Highway/Highway_2181.jpg,anchors/03_082_Highway_2181.jpg,Highway or Road,Highway or Road,True,1,0.8763521313667297,0.8763521313667297
+50,Industrial/Industrial_1280.jpg,anchors/04_050_Industrial_1280.jpg,Industrial Buildings,Industrial Buildings,True,1,0.9914304614067078,0.9914304614067078
+81,Industrial/Industrial_1251.jpg,anchors/04_081_Industrial_1251.jpg,Industrial Buildings,Industrial Buildings,True,1,0.9736803770065308,0.9736803770065308
+145,Industrial/Industrial_1330.jpg,anchors/04_145_Industrial_1330.jpg,Industrial Buildings,Industrial Buildings,True,1,0.9519706964492798,0.9519706964492798
+41,Industrial/Industrial_47.jpg,anchors/04_041_Industrial_47.jpg,Industrial Buildings,Industrial Buildings,True,1,0.9130095839500427,0.9130095839500427
+70,HerbaceousVegetation/HerbaceousVegetation_700.jpg,anchors/05_070_HerbaceousVegetation_700.jpg,Pasture Land,Herbaceous Vegetation Land,False,1,0.30938756465911865,0.30938756465911865
+23,AnnualCrop/AnnualCrop_2580.jpg,anchors/06_023_AnnualCrop_2580.jpg,Permanent Crop Land,Annual Crop Land,False,1,0.5012435913085938,0.5012435913085938
+103,Pasture/Pasture_1198.jpg,anchors/06_103_Pasture_1198.jpg,Permanent Crop Land,Pasture Land,False,1,0.49239832162857056,0.49239832162857056
+16,AnnualCrop/AnnualCrop_2507.jpg,anchors/06_016_AnnualCrop_2507.jpg,Permanent Crop Land,Annual Crop Land,False,1,0.4750485122203827,0.4750485122203827
+2,AnnualCrop/AnnualCrop_453.jpg,anchors/06_002_AnnualCrop_453.jpg,Permanent Crop Land,Annual Crop Land,False,1,0.4630390405654907,0.4630390405654907
+131,Residential/Residential_741.jpg,anchors/07_131_Residential_741.jpg,Residential Buildings,Residential Buildings,True,1,0.9522562623023987,0.9522562623023987
+54,Residential/Residential_1311.jpg,anchors/07_054_Residential_1311.jpg,Residential Buildings,Residential Buildings,True,1,0.9314930438995361,0.9314930438995361
+96,Residential/Residential_2845.jpg,anchors/07_096_Residential_2845.jpg,Residential Buildings,Residential Buildings,True,1,0.9237120747566223,0.9237120747566223
+106,Residential/Residential_974.jpg,anchors/07_106_Residential_974.jpg,Residential Buildings,Residential Buildings,True,1,0.9189691543579102,0.9189691543579102
+58,River/River_1112.jpg,anchors/08_058_River_1112.jpg,River,River,True,1,0.8228430151939392,0.8228430151939392
+74,River/River_2492.jpg,anchors/08_074_River_2492.jpg,River,River,True,1,0.749675452709198,0.749675452709198
+159,River/River_800.jpg,anchors/08_159_River_800.jpg,River,River,True,1,0.7335643768310547,0.7335643768310547
+10,River/River_471.jpg,anchors/08_010_River_471.jpg,River,River,True,1,0.5415103435516357,0.5415103435516357
+35,SeaLake/SeaLake_1072.jpg,anchors/09_035_SeaLake_1072.jpg,Sea or Lake,Sea or Lake,True,1,0.6491488218307495,0.6491488218307495
+56,SeaLake/SeaLake_460.jpg,anchors/09_056_SeaLake_460.jpg,Sea or Lake,Sea or Lake,True,1,0.566990852355957,0.566990852355957
+11,SeaLake/SeaLake_574.jpg,anchors/09_011_SeaLake_574.jpg,Sea or Lake,Sea or Lake,True,1,0.47547146677970886,0.47547146677970886
+112,SeaLake/SeaLake_1674.jpg,anchors/09_112_SeaLake_1674.jpg,Sea or Lake,Sea or Lake,True,1,0.4476071894168854,0.4476071894168854

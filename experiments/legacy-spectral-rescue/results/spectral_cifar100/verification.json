@@ -1,0 +1,199 @@
+{
+  "smoke": false,
+  "diagnostics": {
+    "spectral_dino": {
+      "clusters": 80,
+      "noise": 0,
+      "largest": 144
+    },
+    "spectral_dino_clip": {
+      "clusters": 80,
+      "noise": 0,
+      "largest": 116
+    }
+  },
+  "results": {
+    "baseline": {
+      "anchors": 728,
+      "added": 0,
+      "added_correct": 0,
+      "beyond_top3": 0,
+      "val_correct": 628,
+      "accuracy_pct": 61.328
+    },
+    "clip_expansion": {
+      "anchors": 768,
+      "added": 40,
+      "added_correct": 28,
+      "beyond_top3": 0,
+      "val_correct": 670,
+      "accuracy_pct": 65.43
+    },
+    "dino_seed_retrieval": {
+      "anchors": 768,
+      "added": 40,
+      "added_correct": 38,
+      "beyond_top3": 0,
+      "val_correct": 656,
+      "accuracy_pct": 64.062
+    },
+    "spectral_dino": {
+      "anchors": 768,
+      "added": 40,
+      "added_correct": 35,
+      "beyond_top3": 0,
+      "val_correct": 659,
+      "accuracy_pct": 64.355
+    },
+    "spectral_dino_clip": {
+      "anchors": 768,
+      "added": 40,
+      "added_correct": 34,
+      "beyond_top3": 0,
+      "val_correct": 654,
+      "accuracy_pct": 63.867
+    }
+  },
+  "vs_clip": {
+    "baseline": {
+      "delta_pp": -4.102,
+      "ci95_pp": [
+        -5.566,
+        -2.637
+      ]
+    },
+    "dino_seed_retrieval": {
+      "delta_pp": -1.367,
+      "ci95_pp": [
+        -2.734,
+        0.0
+      ]
+    },
+    "spectral_dino": {
+      "delta_pp": -1.074,
+      "ci95_pp": [
+        -2.539,
+        0.293
+      ]
+    },
+    "spectral_dino_clip": {
+      "delta_pp": -1.562,
+      "ci95_pp": [
+        -2.93,
+        -0.195
+      ]
+    }
+  },
+  "target_classes": [
+    {
+      "arm": "baseline",
+      "class_id": "8",
+      "name": "large_carnivores",
+      "base": "4",
+      "added": "0",
+      "added_correct": "0",
+      "pool": "746",
+      "val_n": "48",
+      "val_correct": "9"
+    },
+    {
+      "arm": "baseline",
+      "class_id": "13",
+      "name": "non-insect_invertebrates",
+      "base": "4",
+      "added": "0",
+      "added_correct": "0",
+      "pool": "2309",
+      "val_n": "51",
+      "val_correct": "1"
+    },
+    {
+      "arm": "clip_expansion",
+      "class_id": "8",
+      "name": "large_carnivores",
+      "base": "4",
+      "added": "20",
+      "added_correct": "17",
+      "pool": "746",
+      "val_n": "48",
+      "val_correct": "31"
+    },
+    {
+      "arm": "clip_expansion",
+      "class_id": "13",
+      "name": "non-insect_invertebrates",
+      "base": "4",
+      "added": "20",
+      "added_correct": "11",
+      "pool": "2309",
+      "val_n": "51",
+      "val_correct": "25"
+    },
+    {
+      "arm": "dino_seed_retrieval",
+      "class_id": "8",
+      "name": "large_carnivores",
+      "base": "4",
+      "added": "20",
+      "added_correct": "20",
+      "pool": "746",
+      "val_n": "48",
+      "val_correct": "24"
+    },
+    {
+      "arm": "dino_seed_retrieval",
+      "class_id": "13",
+      "name": "non-insect_invertebrates",
+      "base": "4",
+      "added": "20",
+      "added_correct": "18",
+      "pool": "2309",
+      "val_n": "51",
+      "val_correct": "20"
+    },
+    {
+      "arm": "spectral_dino",
+      "class_id": "8",
+      "name": "large_carnivores",
+      "base": "4",
+      "added": "20",
+      "added_correct": "20",
+      "pool": "746",
+      "val_n": "48",
+      "val_correct": "23"
+    },
+    {
+      "arm": "spectral_dino",
+      "class_id": "13",
+      "name": "non-insect_invertebrates",
+      "base": "4",
+      "added": "20",
+      "added_correct": "15",
+      "pool": "2309",
+      "val_n": "51",
+      "val_correct": "28"
+    },
+    {
+      "arm": "spectral_dino_clip",
+      "class_id": "8",
+      "name": "large_carnivores",
+      "base": "4",
+      "added": "20",
+      "added_correct": "20",
+      "pool": "746",
+      "val_n": "48",
+      "val_correct": "24"
+    },
+    {
+      "arm": "spectral_dino_clip",
+      "class_id": "13",
+      "name": "non-insect_invertebrates",
+      "base": "4",
+      "added": "20",
+      "added_correct": "14",
+      "pool": "2309",
+      "val_n": "51",
+      "val_correct": "22"
+    }
+  ]
+}

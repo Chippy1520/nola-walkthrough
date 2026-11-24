@@ -1,0 +1,7 @@
+{"stage": "smoke_done", "arm": "original", "epoch": 1, "n_train": 548, "updates": 2, "amp_skips": 0, "val_correct": 50, "val_n": 64, "best_val_correct": 50, "stale": 0, "seconds": 13.5}
+{"stage": "smoke_done", "arm": "templated075", "epoch": 1, "n_train": 548, "updates": 2, "amp_skips": 0, "val_correct": 64, "val_n": 64, "best_val_correct": 64, "stale": 0, "seconds": 11.3}
+{"stage": "cached_backbones", "seconds": 84.1}
+{"stage": "teacher_done", "arm": "templated075", "anchors": 2371, "anchor_correct": 1808, "herb_anchors": 7, "herb_anchors_correct": 3, "dino_val_correct": 3679, "dino_herb_correct": 4}
+{"stage": "epoch_done", "arm": "templated075", "epoch": 1, "n_train": 13500, "updates": 27, "amp_skips": 0, "val_correct": 4114, "val_n": 5400, "best_val_correct": 4114, "stale": 0, "seconds": 236.5}
+{"stage": "epoch_done", "arm": "original", "epoch": 2, "n_train": 13500, "updates": 27, "amp_skips": 0, "val_correct": 3986, "val_n": 5400, "best_val_correct": 4052, "stale": 1, "seconds": 249.0}
+{"stage": "epoch_done", "arm": "templated075", "epoch": 2, "n_train": 13500, "updates": 27, "amp_skips": 0, "val_correct": 3970, "val_n": 5400, "best_val_correct": 4114, "stale": 1, "seconds": 243.1}
