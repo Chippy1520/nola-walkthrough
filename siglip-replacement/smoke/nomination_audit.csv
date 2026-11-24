@@ -1,0 +1,11 @@
+class_id,name,fit_true,clip_top1,siglip_top1,clip_correct_top1,siglip_correct_top1,clip_unique_correct_top1,siglip_unique_correct_top1,clip_seed_count,siglip_seed_count,clip_rescue_candidates,siglip_rescue_candidates,matched_seeds,matched_extras
+0,Annual Crop Land,64,11,35,11,35,1,25,11,16,0,24,11,0
+1,Forest,0,1,0,0,0,0,0,1,0,1,0,0,0
+2,Herbaceous Vegetation Land,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,Highway or Road,0,0,7,0,0,0,0,1,7,0,6,1,0
+4,Industrial Buildings,0,9,4,0,0,0,0,9,4,5,0,4,0
+5,Pasture Land,0,0,1,0,0,0,0,1,1,0,0,1,0
+6,Permanent Crop Land,0,38,6,0,0,0,0,16,6,30,0,6,0
+7,Residential Buildings,0,5,10,0,0,0,0,5,10,0,5,5,0
+8,River,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,Sea or Lake,0,0,1,0,0,0,0,0,1,0,1,0,0

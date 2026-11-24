@@ -1,0 +1,20 @@
+{
+  "dataset": "cifar100",
+  "smoke": false,
+  "epochs": 2,
+  "train_n": 320,
+  "val_n": 400,
+  "train_full": 4096,
+  "val_full": 1024,
+  "steps": 10,
+  "micro": 4,
+  "effective": 32,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "372c7fada4d713678b53701cd3f351057919db178470f09b7dcac2874945f439",
+  "code_sha": "1eab9f4be16728976a3f1dd1aa10b6d5f5ea399a24e1e19bda0470e2e09beb85",
+  "test_scored": false
+}

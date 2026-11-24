@@ -1,0 +1,72 @@
+08 / INDEPENDENT NOMINATION FACTORIAL
+
+
+
+Replacement × retrieval
+Each VLM independently selects seeds and expansion candidates. Per-class quotas and downstream
+original-DINO features are matched in all four arms.
+
+
+EuroSAT, full validation / 5,400 images
+
+
+                            CLIP + DINO
+
+
+                        SigLIP 2 + DINO
+
+
+                       CLIP + ConvNeXt
+
+
+                   SigLIP 2 + ConvNeXt
+
+                                                    −10         −8         −6        −4        −2           0
+                                                            Teacher top-1 change vs. CLIP + DINO (pp)
+
+
+ Arm                                                         Correct anchors            Correct additions        Top-1
+
+ CLIP + DINO                                                       1,834/2,452                    96/128        68.02%
+
+ SigLIP 2 + DINO                                                   1,648/2,452                    66/128        58.13%
+
+ CLIP + ConvNeXt                                                   1,832/2,452                    94/128        68.43%
+
+CIFAR-100      coarse, simulated scarcity / 1,650/2,452
+SigLIP 2 + ConvNeXt                         1,024 images                                          68/128        58.93%
+
+
+
+                            CLIP + DINO
+
+
+                        SigLIP 2 + DINO
+
+
+                       CLIP + ConvNeXt
+
+
+                   SigLIP 2 + ConvNeXt
+
+                                              −3             −2          −1            0           1              2
+                                                            Teacher top-1 change vs. CLIP + DINO (pp)
+
+
+ Arm                                                         Correct anchors            Correct additions        Top-1
+
+ CLIP + DINO                                                           666/768                     38/40        64.06%
+
+ SigLIP 2 + DINO                                                       697/768                     39/40        63.18%
+
+ CLIP + ConvNeXt                                                       666/768                     38/40        64.84%
+
+ SigLIP 2 + ConvNeXt                                                   695/768                     37/40        63.77%
+
+
+
+95% within-class paired bootstrap intervals. Earlier CLIP controls reproduce exactly.
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                               08
+

@@ -1,0 +1,11 @@
+class_id,class_name,n,wrapped_mean_correct,hybrid_075_correct,cluster_only_correct,original_cde_correct,fixed,lost
+0,Annual Crop Land,600,37,37,54,92,0,0
+1,Forest,600,409,409,381,377,0,0
+2,Herbaceous Vegetation Land,600,0,0,1,0,0,0
+3,Highway or Road,500,286,286,324,309,0,0
+4,Industrial Buildings,500,431,431,436,405,0,0
+5,Pasture Land,400,51,51,130,51,0,0
+6,Permanent Crop Land,500,282,282,274,242,0,0
+7,Residential Buildings,600,519,519,499,535,0,0
+8,River,500,217,217,140,202,0,0
+9,Sea or Lake,600,552,552,546,540,0,0

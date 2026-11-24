@@ -1,0 +1,2343 @@
+{
+  "class_order": [
+    "Annual Crop Land",
+    "Forest",
+    "Herbaceous Vegetation Land",
+    "Highway or Road",
+    "Industrial Buildings",
+    "Pasture Land",
+    "Permanent Crop Land",
+    "Residential Buildings",
+    "River",
+    "Sea or Lake"
+  ],
+  "metrics": [
+    {
+      "stage": "cde",
+      "split": "adaptation",
+      "n": 160,
+      "correct": 90,
+      "accuracy": 0.5625,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 17,
+          "correct": 4,
+          "predicted": 5
+        },
+        {
+          "class_name": "Forest",
+          "n": 20,
+          "correct": 13,
+          "predicted": 32
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 24,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 12,
+          "correct": 9,
+          "predicted": 14
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 16,
+          "correct": 14,
+          "predicted": 26
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 6,
+          "correct": 0,
+          "predicted": 1
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 13,
+          "correct": 5,
+          "predicted": 23
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 20,
+          "correct": 20,
+          "predicted": 25
+        },
+        {
+          "class_name": "River",
+          "n": 15,
+          "correct": 9,
+          "predicted": 14
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 17,
+          "correct": 16,
+          "predicted": 20
+        }
+      ],
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          1,
+          4,
+          0,
+          7,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          18,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          3,
+          0,
+          5,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          3,
+          0,
+          1,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "stage": "cde",
+      "split": "validation",
+      "n": 240,
+      "correct": 117,
+      "accuracy": 0.48750001192092896,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 30,
+          "correct": 4,
+          "predicted": 7
+        },
+        {
+          "class_name": "Forest",
+          "n": 31,
+          "correct": 19,
+          "predicted": 34
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 16,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 19,
+          "correct": 9,
+          "predicted": 24
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 24,
+          "correct": 20,
+          "predicted": 49
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 3,
+          "predicted": 3
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 23,
+          "correct": 11,
+          "predicted": 48
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 30,
+          "correct": 24,
+          "predicted": 36
+        },
+        {
+          "class_name": "River",
+          "n": 25,
+          "correct": 8,
+          "predicted": 14
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 19,
+          "predicted": 25
+        }
+      ],
+      "confusion": [
+        [
+          4,
+          1,
+          0,
+          0,
+          4,
+          0,
+          15,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          19,
+          0,
+          5,
+          2,
+          0,
+          0,
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          9,
+          5,
+          0,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          3,
+          15,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          7,
+          0,
+          11,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          5,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          6,
+          0,
+          3,
+          0,
+          8,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          19
+        ]
+      ]
+    },
+    {
+      "stage": "cde",
+      "split": "fresh_test",
+      "n": 240,
+      "correct": 130,
+      "accuracy": 0.5416666865348816,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 25,
+          "correct": 4,
+          "predicted": 6
+        },
+        {
+          "class_name": "Forest",
+          "n": 24,
+          "correct": 17,
+          "predicted": 38
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 30,
+          "correct": 18,
+          "predicted": 30
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 18,
+          "correct": 15,
+          "predicted": 40
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 7,
+          "predicted": 8
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 18,
+          "correct": 11,
+          "predicted": 44
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 31,
+          "correct": 26,
+          "predicted": 33
+        },
+        {
+          "class_name": "River",
+          "n": 29,
+          "correct": 12,
+          "predicted": 17
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 20,
+          "predicted": 24
+        }
+      ],
+      "confusion": [
+        [
+          4,
+          0,
+          0,
+          1,
+          6,
+          0,
+          11,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          14,
+          0,
+          4,
+          2,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          6,
+          0,
+          5,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          7,
+          10,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          1,
+          0,
+          11,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          26,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          7,
+          3,
+          0,
+          5,
+          0,
+          12,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      ]
+    },
+    {
+      "stage": "dino_head",
+      "split": "adaptation",
+      "n": 160,
+      "correct": 97,
+      "accuracy": 0.606249988079071,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 17,
+          "correct": 7,
+          "predicted": 11
+        },
+        {
+          "class_name": "Forest",
+          "n": 20,
+          "correct": 16,
+          "predicted": 36
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 24,
+          "correct": 0,
+          "predicted": 1
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 12,
+          "correct": 11,
+          "predicted": 13
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 16,
+          "correct": 15,
+          "predicted": 19
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 6,
+          "correct": 0,
+          "predicted": 1
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 13,
+          "correct": 3,
+          "predicted": 19
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 20,
+          "correct": 20,
+          "predicted": 25
+        },
+        {
+          "class_name": "River",
+          "n": 15,
+          "correct": 8,
+          "predicted": 8
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 17,
+          "correct": 17,
+          "predicted": 27
+        }
+      ],
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          19,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          1,
+          3,
+          0,
+          3,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          1,
+          8,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17
+        ]
+      ]
+    },
+    {
+      "stage": "dino_head",
+      "split": "validation",
+      "n": 240,
+      "correct": 134,
+      "accuracy": 0.5583333373069763,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 30,
+          "correct": 8,
+          "predicted": 16
+        },
+        {
+          "class_name": "Forest",
+          "n": 31,
+          "correct": 23,
+          "predicted": 39
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 16,
+          "correct": 0,
+          "predicted": 1
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 19,
+          "correct": 13,
+          "predicted": 19
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 24,
+          "correct": 21,
+          "predicted": 30
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 23,
+          "correct": 9,
+          "predicted": 49
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 30,
+          "correct": 30,
+          "predicted": 38
+        },
+        {
+          "class_name": "River",
+          "n": 25,
+          "correct": 8,
+          "predicted": 8
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 22,
+          "predicted": 40
+        }
+      ],
+      "confusion": [
+        [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          1,
+          11,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          2,
+          0,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          21,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          15,
+          0,
+          0,
+          2
+        ],
+        [
+          7,
+          1,
+          0,
+          1,
+          4,
+          0,
+          9,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          4,
+          3,
+          0,
+          0,
+          1,
+          8,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          22
+        ]
+      ]
+    },
+    {
+      "stage": "dino_head",
+      "split": "fresh_test",
+      "n": 240,
+      "correct": 137,
+      "accuracy": 0.5708333253860474,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 25,
+          "correct": 10,
+          "predicted": 18
+        },
+        {
+          "class_name": "Forest",
+          "n": 24,
+          "correct": 20,
+          "predicted": 42
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 30,
+          "correct": 24,
+          "predicted": 33
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 18,
+          "correct": 16,
+          "predicted": 25
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 18,
+          "correct": 5,
+          "predicted": 35
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 31,
+          "correct": 29,
+          "predicted": 32
+        },
+        {
+          "class_name": "River",
+          "n": 29,
+          "correct": 12,
+          "predicted": 14
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 21,
+          "predicted": 41
+        }
+      ],
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          17,
+          0,
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          24,
+          2,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          16,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          5,
+          0,
+          0,
+          7,
+          0,
+          1,
+          5
+        ],
+        [
+          8,
+          1,
+          0,
+          0,
+          4,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          4,
+          0,
+          12,
+          10
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          21
+        ]
+      ]
+    },
+    {
+      "stage": "prompted_init",
+      "split": "validation",
+      "n": 240,
+      "correct": 41,
+      "accuracy": 0.17083333432674408,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 30,
+          "correct": 1,
+          "predicted": 5
+        },
+        {
+          "class_name": "Forest",
+          "n": 31,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 16,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 19,
+          "correct": 8,
+          "predicted": 110
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 24,
+          "correct": 23,
+          "predicted": 107
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 30,
+          "correct": 9,
+          "predicted": 17
+        },
+        {
+          "class_name": "River",
+          "n": 25,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 0,
+          "predicted": 1
+        }
+      ],
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          15,
+          11,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          30,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          14,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          23,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          2,
+          13,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          8,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          17,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          19,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "stage": "prompted_init",
+      "split": "fresh_test",
+      "n": 240,
+      "correct": 39,
+      "accuracy": 0.16249999403953552,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 25,
+          "correct": 1,
+          "predicted": 8
+        },
+        {
+          "class_name": "Forest",
+          "n": 24,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 30,
+          "correct": 9,
+          "predicted": 102
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 18,
+          "correct": 18,
+          "predicted": 114
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 18,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 31,
+          "correct": 8,
+          "predicted": 12
+        },
+        {
+          "class_name": "River",
+          "n": 29,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 3,
+          "predicted": 4
+        }
+      ],
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          14,
+          8,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          22,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          1,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          19,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          9,
+          18,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          16,
+          1,
+          0,
+          0,
+          2,
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "stage": "prompted_epoch_1",
+      "split": "validation",
+      "n": 240,
+      "correct": 87,
+      "accuracy": 0.36250001192092896,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 30,
+          "correct": 8,
+          "predicted": 10
+        },
+        {
+          "class_name": "Forest",
+          "n": 31,
+          "correct": 31,
+          "predicted": 99
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 16,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 19,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 24,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 30,
+          "correct": 30,
+          "predicted": 112
+        },
+        {
+          "class_name": "River",
+          "n": 25,
+          "correct": 1,
+          "predicted": 2
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 17,
+          "predicted": 17
+        }
+      ],
+      "confusion": [
+        [
+          8,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          31,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          19,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          1,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          1,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          17
+        ]
+      ]
+    },
+    {
+      "stage": "prompted_epoch_1",
+      "split": "fresh_test",
+      "n": 240,
+      "correct": 74,
+      "accuracy": 0.3083333373069763,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 25,
+          "correct": 4,
+          "predicted": 8
+        },
+        {
+          "class_name": "Forest",
+          "n": 24,
+          "correct": 24,
+          "predicted": 116
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 30,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 18,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 18,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 31,
+          "correct": 31,
+          "predicted": 99
+        },
+        {
+          "class_name": "River",
+          "n": 29,
+          "correct": 2,
+          "predicted": 4
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 13,
+          "predicted": 13
+        }
+      ],
+      "confusion": [
+        [
+          4,
+          18,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          2,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          0
+        ],
+        [
+          1,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          2,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          13
+        ]
+      ]
+    },
+    {
+      "stage": "prompted_epoch_4",
+      "split": "validation",
+      "n": 240,
+      "correct": 124,
+      "accuracy": 0.5166666507720947,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 30,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Forest",
+          "n": 31,
+          "correct": 28,
+          "predicted": 40
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 16,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 19,
+          "correct": 17,
+          "predicted": 53
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 24,
+          "correct": 15,
+          "predicted": 15
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 23,
+          "correct": 16,
+          "predicted": 70
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 30,
+          "correct": 29,
+          "predicted": 43
+        },
+        {
+          "class_name": "River",
+          "n": 25,
+          "correct": 1,
+          "predicted": 1
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 18,
+          "predicted": 18
+        }
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          28,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          3,
+          0,
+          0,
+          1,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          15,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0,
+          17,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          4,
+          0,
+          0,
+          16,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          21,
+          0,
+          0,
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          18
+        ]
+      ]
+    },
+    {
+      "stage": "prompted_epoch_4",
+      "split": "fresh_test",
+      "n": 240,
+      "correct": 121,
+      "accuracy": 0.5041666626930237,
+      "per_class": [
+        {
+          "class_name": "Annual Crop Land",
+          "n": 25,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Forest",
+          "n": 24,
+          "correct": 20,
+          "predicted": 41
+        },
+        {
+          "class_name": "Herbaceous Vegetation Land",
+          "n": 23,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Highway or Road",
+          "n": 30,
+          "correct": 30,
+          "predicted": 70
+        },
+        {
+          "class_name": "Industrial Buildings",
+          "n": 18,
+          "correct": 12,
+          "predicted": 12
+        },
+        {
+          "class_name": "Pasture Land",
+          "n": 20,
+          "correct": 0,
+          "predicted": 0
+        },
+        {
+          "class_name": "Permanent Crop Land",
+          "n": 18,
+          "correct": 10,
+          "predicted": 60
+        },
+        {
+          "class_name": "Residential Buildings",
+          "n": 31,
+          "correct": 29,
+          "predicted": 37
+        },
+        {
+          "class_name": "River",
+          "n": 29,
+          "correct": 1,
+          "predicted": 1
+        },
+        {
+          "class_name": "Sea or Lake",
+          "n": 22,
+          "correct": 19,
+          "predicted": 19
+        }
+      ],
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          12,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          3,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          5,
+          0,
+          0,
+          10,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          7,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          19
+        ]
+      ]
+    }
+  ],
+  "clip_records": [
+    {
+      "anchors": 34,
+      "classes_with_anchors": 10,
+      "anchor_correct": 25,
+      "dino_head": 134,
+      "head_updates": 15,
+      "status": "ok",
+      "clip_epoch": 1,
+      "clip_updates": 40,
+      "cde": 117,
+      "nola": 87,
+      "delta_cde": -30,
+      "delta_dino": -47,
+      "val_n": 240
+    },
+    {
+      "anchors": 34,
+      "classes_with_anchors": 10,
+      "anchor_correct": 25,
+      "dino_head": 134,
+      "head_updates": 15,
+      "status": "ok",
+      "clip_epoch": 4,
+      "clip_updates": 160,
+      "cde": 117,
+      "nola": 124,
+      "delta_cde": 7,
+      "delta_dino": -10,
+      "val_n": 240
+    }
+  ],
+  "anchors": 34,
+  "anchor_correct": 25,
+  "candidate_count": 35
+}

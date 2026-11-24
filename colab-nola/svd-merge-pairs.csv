@@ -1,0 +1,451 @@
+parent,first,second,svd_distance,full_distance,cosine,svd_only,merged
+Annual Crop Land,irregular farm parcels with contour-following planted rows,wide rectangular plots separated by narrow farm tracks,0.2789345695872754,0.39429755616516315,0.9222647166762848,False,True
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,large uniform green fields with sharp rectangular borders,0.3088506849385329,0.4309276689337717,0.9071506452773479,False,True
+Annual Crop Land,irregular farm parcels with contour-following planted rows,light tan harvested fields with repeated short rows,0.3384086745201391,0.4500490204437132,0.8987279359889744,False,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,light tan harvested fields with repeated short rows,0.4210995292981256,0.4649636097292597,0.8919043756725986,False,True
+Annual Crop Land,harvested fields with pale stubble and parallel machinery tracks,light tan harvested fields with repeated short rows,0.4352213394097112,0.47790705185786564,0.885802413265014,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,bright young crop rows running parallel over bare earth,0.44571625250181246,0.4649020106455692,0.8919331212877071,False,True
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,wide rectangular plots separated by narrow farm tracks,0.4619486591287658,0.5142487145804685,0.8677740934564753,True,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,irregular farm parcels with contour-following planted rows,0.4641528271672527,0.5010457280657469,0.8744766032592817,True,False
+Annual Crop Land,irregular farm parcels with contour-following planted rows,patchwork of neighboring plots at different growth stages,0.4647176850596137,0.49571595295075976,0.8771328367637965,True,False
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,light tan harvested fields with repeated short rows,0.46628281594973864,0.5027029078678115,0.8736448552058835,True,False
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,irregular farm parcels with contour-following planted rows,0.46861100147737544,0.5181227396750765,0.865774434517975,True,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,bright young crop rows running parallel over bare earth,0.46898197266390995,0.4893123598428189,0.8802867548505191,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,irregular farm parcels with contour-following planted rows,0.4713518414437246,0.5179643361059431,0.8658565007677733,True,False
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,freshly tilled brown fields with straight furrows,0.47638387145762245,0.5449445005738274,0.8515177253180325,True,False
+Annual Crop Land,patchwork of neighboring plots at different growth stages,wide rectangular plots separated by narrow farm tracks,0.4774570998444411,0.48915345086884726,0.8803643829984142,False,False
+Annual Crop Land,light tan harvested fields with repeated short rows,bright young crop rows running parallel over bare earth,0.48243536560962086,0.5187336215389652,0.8654577448649265,True,False
+Annual Crop Land,wide rectangular plots separated by narrow farm tracks,light tan harvested fields with repeated short rows,0.4827167920150418,0.4874134310288786,0.8812140124946051,False,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,wide rectangular plots separated by narrow farm tracks,0.5099157226784337,0.5293918634275406,0.8598720840122361,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,freshly tilled brown fields with straight furrows,0.5142933049076316,0.5186519583451266,0.8655000590276746,False,False
+Annual Crop Land,wide rectangular plots separated by narrow farm tracks,bright young crop rows running parallel over bare earth,0.5258316101961596,0.5561149397235574,0.8453681185155715,False,False
+Annual Crop Land,harvested fields with pale stubble and parallel machinery tracks,wide rectangular plots separated by narrow farm tracks,0.5282531985190391,0.5563312912029049,0.8452477372720544,False,False
+Annual Crop Land,irregular farm parcels with contour-following planted rows,bright young crop rows running parallel over bare earth,0.5284278282017374,0.5391545400522626,0.8546562800998267,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,light tan harvested fields with repeated short rows,0.5386376247496995,0.5541520016185986,0.8464577478507411,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,wide rectangular plots separated by narrow farm tracks,0.5452924938266644,0.5507270793587958,0.8483498120152031,False,False
+Annual Crop Land,large uniform green fields with sharp rectangular borders,light tan harvested fields with repeated short rows,0.5476741081109369,0.5948136195003673,0.8230983274201007,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,rectangular fields with alternating green crop and brown soil strips,0.5617614059951879,0.6053971708346356,0.8167471258844312,False,False
+Annual Crop Land,harvested fields with pale stubble and parallel machinery tracks,irregular farm parcels with contour-following planted rows,0.5626531526801383,0.5722253105673994,0.8362791445526931,False,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,harvested fields with pale stubble and parallel machinery tracks,0.5640443787673136,0.5739262030711246,0.8353043627625343,False,False
+Annual Crop Land,patchwork of neighboring plots at different growth stages,light tan harvested fields with repeated short rows,0.5850524726241151,0.5997475874233152,0.8201513462517745,False,False
+Annual Crop Land,patchwork of neighboring plots at different growth stages,bright young crop rows running parallel over bare earth,0.5909781433715251,0.5960324721482717,0.8223726693733915,False,False
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,harvested fields with pale stubble and parallel machinery tracks,0.5942495589976339,0.6208985408609643,0.8072425141631464,False,False
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,bright young crop rows running parallel over bare earth,0.5952416209437118,0.6123631543425806,0.8125057383362255,False,False
+Annual Crop Land,large uniform green fields with sharp rectangular borders,wide rectangular plots separated by narrow farm tracks,0.6010614659606821,0.6256207297258659,0.804299301345349,False,False
+Annual Crop Land,large uniform green fields with sharp rectangular borders,irregular farm parcels with contour-following planted rows,0.6040520610650538,0.6368025782478399,0.7972412457670346,False,False
+Annual Crop Land,rectangular fields with alternating green crop and brown soil strips,patchwork of neighboring plots at different growth stages,0.6177715760428569,0.6417390157983055,0.79408547317496,False,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,patchwork of neighboring plots at different growth stages,0.6200725135150926,0.6270314158383914,0.8034157500132704,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,harvested fields with pale stubble and parallel machinery tracks,0.6362120152023724,0.6461428433589083,0.7912497324772466,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,patchwork of neighboring plots at different growth stages,0.6475165960220777,0.650092482201685,0.7886898439707053,False,False
+Annual Crop Land,harvested fields with pale stubble and parallel machinery tracks,bright young crop rows running parallel over bare earth,0.6517073140447923,0.6527974216823648,0.7869278442343439,False,False
+Annual Crop Land,large uniform green fields with sharp rectangular borders,harvested fields with pale stubble and parallel machinery tracks,0.7031017537526677,0.7157208197979021,0.7438718536350968,False,False
+Annual Crop Land,harvested fields with pale stubble and parallel machinery tracks,patchwork of neighboring plots at different growth stages,0.7118077692012249,0.715114025077161,0.7443059473203119,False,False
+Annual Crop Land,large uniform green fields with sharp rectangular borders,patchwork of neighboring plots at different growth stages,0.7155216373346017,0.7273586899558825,0.7354746098430847,False,False
+Annual Crop Land,freshly tilled brown fields with straight furrows,large uniform green fields with sharp rectangular borders,0.7245267614571461,0.7255188450451087,0.7368111688094713,False,False
+Annual Crop Land,large uniform green fields with sharp rectangular borders,bright young crop rows running parallel over bare earth,0.7254101873785693,0.7450384492277154,0.7224588957170082,False,False
+Annual Crop Land,long parallel seed rows on exposed soil,large uniform green fields with sharp rectangular borders,0.7662963571590354,0.7730684943636943,0.7011825310192508,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,mixed tree canopy with small gaps and several green tones,0.10361738574048922,0.33738911006936917,0.9430843058321989,False,True
+Forest,forest edge with a jagged boundary beside open land,woodland surrounding a small clearing,0.24868086379130172,0.46592501413797893,0.8914569497525514,False,True
+Forest,woodland surrounding a small clearing,unbroken dark woodland with tightly packed irregular crowns,0.42483890903122423,0.5322336130644987,0.8583636172704272,True,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,uniform evergreen canopy with fine speckled texture,0.5219823629807856,0.5536550713149303,0.8467330424375497,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,woodland surrounding a small clearing,0.529576432755212,0.6168091309085596,0.8097732139796194,False,False
+Forest,mixed tree canopy with small gaps and several green tones,woodland surrounding a small clearing,0.5378727273386473,0.6115278346134466,0.8130168050027233,False,False
+Forest,mixed tree canopy with small gaps and several green tones,uniform evergreen canopy with fine speckled texture,0.5613008908514032,0.5799634995190945,0.8318211663372246,False,False
+Forest,leaf-off woodland with gray-brown textured crowns,unbroken dark woodland with tightly packed irregular crowns,0.5683614483712535,0.5741801722232007,0.8351585453551897,False,False
+Forest,leaf-off woodland with gray-brown textured crowns,woodland surrounding a small clearing,0.5728612634230572,0.6220074763535971,0.8065533090072001,False,False
+Forest,wooded hills with canopy shadows changing across the slope,forest edge with a jagged boundary beside open land,0.5852162694272789,0.6119189092894108,0.8127776387022945,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,uniform evergreen canopy with fine speckled texture,0.5954324813094016,0.5955883518434407,0.8226372319092583,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,leaf-off woodland with gray-brown textured crowns,0.5958844849571927,0.5962236248429645,0.8222586771904455,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,leaf-off woodland with gray-brown textured crowns,0.6097513658812369,0.6303769316698401,0.8013124817090153,False,False
+Forest,mixed tree canopy with small gaps and several green tones,leaf-off woodland with gray-brown textured crowns,0.6162597614659646,0.6373797543727736,0.7968735293481305,False,False
+Forest,wooded hills with canopy shadows changing across the slope,woodland surrounding a small clearing,0.6197028696914152,0.6567269716599051,0.7843547532632174,False,False
+Forest,mixed tree canopy with small gaps and several green tones,forest edge with a jagged boundary beside open land,0.6223032553621669,0.6643186160552145,0.779340442996725,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,woodland surrounding a small clearing,0.6261432747788092,0.6648146428512007,0.7790106741921528,False,False
+Forest,forest edge with a jagged boundary beside open land,unbroken dark woodland with tightly packed irregular crowns,0.6280954803954212,0.6336715064397241,0.7992302412307319,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,forest edge with a jagged boundary beside open land,0.6377883944250565,0.6645775729518676,0.7791683942896628,False,False
+Forest,woodland surrounding a small clearing,uniform evergreen canopy with fine speckled texture,0.6467889514746648,0.6825385372562774,0.7670705236412797,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,unbroken dark woodland with tightly packed irregular crowns,0.6507701121610696,0.658133412701585,0.7834301555249565,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,unbroken dark woodland with tightly packed irregular crowns,0.6525837567971406,0.6792002713733349,0.7693434827641368,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,forest edge with a jagged boundary beside open land,0.6540576096025745,0.6761831640921793,0.7713881967252362,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,rounded broadleaf crowns forming a mottled canopy,0.6628688032005154,0.6845996355219789,0.7656616587610952,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,mixed tree canopy with small gaps and several green tones,0.6650817373450153,0.6898874463344872,0.762027666902102,False,False
+Forest,leaf-off woodland with gray-brown textured crowns,uniform evergreen canopy with fine speckled texture,0.6763095025537023,0.6770366396168417,0.770810699103467,False,False
+Forest,forest edge with a jagged boundary beside open land,uniform evergreen canopy with fine speckled texture,0.6784789458218656,0.7017959838818626,0.7537412531241477,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,mixed tree canopy with small gaps and several green tones,0.6791539178836292,0.6970938243673319,0.7570300745444947,False,False
+Forest,leaf-off woodland with gray-brown textured crowns,forest edge with a jagged boundary beside open land,0.6799249496885557,0.6967097824817706,0.7572978023834414,False,False
+Forest,mixed tree canopy with small gaps and several green tones,wooded hills with canopy shadows changing across the slope,0.6867157176362215,0.7031312179335231,0.7528032017628655,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,wooded hills with canopy shadows changing across the slope,0.6874687659260055,0.7105859329944086,0.7475337872039158,False,False
+Forest,mixed tree canopy with small gaps and several green tones,unbroken dark woodland with tightly packed irregular crowns,0.6888256939254266,0.7065660550710732,0.7503821772821158,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,wooded hills with canopy shadows changing across the slope,0.6964266891301722,0.697176256842712,0.7569726043142377,False,False
+Forest,dense continuous dark-green canopy with irregular treetop texture,closely packed needleleaf trees with dark pointed crown shadows,0.7118595400801874,0.7281021761207344,0.7349336364806645,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,leaf-off woodland with gray-brown textured crowns,0.7163741644987839,0.717320624493734,0.7427255801158786,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,wooded hills with canopy shadows changing across the slope,0.7191590307824188,0.7192215619622181,0.7413601065941278,False,False
+Forest,uniform evergreen canopy with fine speckled texture,unbroken dark woodland with tightly packed irregular crowns,0.7202227516345211,0.7274952734378363,0.7353752857392902,False,False
+Forest,wooded hills with canopy shadows changing across the slope,unbroken dark woodland with tightly packed irregular crowns,0.7205188289687205,0.7278910906368834,0.7350872121169728,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,unbroken dark woodland with tightly packed irregular crowns,0.7285354159651979,0.7380222372291866,0.7276615753367184,False,False
+Forest,rounded broadleaf crowns forming a mottled canopy,closely packed needleleaf trees with dark pointed crown shadows,0.7306151605695123,0.7311468994151946,0.7327120945554444,False,False
+Forest,wooded hills with canopy shadows changing across the slope,leaf-off woodland with gray-brown textured crowns,0.7407367731904876,0.7412962012871768,0.7252399356286631,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,uniform evergreen canopy with fine speckled texture,0.7627151750834658,0.7636315540646044,0.7084334358305208,False,False
+Forest,wooded hills with canopy shadows changing across the slope,uniform evergreen canopy with fine speckled texture,0.7679628798725623,0.7679800902174326,0.7051032468990381,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,woodland surrounding a small clearing,0.7720452663150427,0.8003438442226618,0.6797248310513146,False,False
+Forest,closely packed needleleaf trees with dark pointed crown shadows,forest edge with a jagged boundary beside open land,0.7878016946219598,0.8089371762497288,0.6728103915436806,False,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,coarse tufts of grasses alternating with short sparse cover,0.15178018027244086,0.4491898387952928,0.8991142220293105,False,True
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,flat open herbaceous cover lacking individual tree-crown shadows,0.4234015028472167,0.5382607221461602,0.8551377164649242,True,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,seasonally browned low vegetation with ragged patches of green,0.4310823594639604,0.5759330166583925,0.8341505780993346,True,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,continuous bright meadow vegetation with a smooth fine texture,0.43449438342287117,0.5409930543653781,0.8536632279441867,True,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,irregular open hillside covered in low grasses and forbs,0.44908615387326967,0.5333383441553461,0.8577750450481723,True,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,coarse tufts of grasses alternating with short sparse cover,0.5122809350872973,0.6105314015347794,0.8136257232587805,False,False
+Herbaceous Vegetation Land,irregular open hillside covered in low grasses and forbs,coarse tufts of grasses alternating with short sparse cover,0.5134635526297101,0.5408874552298999,0.8537203516658313,False,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,patchy dry grasses and herbs interspersed with bare soil,0.5256707382450556,0.647085850157156,0.7906399390949725,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,coarse tufts of grasses alternating with short sparse cover,0.5392417299735545,0.5562078967043194,0.84531638975887,False,False
+Herbaceous Vegetation Land,low sedges and reeds in a damp mosaic of vegetation and wet ground,seasonally browned low vegetation with ragged patches of green,0.5445600228281097,0.5930946676389478,0.8241193709418058,False,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,low sedges and reeds in a damp mosaic of vegetation and wet ground,0.5469652787510918,0.6189510073956508,0.8084498284484615,False,False
+Herbaceous Vegetation Land,seasonally browned low vegetation with ragged patches of green,irregular open hillside covered in low grasses and forbs,0.5572838344495011,0.5888541564816197,0.8266253410246924,False,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,seasonally browned low vegetation with ragged patches of green,0.5694305743838871,0.6177927540177509,0.8091660127585234,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,seasonally browned low vegetation with ragged patches of green,0.5695981434768836,0.6038191719733171,0.8177011842648819,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,irregular open hillside covered in low grasses and forbs,0.5743091973512471,0.5755291088215433,0.8343830864401074,False,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,continuous bright meadow vegetation with a smooth fine texture,0.5768838643320434,0.6149240050685428,0.8109342460962197,False,False
+Herbaceous Vegetation Land,low sedges and reeds in a damp mosaic of vegetation and wet ground,coarse tufts of grasses alternating with short sparse cover,0.5792922010479563,0.6174736816863077,0.8093631609958979,False,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,irregular open hillside covered in low grasses and forbs,0.5875637457842688,0.6208755308128632,0.8072567690612895,False,False
+Herbaceous Vegetation Land,seasonally browned low vegetation with ragged patches of green,coarse tufts of grasses alternating with short sparse cover,0.5979653177040319,0.6392364981960097,0.7956883374610071,False,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,low ground cover mixed with scattered light-colored stones,0.6077919100658862,0.6513652489590483,0.7878616844946883,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,flower-rich meadow showing fine mottling rather than raised crowns,0.6225933238877012,0.6357731449977324,0.7978962671474294,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,low sedges and reeds in a damp mosaic of vegetation and wet ground,0.6307040542694967,0.6355080817226583,0.7980647665283114,False,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,flower-rich meadow showing fine mottling rather than raised crowns,0.6324729126483729,0.6922757979311716,0.7603771403487629,False,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,low ground cover mixed with scattered light-colored stones,0.6430075231051775,0.6895314511298217,0.7622731755008203,False,False
+Herbaceous Vegetation Land,low sedges and reeds in a damp mosaic of vegetation and wet ground,irregular open hillside covered in low grasses and forbs,0.6520749843303109,0.6542653591148628,0.7859684167682461,False,False
+Herbaceous Vegetation Land,low ground cover mixed with scattered light-colored stones,coarse tufts of grasses alternating with short sparse cover,0.6622896477961487,0.687719048607577,0.7635212731975767,False,False
+Herbaceous Vegetation Land,seasonally browned low vegetation with ragged patches of green,low ground cover mixed with scattered light-colored stones,0.6646059116347103,0.681035186128608,0.7680955342829807,False,False
+Herbaceous Vegetation Land,irregular open hillside covered in low grasses and forbs,low ground cover mixed with scattered light-colored stones,0.6754861063983313,0.6771115627601259,0.7707599459482789,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,low ground cover mixed with scattered light-colored stones,0.6848308883473057,0.6889026809465575,0.7627065589109528,False,False
+Herbaceous Vegetation Land,flower-rich meadow showing fine mottling rather than raised crowns,coarse tufts of grasses alternating with short sparse cover,0.7051211953932511,0.7372540869202892,0.7282282260450514,False,False
+Herbaceous Vegetation Land,open low herbaceous cover with no distinct tree crowns,low sedges and reeds in a damp mosaic of vegetation and wet ground,0.722278598561605,0.7374780671481563,0.728063095185227,False,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,flower-rich meadow showing fine mottling rather than raised crowns,0.7255313608945593,0.7546474804265432,0.7152535789713073,False,False
+Herbaceous Vegetation Land,irregular open hillside covered in low grasses and forbs,flower-rich meadow showing fine mottling rather than raised crowns,0.7279988651345983,0.7354210363270751,0.7295779321027676,False,False
+Herbaceous Vegetation Land,seasonally browned low vegetation with ragged patches of green,flat open herbaceous cover lacking individual tree-crown shadows,0.7360428689945665,0.7379883383303952,0.7276865935969128,False,False
+Herbaceous Vegetation Land,patchy dry grasses and herbs interspersed with bare soil,flat open herbaceous cover lacking individual tree-crown shadows,0.736736071375316,0.7769209968452221,0.6981968595770793,False,False
+Herbaceous Vegetation Land,coarse tufts of grasses alternating with short sparse cover,flat open herbaceous cover lacking individual tree-crown shadows,0.7478302883549636,0.7709958037236935,0.7027827441238078,False,False
+Herbaceous Vegetation Land,seasonally browned low vegetation with ragged patches of green,flower-rich meadow showing fine mottling rather than raised crowns,0.7553959111302486,0.7623845248181249,0.7093849170934687,False,False
+Herbaceous Vegetation Land,low ground cover mixed with scattered light-colored stones,flat open herbaceous cover lacking individual tree-crown shadows,0.7621726303108324,0.768461859212363,0.704733203153158,False,False
+Herbaceous Vegetation Land,continuous bright meadow vegetation with a smooth fine texture,flat open herbaceous cover lacking individual tree-crown shadows,0.764682874653878,0.7786672337992149,0.6968386710195166,False,False
+Herbaceous Vegetation Land,irregular open hillside covered in low grasses and forbs,flat open herbaceous cover lacking individual tree-crown shadows,0.766393010927787,0.7786121038082007,0.69688156675884,False,False
+Herbaceous Vegetation Land,low sedges and reeds in a damp mosaic of vegetation and wet ground,low ground cover mixed with scattered light-colored stones,0.7804155645510711,0.7851737702360942,0.6917511189317773,False,False
+Herbaceous Vegetation Land,low sedges and reeds in a damp mosaic of vegetation and wet ground,flower-rich meadow showing fine mottling rather than raised crowns,0.7911622582259876,0.8032024669684799,0.6774329444719863,False,False
+Herbaceous Vegetation Land,flower-rich meadow showing fine mottling rather than raised crowns,low ground cover mixed with scattered light-colored stones,0.7916954271403998,0.7937693640127574,0.6849651276444159,False,False
+Herbaceous Vegetation Land,flower-rich meadow showing fine mottling rather than raised crowns,flat open herbaceous cover lacking individual tree-crown shadows,0.8210327584832615,0.8235101330099182,0.660915550379165,False,False
+Herbaceous Vegetation Land,low sedges and reeds in a damp mosaic of vegetation and wet ground,flat open herbaceous cover lacking individual tree-crown shadows,0.8404744632193293,0.8603987643875912,0.6298570174824591,False,False
+Highway or Road,straight paved roadway cutting across open fields,long straight paved strip crossing farmland,0.09762613921005435,0.31104906970490864,0.9516242618675564,False,True
+Highway or Road,road running diagonally between built-up blocks,junction where multiple paved roads converge,0.2659958048155006,0.39292677040056867,0.9228042935573356,False,True
+Highway or Road,straight paved roadway cutting across open fields,junction where multiple paved roads converge,0.33032970726502536,0.4225922955462267,0.9107078546261034,False,False
+Highway or Road,broad arterial with a visible central median,junction where multiple paved roads converge,0.34844360022832127,0.4289378215675909,0.9080061868849654,False,True
+Highway or Road,junction where multiple paved roads converge,long straight paved strip crossing farmland,0.3719762265046754,0.4510564469935228,0.8982740706312453,False,False
+Highway or Road,highway interchange with looping ramps and crossing lanes,junction where multiple paved roads converge,0.3875188106136031,0.46782626391818594,0.8905692729157303,False,False
+Highway or Road,straight paved roadway cutting across open fields,road running diagonally between built-up blocks,0.43140779231426113,0.47181703844493744,0.8886943520538158,False,False
+Highway or Road,winding mountain road tracing repeated bends,junction where multiple paved roads converge,0.4381423390580252,0.48669107434919356,0.8815659122737902,False,False
+Highway or Road,straight paved roadway cutting across open fields,curving paved road through forest with a narrow cleared margin,0.4572020080359889,0.489884512867147,0.8800065440020997,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,highway interchange with looping ramps and crossing lanes,0.4733781277628069,0.4830348950272407,0.8833386210326917,False,True
+Highway or Road,broad divided motorway with two parallel carriageways,junction where multiple paved roads converge,0.4744877064540926,0.502975877527268,0.8735076145533363,True,False
+Highway or Road,straight paved roadway cutting across open fields,straight light-gray roadway bordered by narrow shoulders,0.4836088770439675,0.5157396213502993,0.8670063511090427,True,False
+Highway or Road,road running diagonally between built-up blocks,long straight paved strip crossing farmland,0.4842069759672363,0.5044636655287679,0.8727582670827687,True,False
+Highway or Road,road running diagonally between built-up blocks,broad arterial with a visible central median,0.48756986244141415,0.48949674213867606,0.8801965161720253,False,True
+Highway or Road,road running diagonally between built-up blocks,straight light-gray roadway bordered by narrow shoulders,0.4947275341769677,0.5054635674032774,0.8722533588907228,False,False
+Highway or Road,straight light-gray roadway bordered by narrow shoulders,junction where multiple paved roads converge,0.4957925337134622,0.5295867666334771,0.8597689639964217,False,False
+Highway or Road,straight paved roadway cutting across open fields,winding mountain road tracing repeated bends,0.4969620009854392,0.5280104715640632,0.8606024780899693,False,False
+Highway or Road,straight paved roadway cutting across open fields,broad divided motorway with two parallel carriageways,0.4974850811005658,0.5276891592824662,0.8607720507596255,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,junction where multiple paved roads converge,0.5004416184650402,0.5456478443627781,0.851134183015522,False,False
+Highway or Road,straight paved roadway cutting across open fields,broad arterial with a visible central median,0.5026386394131577,0.5273597135568636,0.8609458744603968,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,broad arterial with a visible central median,0.5147221811381011,0.5217157393074258,0.8639063543681196,False,False
+Highway or Road,broad arterial with a visible central median,long straight paved strip crossing farmland,0.5206893239971593,0.5404838091070228,0.8539386853132047,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,long straight paved strip crossing farmland,0.5228046969794978,0.5362826789981161,0.8562004571437802,False,False
+Highway or Road,straight light-gray roadway bordered by narrow shoulders,broad arterial with a visible central median,0.5284472279835208,0.5329086405199879,0.8580042555708087,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,winding mountain road tracing repeated bends,0.5318358122550684,0.5318737519184924,0.8585551524314717,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,long straight paved strip crossing farmland,0.5357574009390744,0.5523032814496904,0.8474805688865339,False,False
+Highway or Road,road running diagonally between built-up blocks,winding mountain road tracing repeated bends,0.540066703999526,0.5456583690152758,0.8511285175448446,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,road running diagonally between built-up blocks,0.542988797078184,0.5566097032091452,0.8450928325708862,False,False
+Highway or Road,straight paved roadway cutting across open fields,highway interchange with looping ramps and crossing lanes,0.5430041861773505,0.5686485819104237,0.8383193685984311,False,False
+Highway or Road,straight light-gray roadway bordered by narrow shoulders,long straight paved strip crossing farmland,0.5434930844481095,0.5569529188436976,0.8449018037848983,False,False
+Highway or Road,highway interchange with looping ramps and crossing lanes,broad arterial with a visible central median,0.5553864969945652,0.5555498825883298,0.8456821729477684,False,False
+Highway or Road,highway interchange with looping ramps and crossing lanes,long straight paved strip crossing farmland,0.5611315301159366,0.578914425759335,0.8324290683415064,False,False
+Highway or Road,winding mountain road tracing repeated bends,long straight paved strip crossing farmland,0.5670911255224907,0.5790314653744707,0.8323613392486059,False,False
+Highway or Road,winding mountain road tracing repeated bends,broad arterial with a visible central median,0.5855970395162249,0.5873871776813919,0.8274881943952886,False,False
+Highway or Road,highway interchange with looping ramps and crossing lanes,road running diagonally between built-up blocks,0.5865861430685398,0.5873486002508043,0.8275108225969383,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,straight light-gray roadway bordered by narrow shoulders,0.5979577418721728,0.5982927215222499,0.8210229417979482,False,False
+Highway or Road,highway interchange with looping ramps and crossing lanes,winding mountain road tracing repeated bends,0.5982469926584807,0.6006848286813063,0.8195888761946122,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,winding mountain road tracing repeated bends,0.6004801533885173,0.6021811921353768,0.8186889155367107,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,road running diagonally between built-up blocks,0.6074133779608525,0.611667446795867,0.8129314674931816,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,straight light-gray roadway bordered by narrow shoulders,0.6357667008576827,0.6365524923265462,0.7974004811715263,False,False
+Highway or Road,broad divided motorway with two parallel carriageways,curving paved road through forest with a narrow cleared margin,0.6363581680083674,0.638368131213775,0.7962430289878375,False,False
+Highway or Road,straight light-gray roadway bordered by narrow shoulders,winding mountain road tracing repeated bends,0.6469792625694476,0.647493043388893,0.7903764434515702,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,broad arterial with a visible central median,0.6537895001738938,0.654983663770519,0.7854981975894368,False,False
+Highway or Road,curving paved road through forest with a narrow cleared margin,highway interchange with looping ramps and crossing lanes,0.6598542436868146,0.6615786614455537,0.7811568001035313,False,False
+Highway or Road,highway interchange with looping ramps and crossing lanes,straight light-gray roadway bordered by narrow shoulders,0.6719800698704282,0.6765679995193815,0.7711279014054243,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,factory buildings with dark roofs and broad concrete aprons,0.29893971712926193,0.4441405271713709,0.9013695767001593,False,False
+Industrial Buildings,logistics depots with truck bays along large rectangular buildings,big rectangular warehouse buildings with extensive hardstanding,0.322084692684872,0.3938736261215893,0.9224317681827098,False,True
+Industrial Buildings,large sheds bordering open material storage lots,big rectangular warehouse buildings with extensive hardstanding,0.33664448663554863,0.43772024748254307,0.9042005304615555,False,False
+Industrial Buildings,industrial plant with round tanks beside boxy buildings,factory buildings with dark roofs and broad concrete aprons,0.34771888322938316,0.4521060103400296,0.8978000737273211,False,True
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,multiple wide rectangular factory roofs in a regular grid,0.3814044229432382,0.41795850030889764,0.9126553206534117,False,True
+Industrial Buildings,factory buildings with dark roofs and broad concrete aprons,big rectangular warehouse buildings with extensive hardstanding,0.4024056892728034,0.48530817740395993,0.8822380002505694,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,big rectangular warehouse buildings with extensive hardstanding,0.4108649643602287,0.47544957010297484,0.8869738203108848,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,big rectangular warehouse buildings with extensive hardstanding,0.4119969929850815,0.4642269409173833,0.8922466814468419,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,factory buildings with dark roofs and broad concrete aprons,0.44005924886004777,0.46801871414680735,0.8904792628595368,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,industrial estate with bright roofs and internal access roads,0.44382001539043825,0.46215081751795317,0.8932083535682025,False,True
+Industrial Buildings,factory buildings with dark roofs and broad concrete aprons,industrial estate with bright roofs and internal access roads,0.45363896442224894,0.5065596866187247,0.8716987214807664,True,False
+Industrial Buildings,logistics depots with truck bays along large rectangular buildings,large isolated processing hall beside a paved service yard,0.4555526765042859,0.47065673862476115,0.8892411365087989,False,True
+Industrial Buildings,large isolated processing hall beside a paved service yard,big rectangular warehouse buildings with extensive hardstanding,0.45689521100206865,0.46960049657896796,0.8897377215682368,False,True
+Industrial Buildings,large sheds bordering open material storage lots,large isolated processing hall beside a paved service yard,0.4619170003239194,0.4933244626279932,0.8783155597314976,True,False
+Industrial Buildings,industrial estate with bright roofs and internal access roads,big rectangular warehouse buildings with extensive hardstanding,0.4640695033780276,0.5072941612235464,0.8713263830568911,True,False
+Industrial Buildings,factory buildings with dark roofs and broad concrete aprons,large isolated processing hall beside a paved service yard,0.47361197264508115,0.512480464390387,0.8686819350427053,True,False
+Industrial Buildings,logistics depots with truck bays along large rectangular buildings,large sheds bordering open material storage lots,0.4922733439202979,0.4970321033984239,0.8764795666387175,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,large sheds bordering open material storage lots,0.4999351705611668,0.531793206927488,0.8585980070943506,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,industrial complex with long sawtooth roofs,0.5025179497547344,0.5447672265537031,0.8516142781747463,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,large isolated processing hall beside a paved service yard,0.5040268771191349,0.5338558199644393,0.8574989833669365,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,large isolated processing hall beside a paved service yard,0.5075005844096293,0.5183435324027432,0.8656600334471728,False,False
+Industrial Buildings,logistics depots with truck bays along large rectangular buildings,factory buildings with dark roofs and broad concrete aprons,0.5172170270481049,0.540773467229462,0.8537820269018628,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,logistics depots with truck bays along large rectangular buildings,0.5190402148198829,0.5480466048140787,0.8498224111957208,False,False
+Industrial Buildings,industrial plant with round tanks beside boxy buildings,big rectangular warehouse buildings with extensive hardstanding,0.5213014255131657,0.5610192030315793,0.8426287094632612,False,False
+Industrial Buildings,logistics depots with truck bays along large rectangular buildings,industrial estate with bright roofs and internal access roads,0.5275137678789419,0.5326436721662307,0.8581454098666821,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,industrial estate with bright roofs and internal access roads,0.5280201080419388,0.5380530512380226,0.8552494899494141,False,False
+Industrial Buildings,industrial estate with bright roofs and internal access roads,large isolated processing hall beside a paved service yard,0.5294285108935884,0.5400244033853413,0.8541869223922474,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,factory buildings with dark roofs and broad concrete aprons,0.5294935714549853,0.5536173540949926,0.8467539029723921,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,big rectangular warehouse buildings with extensive hardstanding,0.530014955597377,0.5434757600085444,0.8523170260197752,False,False
+Industrial Buildings,industrial plant with round tanks beside boxy buildings,large isolated processing hall beside a paved service yard,0.5306019931629319,0.5476029095346427,0.8500655437384048,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,logistics depots with truck bays along large rectangular buildings,0.5371347783467793,0.5372889202280445,0.8556603004370924,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,industrial estate with bright roofs and internal access roads,0.5381849390514193,0.5424195129635427,0.8528906095180449,False,False
+Industrial Buildings,industrial plant with round tanks beside boxy buildings,industrial estate with bright roofs and internal access roads,0.5486846253575552,0.552687018479253,0.8472685781068632,False,False
+Industrial Buildings,logistics depots with truck bays along large rectangular buildings,industrial plant with round tanks beside boxy buildings,0.5522578064128387,0.5697610817127263,0.8376861219845311,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,industrial complex with long sawtooth roofs,0.5633445197001092,0.5731965342669911,0.8357228509075696,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,logistics depots with truck bays along large rectangular buildings,0.5758543341048404,0.5877066133487375,0.82730042974469,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,industrial plant with round tanks beside boxy buildings,0.5764917523598825,0.5917790453876256,0.8248987707456177,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,large isolated processing hall beside a paved service yard,0.5789457453968357,0.5802444382058616,0.8316582072992424,False,False
+Industrial Buildings,large sheds bordering open material storage lots,industrial estate with bright roofs and internal access roads,0.5795001600775714,0.5854958048433269,0.8285974350013282,False,False
+Industrial Buildings,industrial complex with long sawtooth roofs,industrial plant with round tanks beside boxy buildings,0.5797005273097486,0.6038179479336517,0.817701901996769,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,large sheds bordering open material storage lots,0.5833074213475299,0.6043506673111657,0.8173801403099649,False,False
+Industrial Buildings,multiple wide rectangular factory roofs in a regular grid,industrial plant with round tanks beside boxy buildings,0.5962912594506756,0.597751193634325,0.8213467046627703,False,False
+Industrial Buildings,large sheds bordering open material storage lots,factory buildings with dark roofs and broad concrete aprons,0.5971471549931118,0.6340307332457125,0.799002566111352,False,False
+Industrial Buildings,large flat-roofed warehouses surrounded by paved yards,large sheds bordering open material storage lots,0.6086857308214603,0.6135821719331684,0.8117585046097389,False,False
+Industrial Buildings,large sheds bordering open material storage lots,industrial plant with round tanks beside boxy buildings,0.6492736631274465,0.6632053387448134,0.7800793595617976,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,irregular grass paddocks separated by narrow tracks,0.2400032260491301,0.3790701256853434,0.9281529308371355,False,True
+Pasture Land,grazing fields with patches of worn soil around access points,dry buff grazing field enclosed by vegetation boundaries,0.2666878391793348,0.4322650514558155,0.9065735233674176,False,True
+Pasture Land,grazing fields with patches of worn soil around access points,uniform short grass fields divided by dense hedge lines,0.31430761282081965,0.43664883365654744,0.9046689068748031,False,False
+Pasture Land,grazing fields with patches of worn soil around access points,irregular grass paddocks separated by narrow tracks,0.3480799170933592,0.44770278345826636,0.8997811634267086,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,grazing fields with patches of worn soil around access points,0.36344412722130975,0.45545326402412084,0.8962811408172311,False,False
+Pasture Land,irregular grass paddocks separated by narrow tracks,uniform short grass fields divided by dense hedge lines,0.3838764390751397,0.4568344460274067,0.8956511855613738,False,False
+Pasture Land,short-grazed grass next to a farm building or enclosure,uniform short grass fields divided by dense hedge lines,0.4113216984959214,0.4493113305728482,0.8990596930277401,False,True
+Pasture Land,grazing fields with patches of worn soil around access points,short-grazed grass next to a farm building or enclosure,0.41941891426495514,0.44192265351323073,0.9023522265591155,False,False
+Pasture Land,irregular grass paddocks separated by narrow tracks,short-grazed grass next to a farm building or enclosure,0.42327137598574216,0.45709259947168324,0.895533252415655,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,short-grazed grass next to a farm building or enclosure,0.4376655778536132,0.4730692618015995,0.888102735518286,False,False
+Pasture Land,short-grazed grass next to a farm building or enclosure,dry buff grazing field enclosed by vegetation boundaries,0.44121591199489785,0.48499839052432797,0.8823883613935699,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,dry buff grazing field enclosed by vegetation boundaries,0.45114824662887776,0.49851379076481905,0.8757420172769502,True,False
+Pasture Land,grazing fields with patches of worn soil around access points,rolling pasture with diffuse shadows and no crop rows,0.48932613592148694,0.5280897057830497,0.8605606216014076,True,False
+Pasture Land,grazing fields with patches of worn soil around access points,fenced grassland with alternating light and dark paddocks,0.4921249335741652,0.5545565423746548,0.8462335306506886,False,False
+Pasture Land,dry buff grazing field enclosed by vegetation boundaries,uniform short grass fields divided by dense hedge lines,0.49236455519476463,0.5126668875764729,0.8685863784289023,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,large open paddock with a few scattered shade trees,0.49660276800844444,0.523670585635968,0.8628845089739784,False,False
+Pasture Land,grazing fields with patches of worn soil around access points,large open paddock with a few scattered shade trees,0.49978876518376225,0.531670719871866,0.8586631165737646,False,False
+Pasture Land,irregular grass paddocks separated by narrow tracks,dry buff grazing field enclosed by vegetation boundaries,0.5007110621161044,0.521833288745892,0.8638451023591327,False,False
+Pasture Land,rolling pasture with diffuse shadows and no crop rows,dry buff grazing field enclosed by vegetation boundaries,0.5101864354079999,0.5326276367147624,0.8581539289782065,False,False
+Pasture Land,large open paddock with a few scattered shade trees,dry buff grazing field enclosed by vegetation boundaries,0.5118433138125265,0.5360450625422776,0.8563278776162828,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,uniform short grass fields divided by dense hedge lines,0.5204574244214176,0.5257814744271156,0.8617768857620776,False,False
+Pasture Land,irregular grass paddocks separated by narrow tracks,large open paddock with a few scattered shade trees,0.5255069206198831,0.5458479241933162,0.8510250478435653,False,False
+Pasture Land,irregular grass paddocks separated by narrow tracks,rolling pasture with diffuse shadows and no crop rows,0.5316515438122863,0.5596159047868278,0.8434150420915738,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,uniform short grass fields divided by dense hedge lines,0.5437718860470889,0.5644552050471345,0.8406951715593033,False,False
+Pasture Land,short-grazed grass next to a farm building or enclosure,fenced grassland with alternating light and dark paddocks,0.5478691225176697,0.5601480093989313,0.8431171338558596,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,rolling pasture with diffuse shadows and no crop rows,0.5532105102420297,0.5680002138850773,0.8386878251375132,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,grazing fields with patches of worn soil around access points,0.5557811788694639,0.5949049213612091,0.8230440915667028,False,False
+Pasture Land,large open paddock with a few scattered shade trees,uniform short grass fields divided by dense hedge lines,0.5580860799815042,0.578305821145965,0.8327811688877537,False,False
+Pasture Land,rolling pasture with diffuse shadows and no crop rows,short-grazed grass next to a farm building or enclosure,0.5607565407681531,0.5645507483970008,0.8406412365973116,False,False
+Pasture Land,open grazed paddocks divided by straight fence lines,fenced grassland with alternating light and dark paddocks,0.5622572003208863,0.5876797279136731,0.8273162350414487,False,False
+Pasture Land,rolling pasture with diffuse shadows and no crop rows,uniform short grass fields divided by dense hedge lines,0.5710432405350074,0.582797253269619,0.8301736575842239,False,False
+Pasture Land,rolling pasture with diffuse shadows and no crop rows,large open paddock with a few scattered shade trees,0.5711171285647069,0.5723696668816456,0.8361964439271112,False,False
+Pasture Land,fenced grassland with alternating light and dark paddocks,uniform short grass fields divided by dense hedge lines,0.5730496024806234,0.5862609952913517,0.8281490192110608,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,open grazed paddocks divided by straight fence lines,0.5844369694982405,0.611946483185309,0.8127607315010006,False,False
+Pasture Land,short-grazed grass next to a farm building or enclosure,large open paddock with a few scattered shade trees,0.5871370085364145,0.5886495542708293,0.826745864963373,False,False
+Pasture Land,irregular grass paddocks separated by narrow tracks,fenced grassland with alternating light and dark paddocks,0.5897626945804552,0.6027875129389996,0.8183236493767048,False,False
+Pasture Land,rolling pasture with diffuse shadows and no crop rows,fenced grassland with alternating light and dark paddocks,0.6171737891599146,0.6214957560619042,0.8068714905463916,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,short-grazed grass next to a farm building or enclosure,0.6192288244101899,0.623786698874392,0.8054451215269878,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,irregular grass paddocks separated by narrow tracks,0.6272197745499659,0.6381122762228523,0.796406418021784,False,False
+Pasture Land,fenced grassland with alternating light and dark paddocks,large open paddock with a few scattered shade trees,0.6418967604374666,0.6462053201377613,0.7912093235405746,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,dry buff grazing field enclosed by vegetation boundaries,0.6443786756685835,0.6571036631497787,0.7841074506301284,False,False
+Pasture Land,fenced grassland with alternating light and dark paddocks,dry buff grazing field enclosed by vegetation boundaries,0.6497404525543442,0.6552453540573833,0.7853268113850234,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,rolling pasture with diffuse shadows and no crop rows,0.6857337622063763,0.6881269011866461,0.7632406761801431,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,large open paddock with a few scattered shade trees,0.7064525900228982,0.7073678543576597,0.7498153550391096,False,False
+Pasture Land,smooth green grazing field bounded by hedgerows,fenced grassland with alternating light and dark paddocks,0.7344846156474946,0.7359414701331685,0.7291950882351608,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,hillside vineyard with curved rows following contours,0.17511208935756475,0.4034239146003295,0.9186246145866035,False,True
+Permanent Crop Land,perennial tree plantation with staggered rows of individual crowns,regular grid of individual fruit tree crowns across a field,0.3943424848961854,0.5316168826520212,0.8586917116382151,True,False
+Permanent Crop Land,perennial tree plantation with staggered rows of individual crowns,leaf-off perennial rows marked by thin dark lines over soil,0.40128005661672755,0.5275930202516433,0.8608227975223708,True,False
+Permanent Crop Land,fruit orchard showing uniform tree spacing and green alleys,regular grid of individual fruit tree crowns across a field,0.4756676033107241,0.5027177320495139,0.8736374701502518,True,False
+Permanent Crop Land,fruit orchard showing uniform tree spacing and green alleys,small orchard blocks with several row orientations,0.5108766169908926,0.5129596367309338,0.8684362122361403,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,small orchard blocks with several row orientations,0.5262477047964584,0.5794392512908451,0.8321250671553007,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,perennial tree plantation with staggered rows of individual crowns,0.5312545637405272,0.6109767929122798,0.8133536081051278,False,False
+Permanent Crop Land,small orchard blocks with several row orientations,regular grid of individual fruit tree crowns across a field,0.539306749755427,0.5761040222222464,0.8340521056679493,False,False
+Permanent Crop Land,fruit orchard showing uniform tree spacing and green alleys,perennial tree plantation with staggered rows of individual crowns,0.5471877738838551,0.5805106621593363,0.8315036309736368,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,small orchard blocks with several row orientations,0.5472047428757543,0.5658500279875426,0.8399069128059351,False,False
+Permanent Crop Land,terraced perennial planting with narrow stepped plots,perennial tree plantation with staggered rows of individual crowns,0.5473554054404289,0.6131091750391732,0.8120485003745944,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,fruit orchard showing uniform tree spacing and green alleys,0.5491273725206746,0.5880256356562323,0.8271129173595708,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,perennial tree plantation with staggered rows of individual crowns,0.5687997181048076,0.6422933267226204,0.7937296198367478,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,fruit orchard showing uniform tree spacing and green alleys,0.5699710732967488,0.5795032259331918,0.8320880467896792,False,False
+Permanent Crop Land,perennial tree plantation with staggered rows of individual crowns,small orchard blocks with several row orientations,0.576768132741521,0.5978410412533185,0.821292988780066,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,leaf-off perennial rows marked by thin dark lines over soil,0.5875092449090611,0.6399285110414055,0.7952457914497177,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,regular grid of individual fruit tree crowns across a field,0.6052784051684678,0.6081035021805614,0.8151051277256036,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,regular grid of individual fruit tree crowns across a field,0.6083271609940781,0.658691047009249,0.7830630649335268,False,False
+Permanent Crop Land,small orchard blocks with several row orientations,leaf-off perennial rows marked by thin dark lines over soil,0.6215700056050143,0.649244456683427,0.7892408740441504,False,False
+Permanent Crop Land,terraced perennial planting with narrow stepped plots,leaf-off perennial rows marked by thin dark lines over soil,0.62395353785349,0.6293531702809264,0.8019573363896135,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,perennial tree plantation with staggered rows of individual crowns,0.6253637612050225,0.6905548264812241,0.7615670117940172,False,False
+Permanent Crop Land,olive grove with repeated dark crowns over pale dry soil,perennial tree plantation with staggered rows of individual crowns,0.6327829132064958,0.6798369604136293,0.7689108076473222,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,vineyard with tightly spaced parallel rows and visible gaps,0.6572209315084956,0.6966874168507232,0.7573133462539425,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,fruit orchard showing uniform tree spacing and green alleys,0.6612275276163249,0.6810078128299875,0.7681142380247469,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,small orchard blocks with several row orientations,0.6686621471206751,0.6872648239755235,0.7638335881249534,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,leaf-off perennial rows marked by thin dark lines over soil,0.6737467894575947,0.6945628121282014,0.7587913582142944,False,False
+Permanent Crop Land,fruit orchard showing uniform tree spacing and green alleys,leaf-off perennial rows marked by thin dark lines over soil,0.6795262389340595,0.695660414745296,0.7580283513199118,False,False
+Permanent Crop Land,terraced perennial planting with narrow stepped plots,small orchard blocks with several row orientations,0.6809073876130469,0.6937524407716249,0.7593537673746424,False,False
+Permanent Crop Land,leaf-off perennial rows marked by thin dark lines over soil,regular grid of individual fruit tree crowns across a field,0.6868233407633784,0.6870411125442877,0.7639873336632323,False,False
+Permanent Crop Land,olive grove with repeated dark crowns over pale dry soil,regular grid of individual fruit tree crowns across a field,0.6869446011795644,0.6955621383076666,0.7580966936907589,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,olive grove with repeated dark crowns over pale dry soil,0.6991107344496488,0.7270423960578124,0.7357046772268576,False,False
+Permanent Crop Land,vineyard with tightly spaced parallel rows and visible gaps,terraced perennial planting with narrow stepped plots,0.709796228373766,0.7332073226484919,0.7312034876805737,False,False
+Permanent Crop Land,olive grove with repeated dark crowns over pale dry soil,fruit orchard showing uniform tree spacing and green alleys,0.7146616173395632,0.7168246709436383,0.7430812121930299,False,False
+Permanent Crop Land,fruit orchard showing uniform tree spacing and green alleys,terraced perennial planting with narrow stepped plots,0.7204818102328673,0.72573884880787,0.73665155490893,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,terraced perennial planting with narrow stepped plots,0.7221389883771031,0.7463825942985993,0.7214565552757639,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,regular grid of individual fruit tree crowns across a field,0.7278839698733888,0.7510093115078543,0.7179925867913056,False,False
+Permanent Crop Land,hillside vineyard with curved rows following contours,olive grove with repeated dark crowns over pale dry soil,0.7519657005768938,0.7698116005353636,0.7036951170386501,False,False
+Permanent Crop Land,terraced perennial planting with narrow stepped plots,regular grid of individual fruit tree crowns across a field,0.7527490527063704,0.7581058959957807,0.712637739656202,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,olive grove with repeated dark crowns over pale dry soil,0.7657917791639478,0.767668149347185,0.7053428560676724,False,False
+Permanent Crop Land,olive grove with repeated dark crowns over pale dry soil,small orchard blocks with several row orientations,0.7741411415051059,0.7805869906128452,0.695341990342268,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,hillside vineyard with curved rows following contours,0.7841829969348044,0.7990145979063713,0.6807879279577287,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,leaf-off perennial rows marked by thin dark lines over soil,0.7915258450241472,0.7927638425431781,0.685762835818778,False,False
+Permanent Crop Land,olive grove with repeated dark crowns over pale dry soil,leaf-off perennial rows marked by thin dark lines over soil,0.8071623854803875,0.8129717731397469,0.669538514286289,False,False
+Permanent Crop Land,orchard with widely spaced rounded crowns in a rectangular grid,terraced perennial planting with narrow stepped plots,0.8095595759657512,0.8109939577191357,0.6711444267139228,False,False
+Permanent Crop Land,olive grove with repeated dark crowns over pale dry soil,terraced perennial planting with narrow stepped plots,0.889830887099527,0.8904867394846312,0.6035166852500027,False,False
+Residential Buildings,suburban cul-de-sacs with spaced houses and lawns,individual homes and private yards on winding suburban roads,0.26854155476956937,0.4178814380932771,0.9126875484574222,False,True
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,compact village houses with irregular narrow lanes,0.3157164372581613,0.4372647407767806,0.9043997648626744,False,False
+Residential Buildings,detached houses with small gardens along curving streets,compact village houses with irregular narrow lanes,0.33284353537702344,0.45245195220183004,0.8976435789371551,False,False
+Residential Buildings,compact village houses with irregular narrow lanes,ribbon settlement of houses along a single street,0.3432071997842666,0.4332449776997522,0.9061493440428532,False,True
+Residential Buildings,detached houses with small gardens along curving streets,individual homes and private yards on winding suburban roads,0.38503304049804243,0.4633948585056671,0.8926326304326215,False,False
+Residential Buildings,ribbon settlement of houses along a single street,individual homes and private yards on winding suburban roads,0.39246789485990746,0.49121234754989307,0.8793552286157305,True,False
+Residential Buildings,compact village houses with irregular narrow lanes,rectangular urban blocks of homes on an orthogonal street grid,0.3947573226136177,0.48061505881192784,0.8845045326579546,False,False
+Residential Buildings,compact village houses with irregular narrow lanes,individual homes and private yards on winding suburban roads,0.4119707905286669,0.5109576287432858,0.8694611483830545,True,False
+Residential Buildings,low-rise homes with bright roofs on small fenced plots,ribbon settlement of houses along a single street,0.45527748492345915,0.4829988111808149,0.883356066476338,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,ribbon settlement of houses along a single street,0.4684200575062511,0.4982348163492634,0.8758810417546089,True,False
+Residential Buildings,detached houses with small gardens along curving streets,low-rise homes with bright roofs on small fenced plots,0.47472898761267723,0.5061170697919745,0.871922762178867,True,False
+Residential Buildings,apartment blocks around open communal courtyards,compact village houses with irregular narrow lanes,0.4782000848257189,0.5285257659490483,0.8603302256695766,True,False
+Residential Buildings,compact village houses with irregular narrow lanes,low-rise homes with bright roofs on small fenced plots,0.4817708076321691,0.5040949696679882,0.8729441068151587,True,False
+Residential Buildings,rectangular urban blocks of homes on an orthogonal street grid,low-rise homes with bright roofs on small fenced plots,0.48324223233390284,0.5008475218941552,0.874575872826088,True,False
+Residential Buildings,detached houses with small gardens along curving streets,ribbon settlement of houses along a single street,0.4869668036947614,0.49257248472810433,0.8786861533471038,True,False
+Residential Buildings,detached houses with small gardens along curving streets,suburban cul-de-sacs with spaced houses and lawns,0.4963734618352348,0.5132756779117885,0.8682740017352166,False,False
+Residential Buildings,suburban cul-de-sacs with spaced houses and lawns,compact village houses with irregular narrow lanes,0.5000152518526665,0.5493101799590401,0.8491290952909725,False,False
+Residential Buildings,rectangular urban blocks of homes on an orthogonal street grid,ribbon settlement of houses along a single street,0.5013710646848695,0.5117204709213198,0.8690710460963165,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,low-rise homes with bright roofs on small fenced plots,0.5036195851948297,0.5267080095125738,0.8612893708671138,False,False
+Residential Buildings,low-rise homes with bright roofs on small fenced plots,individual homes and private yards on winding suburban roads,0.5095336526489994,0.5431307897277455,0.8525045130768873,False,False
+Residential Buildings,suburban cul-de-sacs with spaced houses and lawns,low-rise homes with bright roofs on small fenced plots,0.5226987602707995,0.5457198315364307,0.8510949078117098,False,False
+Residential Buildings,apartment blocks around open communal courtyards,individual homes and private yards on winding suburban roads,0.5232513256202307,0.5684359400744773,0.8384403237359992,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,rectangular urban blocks of homes on an orthogonal street grid,0.532814103294972,0.5370608792146276,0.855782814516975,False,False
+Residential Buildings,detached houses with small gardens along curving streets,closely packed rows of terraced houses with repeated narrow roofs,0.5439045620833352,0.5558779235781514,0.8454998889740188,False,False
+Residential Buildings,suburban cul-de-sacs with spaced houses and lawns,ribbon settlement of houses along a single street,0.5530424952782473,0.5560627900256667,0.8453970352086584,False,False
+Residential Buildings,rectangular urban blocks of homes on an orthogonal street grid,individual homes and private yards on winding suburban roads,0.5563422028220626,0.5917672119532769,0.8249057978794597,False,False
+Residential Buildings,apartment blocks around open communal courtyards,ribbon settlement of houses along a single street,0.579637246336472,0.5846157085554959,0.8291122212006024,False,False
+Residential Buildings,detached houses with small gardens along curving streets,rectangular urban blocks of homes on an orthogonal street grid,0.5852962664738494,0.5881600864533939,0.82703383669675,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,apartment blocks around open communal courtyards,0.5862015318247566,0.5973132897003258,0.821608443751296,False,False
+Residential Buildings,detached houses with small gardens along curving streets,apartment blocks around open communal courtyards,0.5867415266772951,0.592525216000672,0.8244569328160989,False,False
+Residential Buildings,suburban cul-de-sacs with spaced houses and lawns,rectangular urban blocks of homes on an orthogonal street grid,0.5877975656841236,0.6057372686212513,0.816541129778324,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,suburban cul-de-sacs with spaced houses and lawns,0.5904005028761603,0.6273380744277173,0.8032234608529696,False,False
+Residential Buildings,apartment blocks around open communal courtyards,suburban cul-de-sacs with spaced houses and lawns,0.5994890023258583,0.6079309987776613,0.8152099177085281,False,False
+Residential Buildings,apartment blocks around open communal courtyards,rectangular urban blocks of homes on an orthogonal street grid,0.6024676512873077,0.6051110883379389,0.8169202705732306,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,individual homes and private yards on winding suburban roads,0.6081178008671474,0.6259607703183122,0.8040866130518061,False,False
+Residential Buildings,apartment blocks around open communal courtyards,low-rise homes with bright roofs on small fenced plots,0.6170819082056328,0.6243118816685737,0.8051173483928082,False,False
+Residential Buildings,compact village houses with irregular narrow lanes,residential towers with long shadows and lawn between buildings,0.7015487650818469,0.7337812887983283,0.7307825088209685,False,False
+Residential Buildings,low-rise homes with bright roofs on small fenced plots,residential towers with long shadows and lawn between buildings,0.7323076838875163,0.7359533610385776,0.7291863667877421,False,False
+Residential Buildings,apartment blocks around open communal courtyards,residential towers with long shadows and lawn between buildings,0.7398924601045017,0.7405746694189616,0.7257746133753765,False,False
+Residential Buildings,residential towers with long shadows and lawn between buildings,individual homes and private yards on winding suburban roads,0.7408557579283388,0.7653261024476169,0.7071380415869923,False,False
+Residential Buildings,suburban cul-de-sacs with spaced houses and lawns,residential towers with long shadows and lawn between buildings,0.7455741002866115,0.7565816623281576,0.7137920918709573,False,False
+Residential Buildings,residential towers with long shadows and lawn between buildings,ribbon settlement of houses along a single street,0.7519199693666964,0.7596237757376122,0.7114858746232375,False,False
+Residential Buildings,detached houses with small gardens along curving streets,residential towers with long shadows and lawn between buildings,0.7525023016955145,0.7596034328636715,0.7115013414159296,False,False
+Residential Buildings,rectangular urban blocks of homes on an orthogonal street grid,residential towers with long shadows and lawn between buildings,0.7564926245799172,0.7588173879114375,0.7120981015002704,False,False
+Residential Buildings,closely packed rows of terraced houses with repeated narrow roofs,residential towers with long shadows and lawn between buildings,0.7667894633715886,0.7732482554208671,0.7010436249325477,False,False
+River,river junction where two channels merge,river crossing a built-up area between engineered banks,0.21305248377023947,0.3870417309687041,0.9250993420291667,False,True
+River,straightened watercourse between parallel banks,river crossing a built-up area between engineered banks,0.2952424383410598,0.4077256199624902,0.9168799162976702,False,True
+River,narrow winding water channel bordered by strips of trees,sinuous narrow waterway with wooded banks,0.32772489972560764,0.43691942924963034,0.904550710366613,False,True
+River,straightened watercourse between parallel banks,sinuous narrow waterway with wooded banks,0.3896491987516807,0.4814244921268846,0.8841152802334586,False,False
+River,wide meandering river with pale inner-bend sandbars,sinuous narrow waterway with wooded banks,0.4077891556367805,0.488678244945822,0.8805967700900721,False,False
+River,straightened watercourse between parallel banks,river junction where two channels merge,0.4503817980653688,0.47645099046396905,0.8864972666031807,False,True
+River,river crossing a built-up area between engineered banks,sinuous narrow waterway with wooded banks,0.4691258951176375,0.5460799007498565,0.8508983750663481,True,False
+River,wide meandering river with pale inner-bend sandbars,river crossing a built-up area between engineered banks,0.49070679790023347,0.5337452342896594,0.8575579519095697,False,False
+River,straightened watercourse between parallel banks,shallow bright channel with patches of exposed bed,0.49935436114963183,0.5262122025871734,0.8615503498710113,False,False
+River,wide meandering river with pale inner-bend sandbars,muddy river reach winding through a flat floodplain,0.5092418189463408,0.5188578137788034,0.8653932792566796,False,False
+River,wide meandering river with pale inner-bend sandbars,dark sinuous channel with a visible oxbow nearby,0.5094200148606259,0.5150924537021894,0.8673398474325972,False,False
+River,river junction where two channels merge,shallow bright channel with patches of exposed bed,0.5175576079046049,0.5464352456125028,0.8507042380232588,False,False
+River,muddy river reach winding through a flat floodplain,river crossing a built-up area between engineered banks,0.52548122193405,0.552777672325682,0.8472184376415393,False,False
+River,narrow winding water channel bordered by strips of trees,straightened watercourse between parallel banks,0.5285111960686302,0.5392825903146926,0.8545871509029956,False,False
+River,wide meandering river with pale inner-bend sandbars,straightened watercourse between parallel banks,0.5306309234333518,0.535711864781393,0.8565063854146908,False,False
+River,wide meandering river with pale inner-bend sandbars,river junction where two channels merge,0.539304418448841,0.5707198036807724,0.8371394251919833,False,False
+River,straightened watercourse between parallel banks,muddy river reach winding through a flat floodplain,0.5404589502244169,0.5587210216656803,0.8439154721023059,False,False
+River,narrow winding water channel bordered by strips of trees,river crossing a built-up area between engineered banks,0.5420728946429871,0.5735117699902716,0.8355420848771322,False,False
+River,wide meandering river with pale inner-bend sandbars,braided river channels separated by exposed gravel bars,0.5446623171530568,0.5636620821528399,0.8411424908874823,False,False
+River,dark sinuous channel with a visible oxbow nearby,sinuous narrow waterway with wooded banks,0.549811907190162,0.5855189169474909,0.8285838289061903,False,False
+River,river junction where two channels merge,muddy river reach winding through a flat floodplain,0.5537824590834777,0.5745427707521934,0.8349503503162962,False,False
+River,shallow bright channel with patches of exposed bed,river crossing a built-up area between engineered banks,0.5638347211602135,0.5828994669864926,0.8301140496648276,False,False
+River,river junction where two channels merge,sinuous narrow waterway with wooded banks,0.5683732591135952,0.5933679569214025,0.8239572707929567,False,False
+River,narrow winding water channel bordered by strips of trees,wide meandering river with pale inner-bend sandbars,0.570504730927287,0.5717244120933328,0.8365655379079873,False,False
+River,braided river channels separated by exposed gravel bars,muddy river reach winding through a flat floodplain,0.5741970922154587,0.5767039033694887,0.8337063419145239,False,False
+River,muddy river reach winding through a flat floodplain,sinuous narrow waterway with wooded banks,0.5752658664775003,0.6015679727520614,0.8190580463906301,False,False
+River,narrow winding water channel bordered by strips of trees,river junction where two channels merge,0.5783861308405621,0.6194006009325425,0.8081714406936837,False,False
+River,braided river channels separated by exposed gravel bars,straightened watercourse between parallel banks,0.585967481844253,0.6098233719410439,0.8140577572446849,False,False
+River,dark sinuous channel with a visible oxbow nearby,shallow bright channel with patches of exposed bed,0.5877031318802738,0.5891118506927814,0.8264735835480954,False,False
+River,straightened watercourse between parallel banks,dark sinuous channel with a visible oxbow nearby,0.5888753420525933,0.6024209647544678,0.8185445233867532,False,False
+River,braided river channels separated by exposed gravel bars,river crossing a built-up area between engineered banks,0.6024106871179911,0.6361846606685009,0.7976345215170706,False,False
+River,narrow winding water channel bordered by strips of trees,muddy river reach winding through a flat floodplain,0.6112985488295641,0.6217365163376033,0.8067218674053179,False,False
+River,narrow winding water channel bordered by strips of trees,braided river channels separated by exposed gravel bars,0.6154658824552124,0.6371642836311082,0.7970108207111364,False,False
+River,shallow bright channel with patches of exposed bed,sinuous narrow waterway with wooded banks,0.6207732590608711,0.644708158167218,0.7921756835264164,False,False
+River,wide meandering river with pale inner-bend sandbars,shallow bright channel with patches of exposed bed,0.6208068252980988,0.6316210225398367,0.8005273654781626,False,False
+River,river junction where two channels merge,dark sinuous channel with a visible oxbow nearby,0.6275509921938978,0.6489003921785281,0.7894641591901046,False,False
+River,dark sinuous channel with a visible oxbow nearby,river crossing a built-up area between engineered banks,0.6294456954838304,0.6513865555108852,0.7878477634489993,False,False
+River,muddy river reach winding through a flat floodplain,dark sinuous channel with a visible oxbow nearby,0.6445504278604696,0.6450531749681302,0.7919532417742428,False,False
+River,braided river channels separated by exposed gravel bars,sinuous narrow waterway with wooded banks,0.6590966434102973,0.6707514596205347,0.7750462666191837,False,False
+River,braided river channels separated by exposed gravel bars,river junction where two channels merge,0.6644774623820346,0.6758882368611587,0.7715875612640368,False,False
+River,narrow winding water channel bordered by strips of trees,shallow bright channel with patches of exposed bed,0.6686883808999757,0.6799139419703926,0.7688584598552256,False,False
+River,narrow winding water channel bordered by strips of trees,dark sinuous channel with a visible oxbow nearby,0.6755578159151063,0.6812670086003093,0.7679376174222501,False,False
+River,braided river channels separated by exposed gravel bars,dark sinuous channel with a visible oxbow nearby,0.6792931754857592,0.6837939933999451,0.7662128959371333,False,False
+River,muddy river reach winding through a flat floodplain,shallow bright channel with patches of exposed bed,0.6943475569649362,0.6948630683283474,0.7585826573513607,False,False
+River,braided river channels separated by exposed gravel bars,shallow bright channel with patches of exposed bed,0.7179719926739959,0.7206689995080073,0.7403180633883477,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,wide uninterrupted dark-blue open water,0.16626083548287526,0.2928277687202984,0.9571259490400665,False,True
+Sea or Lake,large lake with wooded irregular shores and coves,lake surrounding a small island or peninsula,0.23137438931972787,0.37969182086865916,0.9279170740492566,False,True
+Sea or Lake,large lake with wooded irregular shores and coves,large lake edge with irregular shallow green margins,0.3398481808469112,0.43199646713172,0.9066894968818795,False,False
+Sea or Lake,large lake with wooded irregular shores and coves,coastal water with a pale shallows band near a beach,0.469721098060768,0.5288122296677166,0.8601788070816079,True,False
+Sea or Lake,coastal water with a pale shallows band near a beach,sea meeting a straight sandy coastline,0.483955463524361,0.4872263217148428,0.881305266465382,False,True
+Sea or Lake,broad open deep-blue water with no visible shoreline,large lake with wooded irregular shores and coves,0.4843871818654573,0.5410142629790221,0.8536517990644786,True,False
+Sea or Lake,lake surrounding a small island or peninsula,large lake edge with irregular shallow green margins,0.5038103847799016,0.5049934058049627,0.87249082835401,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,coastal water with a pale shallows band near a beach,0.5052834144088724,0.5290342792318585,0.860061389493038,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,coastal water with a pale shallows band near a beach,0.5102239666490006,0.5120703611760568,0.8688919996125312,False,False
+Sea or Lake,large lake with wooded irregular shores and coves,smooth dark inland water bordered by rocky shoreline,0.5183948868957582,0.5561621107703247,0.8453418719253902,False,False
+Sea or Lake,large lake with wooded irregular shores and coves,large open water with wind-streaked textured surface,0.5249544282089955,0.5513050918197472,0.8480313784137192,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,large open water with wind-streaked textured surface,0.5255062068473871,0.5391317653951571,0.8546685299074048,False,False
+Sea or Lake,large open water with wind-streaked textured surface,wide uninterrupted dark-blue open water,0.5389463207982441,0.55454158227192,0.8462418319816618,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,broad flat turquoise coastal water with no narrow channel,0.5413649307657485,0.5620232704357897,0.8420649521672132,False,False
+Sea or Lake,large lake with wooded irregular shores and coves,wide uninterrupted dark-blue open water,0.5450877552432059,0.5920354350873828,0.8247469923178223,False,False
+Sea or Lake,coastal water with a pale shallows band near a beach,large open water with wind-streaked textured surface,0.5473216308763565,0.5535359726236838,0.8467990024090635,False,False
+Sea or Lake,large open water with wind-streaked textured surface,large lake edge with irregular shallow green margins,0.5476344660958549,0.5567024335443852,0.8450412156305109,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,lake surrounding a small island or peninsula,0.5548143049992649,0.5791525990247917,0.8322911765774954,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,smooth dark inland water bordered by rocky shoreline,0.5551127167105151,0.5715938459152492,0.8366402858990939,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,sea meeting a straight sandy coastline,0.5692803157206071,0.5887182244417476,0.826705458089515,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,large open water with wind-streaked textured surface,0.578044797835674,0.5794034335377384,0.8321458939545897,False,False
+Sea or Lake,large open water with wind-streaked textured surface,lake surrounding a small island or peninsula,0.5782315106451862,0.5936900974713349,0.8237660922473831,False,False
+Sea or Lake,coastal water with a pale shallows band near a beach,lake surrounding a small island or peninsula,0.5823622365632777,0.5856219068453148,0.8285235129343431,False,False
+Sea or Lake,broad open deep-blue water with no visible shoreline,large lake edge with irregular shallow green margins,0.5849676156084092,0.6026719556505539,0.8183932572147365,False,False
+Sea or Lake,large open water with wind-streaked textured surface,sea meeting a straight sandy coastline,0.5882066993704672,0.5894501656573274,0.8262742981967746,False,False
+Sea or Lake,coastal water with a pale shallows band near a beach,broad flat turquoise coastal water with no narrow channel,0.5886147227719368,0.5943077325640759,0.82339916869699,False,False
+Sea or Lake,large lake with wooded irregular shores and coves,sea meeting a straight sandy coastline,0.5894491845971213,0.6182822581041488,0.808863527051709,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,lake surrounding a small island or peninsula,0.5971709190236776,0.6054352858343193,0.8167241036052351,False,False
+Sea or Lake,broad flat turquoise coastal water with no narrow channel,sea meeting a straight sandy coastline,0.6039697146940332,0.604521377375109,0.8172769695281803,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,sea meeting a straight sandy coastline,0.609293580689179,0.6096301754890144,0.8141755597668496,False,False
+Sea or Lake,lake surrounding a small island or peninsula,wide uninterrupted dark-blue open water,0.6114433824757809,0.6284875092365332,0.8025017235024408,False,False
+Sea or Lake,coastal water with a pale shallows band near a beach,large lake edge with irregular shallow green margins,0.611998458992348,0.6128792887527359,0.8121894677543713,False,False
+Sea or Lake,lake surrounding a small island or peninsula,sea meeting a straight sandy coastline,0.6209407464818312,0.6317488411311123,0.8004467308778753,False,False
+Sea or Lake,large lake edge with irregular shallow green margins,wide uninterrupted dark-blue open water,0.6223088874360634,0.6353411295567275,0.7981707799048885,False,False
+Sea or Lake,coastal water with a pale shallows band near a beach,wide uninterrupted dark-blue open water,0.6325107959383752,0.6399857057573977,0.7952091270868566,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,wide uninterrupted dark-blue open water,0.6344277726586929,0.6430249265294637,0.7932594752536057,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,large lake edge with irregular shallow green margins,0.6361743834408903,0.6395492071024668,0.795488409341667,False,False
+Sea or Lake,large lake with wooded irregular shores and coves,broad flat turquoise coastal water with no narrow channel,0.6403215517682319,0.6602145280100465,0.7820583893355746,False,False
+Sea or Lake,broad flat turquoise coastal water with no narrow channel,large lake edge with irregular shallow green margins,0.6415750568735787,0.6505224812065665,0.7884102363964868,False,False
+Sea or Lake,lake surrounding a small island or peninsula,broad flat turquoise coastal water with no narrow channel,0.6475335563235787,0.6627646867216866,0.7803715134689263,False,False
+Sea or Lake,broad flat turquoise coastal water with no narrow channel,wide uninterrupted dark-blue open water,0.6606142420498694,0.6689369401538179,0.7762616705512375,False,False
+Sea or Lake,large lake edge with irregular shallow green margins,sea meeting a straight sandy coastline,0.6712795250542135,0.6764173578576576,0.7712297662300464,False,False
+Sea or Lake,smooth dark inland water bordered by rocky shoreline,broad flat turquoise coastal water with no narrow channel,0.6854671447093899,0.6867568265149292,0.7641825642562515,False,False
+Sea or Lake,large open water with wind-streaked textured surface,broad flat turquoise coastal water with no narrow channel,0.6962923857277147,0.696962700312301,0.7571215427186401,False,False
+Sea or Lake,sea meeting a straight sandy coastline,wide uninterrupted dark-blue open water,0.6981105584351383,0.7043533751834937,0.7519431484977769,False,False

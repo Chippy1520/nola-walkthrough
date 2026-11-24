@@ -1,0 +1,4 @@
+seed,confidence_topk,visual_coverage,delta_correct
+42,143,148,5
+123,143,145,2
+2025,146,155,9

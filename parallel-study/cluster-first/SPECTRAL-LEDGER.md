@@ -1,0 +1,9 @@
+# Sparse vision-language spectral anchor rescue
+
+Verified full EuroSAT: CLIP-only expansion 67.278%, direct DINO seed retrieval 68.019%, DINO spectral 67.519%, CLIP-reweighted spectral 67.278%. Both spectral methods selected 83 correct additions out of 128; direct retrieval selected 96. See `spectral_eurosat/verification.json`.
+
+Verified CIFAR-100 coarse pilot: all original classes met the target, so scarcity was simulated for large carnivores and non-insect invertebrates by retaining 4 original anchors per target class and reserving the removed originals from retrieval. CLIP-only expansion 65.430%, direct DINO retrieval 64.062%, DINO spectral 64.355%, CLIP-reweighted spectral 63.867%. Correct additions out of 40: 28, 38, 35, and 34 respectively. See `spectral_cifar100/verification.json`. Direct contrast of CLIP reweighting vs DINO-only spectral: EuroSAT −0.24 pp (paired 95% interval −0.61 to +0.13); CIFAR pilot −0.49 pp (−1.37 to +0.39). Neither result supports using the reweighting as a default.
+
+Run `spectral_rescue.py {eurosat,cifar100}` in the research-lab venv; then run `verify_clustering.py spectral_<dataset>`. EuroSAT full 13,500/5,400; CIFAR-100 coarse pilot 4,096/1,024 deterministic manifest prefixes. Original single CDE, frozen encoders and independently trained 50-epoch DINO heads, no test or CLIP prompt training. The two spectral arms use the same symmetric 20-NN graph, spectral embedding, clustering, and leave-one-out cluster bonus, but one reweights edges by bounded overlap between the full CLIP posterior distributions. This is an inspired adaptation, not an NTK spectral paper reproduction. Both share the same anchor budget and candidate ownership as CLIP expansion and direct DINO seed retrieval.
+
+EuroSAT real-image smoke verified. Full EuroSAT worker proc_75c3aab141e8; CIFAR-100 feature extraction proc_6046f629e45a, downstream worker proc_1e9f04c0212e. Separate run logs and report directories.

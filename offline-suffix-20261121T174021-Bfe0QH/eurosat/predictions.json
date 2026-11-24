@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "AnnualCrop/AnnualCrop_63.jpg",
+    "label": 0,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2489.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 8,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1528.jpg",
+    "label": 0,
+    "baseline_cde": 4,
+    "baseline_teacher": 6,
+    "baseline_student": 0,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_610.jpg",
+    "label": 0,
+    "baseline_cde": 0,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2914.jpg",
+    "label": 0,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1402.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1115.jpg",
+    "label": 0,
+    "baseline_cde": 7,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 7,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1119.jpg",
+    "label": 0,
+    "baseline_cde": 3,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 3,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1342.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_903.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2797.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2952.jpg",
+    "label": 0,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 8,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1146.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1101.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1576.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2887.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_485.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_140.jpg",
+    "label": 0,
+    "baseline_cde": 0,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1364.jpg",
+    "label": 0,
+    "baseline_cde": 7,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1592.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 8,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2022.jpg",
+    "label": 0,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2855.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2842.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1284.jpg",
+    "label": 0,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_484.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2370.jpg",
+    "label": 0,
+    "baseline_cde": 0,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_1820.jpg",
+    "label": 0,
+    "baseline_cde": 7,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 7,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2417.jpg",
+    "label": 0,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2776.jpg",
+    "label": 0,
+    "baseline_cde": 7,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 7,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "AnnualCrop/AnnualCrop_2849.jpg",
+    "label": 0,
+    "baseline_cde": 0,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 0,
+    "suffix_student": 6
+  },
+  {
+    "id": "Forest/Forest_61.jpg",
+    "label": 1,
+    "baseline_cde": 8,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1828.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_2965.jpg",
+    "label": 1,
+    "baseline_cde": 4,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 4,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1505.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_2373.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_2337.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1729.jpg",
+    "label": 1,
+    "baseline_cde": 6,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_2180.jpg",
+    "label": 1,
+    "baseline_cde": 3,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 3,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1803.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_137.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_937.jpg",
+    "label": 1,
+    "baseline_cde": 8,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1121.jpg",
+    "label": 1,
+    "baseline_cde": 4,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 3,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_397.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_670.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1512.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_2752.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "Forest/Forest_426.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "Forest/Forest_1493.jpg",
+    "label": 1,
+    "baseline_cde": 4,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 4,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1609.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 9,
+    "baseline_student": 5,
+    "suffix_cde": 1,
+    "suffix_teacher": 9,
+    "suffix_student": 5
+  },
+  {
+    "id": "Forest/Forest_1751.jpg",
+    "label": 1,
+    "baseline_cde": 3,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 3,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "Forest/Forest_1761.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1990.jpg",
+    "label": 1,
+    "baseline_cde": 6,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 6,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1996.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_22.jpg",
+    "label": 1,
+    "baseline_cde": 6,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 6,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_565.jpg",
+    "label": 1,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_288.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1460.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1865.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1247.jpg",
+    "label": 1,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Forest/Forest_1935.jpg",
+    "label": 1,
+    "baseline_cde": 8,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1419.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2695.jpg",
+    "label": 2,
+    "baseline_cde": 7,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 7,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1606.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2991.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1001.jpg",
+    "label": 2,
+    "baseline_cde": 8,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_958.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2337.jpg",
+    "label": 2,
+    "baseline_cde": 8,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1817.jpg",
+    "label": 2,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2249.jpg",
+    "label": 2,
+    "baseline_cde": 6,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 6,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_623.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2158.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2068.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2291.jpg",
+    "label": 2,
+    "baseline_cde": 8,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2020.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2595.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2334.jpg",
+    "label": 2,
+    "baseline_cde": 8,
+    "baseline_teacher": 5,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 5
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1929.jpg",
+    "label": 2,
+    "baseline_cde": 8,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 8,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_649.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_737.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_968.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_653.jpg",
+    "label": 2,
+    "baseline_cde": 3,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 3,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1113.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 9,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 9,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_407.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2340.jpg",
+    "label": 2,
+    "baseline_cde": 5,
+    "baseline_teacher": 8,
+    "baseline_student": 1,
+    "suffix_cde": 5,
+    "suffix_teacher": 8,
+    "suffix_student": 5
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_2723.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 8,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 8,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_129.jpg",
+    "label": 2,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 1,
+    "suffix_cde": 3,
+    "suffix_teacher": 6,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_259.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1603.jpg",
+    "label": 2,
+    "baseline_cde": 9,
+    "baseline_teacher": 8,
+    "baseline_student": 1,
+    "suffix_cde": 9,
+    "suffix_teacher": 8,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1992.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "HerbaceousVegetation/HerbaceousVegetation_1280.jpg",
+    "label": 2,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "Highway/Highway_15.jpg",
+    "label": 3,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 0,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "Highway/Highway_2251.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1445.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_2392.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 9,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 9,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1355.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_578.jpg",
+    "label": 3,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Highway/Highway_1169.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 0,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_309.jpg",
+    "label": 3,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "Highway/Highway_90.jpg",
+    "label": 3,
+    "baseline_cde": 6,
+    "baseline_teacher": 3,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 3,
+    "suffix_student": 6
+  },
+  {
+    "id": "Highway/Highway_1670.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 0,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1655.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_848.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 8,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 8,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1398.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1900.jpg",
+    "label": 3,
+    "baseline_cde": 1,
+    "baseline_teacher": 8,
+    "baseline_student": 3,
+    "suffix_cde": 1,
+    "suffix_teacher": 8,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1698.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_2066.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1530.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1085.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 4,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 4,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1518.jpg",
+    "label": 3,
+    "baseline_cde": 4,
+    "baseline_teacher": 3,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 3,
+    "suffix_student": 4
+  },
+  {
+    "id": "Highway/Highway_568.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 3,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Highway/Highway_611.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_416.jpg",
+    "label": 3,
+    "baseline_cde": 4,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_656.jpg",
+    "label": 3,
+    "baseline_cde": 6,
+    "baseline_teacher": 3,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_484.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1650.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 5,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_983.jpg",
+    "label": 3,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_1833.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_101.jpg",
+    "label": 3,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 3,
+    "suffix_cde": 6,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_446.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Highway/Highway_104.jpg",
+    "label": 3,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 3,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "Industrial/Industrial_1759.jpg",
+    "label": 4,
+    "baseline_cde": 7,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 7,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2086.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2018.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_1411.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_1029.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_434.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_24.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2031.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_23.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_481.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2375.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_1836.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_121.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_45.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2318.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_723.jpg",
+    "label": 4,
+    "baseline_cde": 7,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 7,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_1243.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_335.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2155.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_946.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2159.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_746.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 0,
+    "suffix_cde": 7,
+    "suffix_teacher": 4,
+    "suffix_student": 6
+  },
+  {
+    "id": "Industrial/Industrial_1779.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_2003.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_288.jpg",
+    "label": 4,
+    "baseline_cde": 7,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 7,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_1221.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_655.jpg",
+    "label": 4,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Industrial/Industrial_291.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_181.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Industrial/Industrial_1846.jpg",
+    "label": 4,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "Pasture/Pasture_1220.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_304.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_793.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1392.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_380.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1182.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1161.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1892.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "Pasture/Pasture_1522.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_114.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_735.jpg",
+    "label": 5,
+    "baseline_cde": 1,
+    "baseline_teacher": 5,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1979.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1528.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1422.jpg",
+    "label": 5,
+    "baseline_cde": 1,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 1,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_139.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_631.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 6
+  },
+  {
+    "id": "Pasture/Pasture_1372.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 5,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1306.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_29.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_771.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_222.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1328.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1577.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_105.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1412.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_488.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_177.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_465.jpg",
+    "label": 5,
+    "baseline_cde": 1,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 1,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1850.jpg",
+    "label": 5,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "Pasture/Pasture_1729.jpg",
+    "label": 5,
+    "baseline_cde": 5,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 5,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_565.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2287.jpg",
+    "label": 6,
+    "baseline_cde": 7,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 7,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2142.jpg",
+    "label": 6,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1557.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_605.jpg",
+    "label": 6,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1144.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1254.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2419.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2429.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 4,
+    "baseline_student": 6,
+    "suffix_cde": 7,
+    "suffix_teacher": 4,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_951.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_85.jpg",
+    "label": 6,
+    "baseline_cde": 7,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 7,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_356.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_681.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 4,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2482.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1381.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1229.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 4,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2032.jpg",
+    "label": 6,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_845.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_285.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_580.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_376.jpg",
+    "label": 6,
+    "baseline_cde": 0,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2361.jpg",
+    "label": 6,
+    "baseline_cde": 7,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 7,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1840.jpg",
+    "label": 6,
+    "baseline_cde": 1,
+    "baseline_teacher": 1,
+    "baseline_student": 1,
+    "suffix_cde": 1,
+    "suffix_teacher": 1,
+    "suffix_student": 1
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_503.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1705.jpg",
+    "label": 6,
+    "baseline_cde": 4,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_326.jpg",
+    "label": 6,
+    "baseline_cde": 7,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 7,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1359.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_2285.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 7,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 7
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_1350.jpg",
+    "label": 6,
+    "baseline_cde": 0,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 0,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "PermanentCrop/PermanentCrop_301.jpg",
+    "label": 6,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "Residential/Residential_2527.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_1204.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2158.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_85.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_1871.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_870.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_659.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_1262.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_159.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_298.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2919.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_688.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 1,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 1,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2663.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_580.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_1337.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_1770.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2253.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_505.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2580.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2640.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_1147.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2770.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2200.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2418.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_678.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_289.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_291.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2048.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_951.jpg",
+    "label": 7,
+    "baseline_cde": 3,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 3,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "Residential/Residential_2639.jpg",
+    "label": 7,
+    "baseline_cde": 7,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 7,
+    "suffix_teacher": 7,
+    "suffix_student": 7
+  },
+  {
+    "id": "River/River_2112.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_994.jpg",
+    "label": 8,
+    "baseline_cde": 3,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 3,
+    "suffix_teacher": 4,
+    "suffix_student": 3
+  },
+  {
+    "id": "River/River_599.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "River/River_636.jpg",
+    "label": 8,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "River/River_294.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1279.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_2480.jpg",
+    "label": 8,
+    "baseline_cde": 1,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 1,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_851.jpg",
+    "label": 8,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "River/River_1157.jpg",
+    "label": 8,
+    "baseline_cde": 6,
+    "baseline_teacher": 8,
+    "baseline_student": 5,
+    "suffix_cde": 6,
+    "suffix_teacher": 8,
+    "suffix_student": 5
+  },
+  {
+    "id": "River/River_256.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 4,
+    "baseline_student": 4,
+    "suffix_cde": 4,
+    "suffix_teacher": 4,
+    "suffix_student": 4
+  },
+  {
+    "id": "River/River_387.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 5,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 5,
+    "suffix_student": 6
+  },
+  {
+    "id": "River/River_1495.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1243.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1206.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 4,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "River/River_1311.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1070.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 7,
+    "baseline_student": 7,
+    "suffix_cde": 4,
+    "suffix_teacher": 7,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1614.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 5,
+    "baseline_student": 5,
+    "suffix_cde": 8,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "River/River_1715.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 4,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_2451.jpg",
+    "label": 8,
+    "baseline_cde": 3,
+    "baseline_teacher": 3,
+    "baseline_student": 8,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1935.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 4,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 4,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1185.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 8,
+    "suffix_teacher": 5,
+    "suffix_student": 5
+  },
+  {
+    "id": "River/River_876.jpg",
+    "label": 8,
+    "baseline_cde": 3,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 3,
+    "suffix_teacher": 8,
+    "suffix_student": 3
+  },
+  {
+    "id": "River/River_2421.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 8,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 8,
+    "suffix_student": 5
+  },
+  {
+    "id": "River/River_453.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_356.jpg",
+    "label": 8,
+    "baseline_cde": 7,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 7,
+    "suffix_teacher": 8,
+    "suffix_student": 8
+  },
+  {
+    "id": "River/River_1432.jpg",
+    "label": 8,
+    "baseline_cde": 4,
+    "baseline_teacher": 3,
+    "baseline_student": 8,
+    "suffix_cde": 3,
+    "suffix_teacher": 3,
+    "suffix_student": 3
+  },
+  {
+    "id": "River/River_163.jpg",
+    "label": 8,
+    "baseline_cde": 6,
+    "baseline_teacher": 0,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 5,
+    "suffix_student": 6
+  },
+  {
+    "id": "River/River_1044.jpg",
+    "label": 8,
+    "baseline_cde": 6,
+    "baseline_teacher": 6,
+    "baseline_student": 6,
+    "suffix_cde": 6,
+    "suffix_teacher": 6,
+    "suffix_student": 6
+  },
+  {
+    "id": "River/River_2263.jpg",
+    "label": 8,
+    "baseline_cde": 8,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 8,
+    "suffix_teacher": 8,
+    "suffix_student": 6
+  },
+  {
+    "id": "River/River_2330.jpg",
+    "label": 8,
+    "baseline_cde": 3,
+    "baseline_teacher": 8,
+    "baseline_student": 8,
+    "suffix_cde": 3,
+    "suffix_teacher": 8,
+    "suffix_student": 1
+  },
+  {
+    "id": "SeaLake/SeaLake_1785.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_743.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_119.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_517.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_700.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_823.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_713.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_2530.jpg",
+    "label": 9,
+    "baseline_cde": 4,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 3,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_2913.jpg",
+    "label": 9,
+    "baseline_cde": 3,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 3,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1280.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_535.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1815.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1184.jpg",
+    "label": 9,
+    "baseline_cde": 8,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 8,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1047.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 1,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1514.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_24.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_583.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1062.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_692.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_587.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_2724.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_940.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1423.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_2131.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1103.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1255.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 5,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1056.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_1915.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_2455.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  },
+  {
+    "id": "SeaLake/SeaLake_35.jpg",
+    "label": 9,
+    "baseline_cde": 9,
+    "baseline_teacher": 9,
+    "baseline_student": 9,
+    "suffix_cde": 9,
+    "suffix_teacher": 9,
+    "suffix_student": 9
+  }
+]

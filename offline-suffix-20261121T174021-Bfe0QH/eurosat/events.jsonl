@@ -1,0 +1,36 @@
+{"stage": "start", "elapsed_s": 0.1, "pid": 166889, "gpu": "NVIDIA GeForce GTX 1050 Ti", "free_bytes": 3680043008}
+{"stage": "text_encoded", "elapsed_s": 7.3, "arm": "baseline", "counts": [31, 31, 31, 31, 31, 31, 31, 31, 31, 31]}
+{"stage": "text_encoded", "elapsed_s": 24.1, "arm": "suffix", "counts": [150, 150, 150, 150, 150, 150, 150, 150, 150, 150]}
+{"stage": "clip_cached", "elapsed_s": 29.5, "split": "train", "n": 540}
+{"stage": "clip_cached", "elapsed_s": 31.5, "split": "val", "n": 200}
+{"stage": "clip_cached", "elapsed_s": 34.5, "split": "test", "n": 300}
+{"stage": "dino_cached", "elapsed_s": 51.3, "split": "train", "n": 540}
+{"stage": "dino_cached", "elapsed_s": 56.9, "split": "val", "n": 200}
+{"stage": "dino_cached", "elapsed_s": 65.4, "split": "test", "n": 300}
+{"stage": "teacher_done", "elapsed_s": 65.7, "arm": "baseline", "anchors": {"correct": 67, "n": 90, "accuracy": 0.7444444444444445}, "anchors_per_class": [10, 10, 0, 10, 10, 10, 10, 10, 10, 10], "updates": 150, "val": {"correct": 121, "n": 200, "accuracy": 0.605}, "test": {"correct": 192, "n": 300, "accuracy": 0.64}}
+{"stage": "teacher_done", "elapsed_s": 65.8, "arm": "suffix", "anchors": {"correct": 67, "n": 84, "accuracy": 0.7976190476190477}, "anchors_per_class": [3, 10, 1, 10, 10, 10, 10, 10, 10, 10], "updates": 150, "val": {"correct": 130, "n": 200, "accuracy": 0.65}, "test": {"correct": 193, "n": 300, "accuracy": 0.6433333333333333}}
+{"stage": "student_epoch_start", "elapsed_s": 65.9, "arm": "baseline", "epoch": 1}
+{"stage": "student_progress", "elapsed_s": 72.5, "arm": "baseline", "epoch": 1, "images": 128, "n_train": 540, "updates": 4}
+{"stage": "student_progress", "elapsed_s": 78.9, "arm": "baseline", "epoch": 1, "images": 256, "n_train": 540, "updates": 8}
+{"stage": "student_progress", "elapsed_s": 85.3, "arm": "baseline", "epoch": 1, "images": 384, "n_train": 540, "updates": 12}
+{"stage": "student_progress", "elapsed_s": 91.7, "arm": "baseline", "epoch": 1, "images": 512, "n_train": 540, "updates": 16}
+{"stage": "student_epoch_done", "elapsed_s": 96.7, "arm": "baseline", "epoch": 1, "val": {"correct": 112, "n": 200, "accuracy": 0.56}, "updates": 17, "amp_skips": 0, "seconds": 30.8, "peak_mib": 939}
+{"stage": "student_epoch_start", "elapsed_s": 96.7, "arm": "suffix", "epoch": 1}
+{"stage": "student_progress", "elapsed_s": 103.2, "arm": "suffix", "epoch": 1, "images": 128, "n_train": 540, "updates": 4}
+{"stage": "student_progress", "elapsed_s": 109.6, "arm": "suffix", "epoch": 1, "images": 256, "n_train": 540, "updates": 8}
+{"stage": "student_progress", "elapsed_s": 116.0, "arm": "suffix", "epoch": 1, "images": 384, "n_train": 540, "updates": 12}
+{"stage": "student_progress", "elapsed_s": 122.3, "arm": "suffix", "epoch": 1, "images": 512, "n_train": 540, "updates": 16}
+{"stage": "student_epoch_done", "elapsed_s": 127.4, "arm": "suffix", "epoch": 1, "val": {"correct": 106, "n": 200, "accuracy": 0.53}, "updates": 17, "amp_skips": 0, "seconds": 30.7, "peak_mib": 939}
+{"stage": "student_epoch_start", "elapsed_s": 127.4, "arm": "baseline", "epoch": 2}
+{"stage": "student_progress", "elapsed_s": 134.0, "arm": "baseline", "epoch": 2, "images": 128, "n_train": 540, "updates": 4}
+{"stage": "student_progress", "elapsed_s": 140.5, "arm": "baseline", "epoch": 2, "images": 256, "n_train": 540, "updates": 8}
+{"stage": "student_progress", "elapsed_s": 146.8, "arm": "baseline", "epoch": 2, "images": 384, "n_train": 540, "updates": 12}
+{"stage": "student_progress", "elapsed_s": 153.3, "arm": "baseline", "epoch": 2, "images": 512, "n_train": 540, "updates": 16}
+{"stage": "student_epoch_done", "elapsed_s": 158.4, "arm": "baseline", "epoch": 2, "val": {"correct": 134, "n": 200, "accuracy": 0.67}, "updates": 17, "amp_skips": 0, "seconds": 31.0, "peak_mib": 939}
+{"stage": "student_epoch_start", "elapsed_s": 158.4, "arm": "suffix", "epoch": 2}
+{"stage": "student_progress", "elapsed_s": 164.9, "arm": "suffix", "epoch": 2, "images": 128, "n_train": 540, "updates": 4}
+{"stage": "student_progress", "elapsed_s": 171.3, "arm": "suffix", "epoch": 2, "images": 256, "n_train": 540, "updates": 8}
+{"stage": "student_progress", "elapsed_s": 177.7, "arm": "suffix", "epoch": 2, "images": 384, "n_train": 540, "updates": 12}
+{"stage": "student_progress", "elapsed_s": 184.0, "arm": "suffix", "epoch": 2, "images": 512, "n_train": 540, "updates": 16}
+{"stage": "student_epoch_done", "elapsed_s": 189.2, "arm": "suffix", "epoch": 2, "val": {"correct": 136, "n": 200, "accuracy": 0.68}, "updates": 17, "amp_skips": 0, "seconds": 30.8, "peak_mib": 939}
+{"stage": "done", "elapsed_s": 207.0, "arms": {"baseline": {"cde": {"train": {"correct": 279, "n": 540, "accuracy": 0.5166666666666667}, "val": {"correct": 83, "n": 200, "accuracy": 0.415}, "test": {"correct": 149, "n": 300, "accuracy": 0.49666666666666665}}, "teacher": {"anchors": {"correct": 67, "n": 90, "accuracy": 0.7444444444444445}, "anchors_per_class": [10, 10, 0, 10, 10, 10, 10, 10, 10, 10], "updates": 150, "val": {"correct": 121, "n": 200, "accuracy": 0.605}, "test": {"correct": 192, "n": 300, "accuracy": 0.64}}, "student": {"best_epoch": 2, "checkpoint": "baseline-epoch-02.pt", "val": {"correct": 134, "n": 200, "accuracy": 0.67}, "test": {"correct": 208, "n": 300, "accuracy": 0.6933333333333334}}}, "suffix": {"cde": {"train": {"correct": 288, "n": 540, "accuracy": 0.5333333333333333}, "val": {"correct": 86, "n": 200, "accuracy": 0.43}, "test": {"correct": 146, "n": 300, "accuracy": 0.4866666666666667}}, "teacher": {"anchors": {"correct": 67, "n": 84, "accuracy": 0.7976190476190477}, "anchors_per_class": [3, 10, 1, 10, 10, 10, 10, 10, 10, 10], "updates": 150, "val": {"correct": 130, "n": 200, "accuracy": 0.65}, "test": {"correct": 193, "n": 300, "accuracy": 0.6433333333333333}}, "student": {"best_epoch": 2, "checkpoint": "suffix-epoch-02.pt", "val": {"correct": 136, "n": 200, "accuracy": 0.68}, "test": {"correct": 202, "n": 300, "accuracy": 0.6733333333333333}}}}, "paired_test": {"cde": {"fixed": 5, "lost": 8, "changed": 21, "delta_pp": -1.0}, "teacher": {"fixed": 19, "lost": 18, "changed": 46, "delta_pp": 0.3333333333333333}, "student": {"fixed": 25, "lost": 31, "changed": 64, "delta_pp": -2.0}}}

@@ -1,0 +1,20 @@
+{
+  "backbone": "siglip2",
+  "teacher_correct": 8,
+  "frozen_correct": 6,
+  "untrained_prompt_correct": 1,
+  "student_correct": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 1,
+      "updates": 2,
+      "skips": 0,
+      "seconds": 1.11
+    }
+  ],
+  "checkpoint": "siglip2+convnext-epoch-1.pt",
+  "sha256": "0fa5602a18a4f7c15be5735f20ca7840af3f87b0effd3155e4e7a970ea211997",
+  "trainable": 59904,
+  "seconds": 1.5
+}

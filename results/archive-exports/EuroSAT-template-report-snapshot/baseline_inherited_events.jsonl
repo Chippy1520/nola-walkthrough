@@ -1,0 +1,2 @@
+{"stage": "teacher_done", "arm": "original", "anchors": 2324, "anchor_correct": 1735, "herb_anchors": 7, "herb_anchors_correct": 4, "dino_val_correct": 3624, "dino_herb_correct": 3}
+{"stage": "epoch_done", "arm": "original", "epoch": 1, "n_train": 13500, "updates": 27, "amp_skips": 0, "val_correct": 4052, "val_n": 5400, "best_val_correct": 4052, "stale": 0, "seconds": 230.8}

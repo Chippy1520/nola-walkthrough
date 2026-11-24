@@ -1,0 +1,61 @@
+arm,class_id,name,base,added,added_correct,pool,val_n,val_correct
+baseline,0,Annual Crop Land,11,0,0,17,32,8
+baseline,1,Forest,1,0,0,1,0,0
+baseline,2,Herbaceous Vegetation Land,0,0,0,0,0,0
+baseline,3,Highway or Road,1,0,0,0,0,0
+baseline,4,Industrial Buildings,9,0,0,2,0,0
+baseline,5,Pasture Land,1,0,0,0,0,0
+baseline,6,Permanent Crop Land,16,0,0,0,0,0
+baseline,7,Residential Buildings,5,0,0,0,0,0
+baseline,8,River,0,0,0,0,0,0
+baseline,9,Sea or Lake,0,0,0,0,0,0
+clip_expansion,0,Annual Crop Land,11,5,5,17,32,14
+clip_expansion,1,Forest,1,1,0,1,0,0
+clip_expansion,2,Herbaceous Vegetation Land,0,0,0,0,0,0
+clip_expansion,3,Highway or Road,1,0,0,0,0,0
+clip_expansion,4,Industrial Buildings,9,2,0,2,0,0
+clip_expansion,5,Pasture Land,1,0,0,0,0,0
+clip_expansion,6,Permanent Crop Land,16,0,0,0,0,0
+clip_expansion,7,Residential Buildings,5,0,0,0,0,0
+clip_expansion,8,River,0,0,0,0,0,0
+clip_expansion,9,Sea or Lake,0,0,0,0,0,0
+dino_seed_retrieval,0,Annual Crop Land,11,5,5,17,32,12
+dino_seed_retrieval,1,Forest,1,1,0,1,0,0
+dino_seed_retrieval,2,Herbaceous Vegetation Land,0,0,0,0,0,0
+dino_seed_retrieval,3,Highway or Road,1,0,0,0,0,0
+dino_seed_retrieval,4,Industrial Buildings,9,2,0,2,0,0
+dino_seed_retrieval,5,Pasture Land,1,0,0,0,0,0
+dino_seed_retrieval,6,Permanent Crop Land,16,0,0,0,0,0
+dino_seed_retrieval,7,Residential Buildings,5,0,0,0,0,0
+dino_seed_retrieval,8,River,0,0,0,0,0,0
+dino_seed_retrieval,9,Sea or Lake,0,0,0,0,0,0
+spherical_kmeans,0,Annual Crop Land,11,5,5,17,32,14
+spherical_kmeans,1,Forest,1,1,0,1,0,0
+spherical_kmeans,2,Herbaceous Vegetation Land,0,0,0,0,0,0
+spherical_kmeans,3,Highway or Road,1,0,0,0,0,0
+spherical_kmeans,4,Industrial Buildings,9,2,0,2,0,0
+spherical_kmeans,5,Pasture Land,1,0,0,0,0,0
+spherical_kmeans,6,Permanent Crop Land,16,0,0,0,0,0
+spherical_kmeans,7,Residential Buildings,5,0,0,0,0,0
+spherical_kmeans,8,River,0,0,0,0,0,0
+spherical_kmeans,9,Sea or Lake,0,0,0,0,0,0
+ward_pca32,0,Annual Crop Land,11,5,5,17,32,10
+ward_pca32,1,Forest,1,1,0,1,0,0
+ward_pca32,2,Herbaceous Vegetation Land,0,0,0,0,0,0
+ward_pca32,3,Highway or Road,1,0,0,0,0,0
+ward_pca32,4,Industrial Buildings,9,2,0,2,0,0
+ward_pca32,5,Pasture Land,1,0,0,0,0,0
+ward_pca32,6,Permanent Crop Land,16,0,0,0,0,0
+ward_pca32,7,Residential Buildings,5,0,0,0,0,0
+ward_pca32,8,River,0,0,0,0,0,0
+ward_pca32,9,Sea or Lake,0,0,0,0,0,0
+dbscan,0,Annual Crop Land,11,5,5,17,32,14
+dbscan,1,Forest,1,1,0,1,0,0
+dbscan,2,Herbaceous Vegetation Land,0,0,0,0,0,0
+dbscan,3,Highway or Road,1,0,0,0,0,0
+dbscan,4,Industrial Buildings,9,2,0,2,0,0
+dbscan,5,Pasture Land,1,0,0,0,0,0
+dbscan,6,Permanent Crop Land,16,0,0,0,0,0
+dbscan,7,Residential Buildings,5,0,0,0,0,0
+dbscan,8,River,0,0,0,0,0,0
+dbscan,9,Sea or Lake,0,0,0,0,0,0

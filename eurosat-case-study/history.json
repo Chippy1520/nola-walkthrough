@@ -1,0 +1,41 @@
+[
+  {
+    "stage": "dino_head",
+    "epoch": 1,
+    "mean_loss": 2.460576022372526
+  },
+  {
+    "stage": "dino_head",
+    "epoch": 2,
+    "mean_loss": 0.3758899499388302
+  },
+  {
+    "stage": "dino_head",
+    "epoch": 3,
+    "mean_loss": 0.07097174840814927
+  },
+  {
+    "stage": "prompted_clip",
+    "epoch": 1,
+    "mean_loss": 2.0513499557971953,
+    "updates": 40
+  },
+  {
+    "stage": "prompted_clip",
+    "epoch": 2,
+    "mean_loss": 1.5315791204571725,
+    "updates": 80
+  },
+  {
+    "stage": "prompted_clip",
+    "epoch": 3,
+    "mean_loss": 1.429827743768692,
+    "updates": 120
+  },
+  {
+    "stage": "prompted_clip",
+    "epoch": 4,
+    "mean_loss": 1.3522595748305322,
+    "updates": 160
+  }
+]

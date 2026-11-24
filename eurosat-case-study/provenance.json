@@ -1,0 +1,93 @@
+{
+  "process": "Instrumented CPU replay; not the original GPU run",
+  "device": "cpu",
+  "torch": "2.5.1+cu121",
+  "utc": "2026-11-20T15:07:08.311359+00:00",
+  "job": {
+    "train_n": 160,
+    "anchor_cap": 4,
+    "head_batch": 8,
+    "head_epochs": 3,
+    "prompts": 16,
+    "clip_batch": 4,
+    "clip_lr": 0.004
+  },
+  "protocol": {
+    "seed": 42,
+    "val_seed": 123,
+    "val_n": 240,
+    "clip_epochs": [
+      1,
+      4
+    ],
+    "pool_n": 320
+  },
+  "fresh_test": {
+    "n": 240,
+    "seed": 137,
+    "excluded_teaching_test": 80
+  },
+  "upstream": "caec2722bba84bd4807256645c5cb75d96d7ed12",
+  "dino_source": "7c446df5b9f45747937fb0d72314eb9f7b66930a",
+  "hashes": {
+    "NoLA-EuroSAT-Full-Sweep.ipynb": "307cbad222c5cf558d1e4ca7f7395ec36692918ff9a75c3f90cfb2f0587a1c33",
+    "capture.py": "b48ac952545551f7d8102d4d40f622fc00d6ffe48c713c255f1ae535d08fcb0f",
+    "split_zhou_EuroSAT.json": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+    "ViT-B-32.pt": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "dino_vitbase16_pretrain.pth": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e"
+  },
+  "logged_gpu": {
+    "protocol": {
+      "seed": 42,
+      "val_seed": 123,
+      "val_n": 240,
+      "clip_epochs": [
+        1,
+        4
+      ],
+      "pool_n": 320
+    },
+    "job": {
+      "train_n": 160,
+      "anchor_cap": 4,
+      "head_batch": 8,
+      "head_epochs": 3,
+      "prompts": 16,
+      "clip_batch": 4,
+      "clip_lr": 0.004
+    },
+    "seconds": 27.05,
+    "records": [
+      {
+        "anchors": 34,
+        "classes_with_anchors": 10,
+        "anchor_correct": 25,
+        "dino_head": 134,
+        "head_updates": 15,
+        "status": "ok",
+        "clip_epoch": 1,
+        "clip_updates": 40,
+        "cde": 117,
+        "nola": 111,
+        "delta_cde": -6,
+        "delta_dino": -23,
+        "val_n": 240
+      },
+      {
+        "anchors": 34,
+        "classes_with_anchors": 10,
+        "anchor_correct": 25,
+        "dino_head": 134,
+        "head_updates": 15,
+        "status": "ok",
+        "clip_epoch": 4,
+        "clip_updates": 160,
+        "cde": 117,
+        "nola": 141,
+        "delta_cde": 24,
+        "delta_dino": 7,
+        "val_n": 240
+      }
+    ]
+  }
+}

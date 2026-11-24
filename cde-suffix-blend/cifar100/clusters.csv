@@ -1,0 +1,27 @@
+class_id,class_name,size,cosine_to_mean,retained075,retained090,description_ids
+0,aquatic_mammals,3,0.9833709001541138,False,False,"[0, 1, 2]"
+0,aquatic_mammals,1,0.8471702337265015,False,True,[3]
+1,fish,3,0.9874265193939209,False,False,"[0, 1, 2]"
+1,fish,1,0.891518235206604,False,True,[3]
+2,flowers,2,0.961962103843689,False,False,"[0, 2]"
+2,flowers,1,0.8806962966918945,False,True,[1]
+2,flowers,1,0.8432987928390503,False,True,[3]
+3,food_containers,4,0.9999998807907104,False,False,"[0, 1, 2, 3]"
+4,fruit_and_vegetables,4,1.0,False,False,"[0, 1, 2, 3]"
+5,household_electrical_devices,4,1.0,False,False,"[0, 1, 2, 3]"
+6,household_furniture,4,1.0000001192092896,False,False,"[0, 1, 2, 3]"
+7,insects,4,0.9999998807907104,False,False,"[0, 1, 2, 3]"
+8,large_carnivores,4,1.0,False,False,"[0, 1, 2, 3]"
+9,large_man-made_outdoor_things,4,0.9999998807907104,False,False,"[0, 1, 2, 3]"
+10,large_natural_outdoor_scenes,4,1.0000001192092896,False,False,"[0, 1, 2, 3]"
+11,large_omnivores_and_herbivores,4,1.0000001192092896,False,False,"[0, 1, 2, 3]"
+12,medium_mammals,4,1.0000001192092896,False,False,"[0, 1, 2, 3]"
+13,non-insect_invertebrates,4,1.0,False,False,"[0, 1, 2, 3]"
+14,people,4,1.0,False,False,"[0, 1, 2, 3]"
+15,reptiles,3,0.9856435060501099,False,False,"[0, 1, 2]"
+15,reptiles,1,0.8734562993049622,False,True,[3]
+16,small_mammals,4,1.0,False,False,"[0, 1, 2, 3]"
+17,trees,3,0.9886915683746338,False,False,"[0, 2, 3]"
+17,trees,1,0.9044559597969055,False,False,[1]
+18,vehicles_1,4,1.0000001192092896,False,False,"[0, 1, 2, 3]"
+19,vehicles_2,4,1.0,False,False,"[0, 1, 2, 3]"

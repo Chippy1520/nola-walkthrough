@@ -1,0 +1,15 @@
+{
+  "method": "Centered PCA by SVD; fit only on raw 160 adaptation DINO vectors; no labels in fit",
+  "explained_variance_ratio": [
+    0.13396240808068532,
+    0.08591893705132378
+  ],
+  "train_shape": [
+    160,
+    768
+  ],
+  "val_shape": [
+    240,
+    768
+  ]
+}

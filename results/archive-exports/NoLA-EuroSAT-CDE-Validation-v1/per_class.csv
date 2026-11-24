@@ -1,0 +1,51 @@
+arm,class_name,n,correct,as_forest
+centroid_10,Annual Crop Land,570,383,17
+centroid_10,Forest,569,316,316
+centroid_10,Herbaceous Vegetation Land,584,15,356
+centroid_10,Highway or Road,481,263,27
+centroid_10,Industrial Buildings,476,355,5
+centroid_10,Pasture Land,380,23,37
+centroid_10,Permanent Crop Land,477,261,42
+centroid_10,Residential Buildings,570,495,5
+centroid_10,River,475,245,17
+centroid_10,Sea or Lake,578,409,61
+merged_36,Annual Crop Land,570,466,3
+merged_36,Forest,569,86,86
+merged_36,Herbaceous Vegetation Land,584,2,75
+merged_36,Highway or Road,481,285,3
+merged_36,Industrial Buildings,476,438,0
+merged_36,Pasture Land,380,91,1
+merged_36,Permanent Crop Land,477,80,8
+merged_36,Residential Buildings,570,408,0
+merged_36,River,475,235,2
+merged_36,Sea or Lake,578,432,7
+merged_57,Annual Crop Land,570,517,1
+merged_57,Forest,569,91,91
+merged_57,Herbaceous Vegetation Land,584,2,121
+merged_57,Highway or Road,481,314,3
+merged_57,Industrial Buildings,476,426,0
+merged_57,Pasture Land,380,22,0
+merged_57,Permanent Crop Land,477,21,7
+merged_57,Residential Buildings,570,467,1
+merged_57,River,475,211,2
+merged_57,Sea or Lake,578,426,7
+merged_72,Annual Crop Land,570,505,2
+merged_72,Forest,569,148,148
+merged_72,Herbaceous Vegetation Land,584,1,172
+merged_72,Highway or Road,481,286,5
+merged_72,Industrial Buildings,476,436,1
+merged_72,Pasture Land,380,70,4
+merged_72,Permanent Crop Land,477,19,11
+merged_72,Residential Buildings,570,457,2
+merged_72,River,475,205,2
+merged_72,Sea or Lake,578,423,8
+unmerged_100,Annual Crop Land,570,506,5
+unmerged_100,Forest,569,224,224
+unmerged_100,Herbaceous Vegetation Land,584,1,259
+unmerged_100,Highway or Road,481,301,11
+unmerged_100,Industrial Buildings,476,408,2
+unmerged_100,Pasture Land,380,127,9
+unmerged_100,Permanent Crop Land,477,44,21
+unmerged_100,Residential Buildings,570,493,3
+unmerged_100,River,475,248,4
+unmerged_100,Sea or Lake,578,449,9

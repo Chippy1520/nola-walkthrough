@@ -1,0 +1,4 @@
+cde     baseline 149/300 (49.67%) | suffix 146/300 (48.67%) | -1.00 pp, fixed 5, lost 8, changed 21
+teacher baseline 192/300 (64.00%) | suffix 193/300 (64.33%) | +0.33 pp, fixed 19, lost 18, changed 46
+student baseline 208/300 (69.33%) | suffix 202/300 (67.33%) | -2.00 pp, fixed 25, lost 31, changed 64
+Verified: provenance, prompt construction, disjoint row IDs, checkpoint selection, update counts, and paired held-out metrics.

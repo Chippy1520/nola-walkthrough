@@ -1,0 +1,11 @@
+class_id,name,budget,original,wrapped_mean,prototypes,mapped
+0,Annual Crop Land,5,11,5,8,8
+1,Forest,1,1,3,2,2
+2,Herbaceous Vegetation Land,0,0,0,1,1
+3,Highway or Road,1,1,3,1,1
+4,Industrial Buildings,7,9,7,7,7
+5,Pasture Land,1,1,2,5,5
+6,Permanent Crop Land,16,16,16,16,16
+7,Residential Buildings,4,5,4,4,4
+8,River,0,0,0,0,0
+9,Sea or Lake,0,0,1,1,1

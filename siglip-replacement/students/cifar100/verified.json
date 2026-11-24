@@ -1,0 +1,193 @@
+{
+  "dataset": "cifar100",
+  "smoke": false,
+  "epochs": 2,
+  "train_n": 320,
+  "val_n": 400,
+  "train_full": 4096,
+  "val_full": 1024,
+  "steps": 10,
+  "micro": 4,
+  "effective": 32,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "372c7fada4d713678b53701cd3f351057919db178470f09b7dcac2874945f439",
+  "code_sha": "1eab9f4be16728976a3f1dd1aa10b6d5f5ea399a24e1e19bda0470e2e09beb85",
+  "test_scored": false,
+  "arms": {
+    "clip+dino": {
+      "backbone": "clip",
+      "teacher_correct": 246,
+      "frozen_correct": 238,
+      "untrained_prompt_correct": 109,
+      "student_correct": 242,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 213,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 26.03
+        },
+        {
+          "epoch": 2,
+          "correct": 242,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.7
+        }
+      ],
+      "checkpoint": "clip+dino-epoch-2.pt",
+      "sha256": "157f82404fd4dd93c6725f42ba341b27126a44cd0314ab4a44b64b4d219000d4",
+      "trainable": 62464,
+      "seconds": 60.44
+    },
+    "siglip2+dino": {
+      "backbone": "siglip2",
+      "teacher_correct": 237,
+      "frozen_correct": 255,
+      "untrained_prompt_correct": 122,
+      "student_correct": 233,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 224,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.05
+        },
+        {
+          "epoch": 2,
+          "correct": 233,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.24
+        }
+      ],
+      "checkpoint": "siglip2+dino-epoch-2.pt",
+      "sha256": "03fa6ff12f395fdd3bb05a45086e21bfd24e78af86fd57776d9277b5ae284bd5",
+      "trainable": 67584,
+      "seconds": 86.58
+    },
+    "clip+convnext": {
+      "backbone": "clip",
+      "teacher_correct": 252,
+      "frozen_correct": 238,
+      "untrained_prompt_correct": 109,
+      "student_correct": 225,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 190,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.88
+        },
+        {
+          "epoch": 2,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.65
+        }
+      ],
+      "checkpoint": "clip+convnext-epoch-2.pt",
+      "sha256": "adeb453d9c7905bdc69d6f01c2ef97b4551244438e7a79ceeee59bc20f7b12e6",
+      "trainable": 62464,
+      "seconds": 60.22
+    },
+    "siglip2+convnext": {
+      "backbone": "siglip2",
+      "teacher_correct": 241,
+      "frozen_correct": 255,
+      "untrained_prompt_correct": 122,
+      "student_correct": 235,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.04
+        },
+        {
+          "epoch": 2,
+          "correct": 235,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 35.89
+        }
+      ],
+      "checkpoint": "siglip2+convnext-epoch-2.pt",
+      "sha256": "6c379207694558ef7364aaccf1bd842d0900a4294a0dab0dcf9c9a1d34edbf5b",
+      "trainable": 67584,
+      "seconds": 86.13
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "delta_pp": -2.25,
+      "fixes": 40,
+      "losses": 49,
+      "ci95_pp": [
+        -6.5,
+        2.25
+      ],
+      "mcnemar_p": 0.39657015814551616
+    },
+    "clip+convnext vs clip+dino": {
+      "delta_pp": -4.25,
+      "fixes": 7,
+      "losses": 24,
+      "ci95_pp": [
+        -6.75,
+        -1.75
+      ],
+      "mcnemar_p": 0.003326892852783203
+    },
+    "siglip2+convnext vs clip+dino": {
+      "delta_pp": -1.75,
+      "fixes": 42,
+      "losses": 49,
+      "ci95_pp": [
+        -6.25,
+        2.5
+      ],
+      "mcnemar_p": 0.5296020954762458
+    },
+    "clip+convnext vs siglip2+dino": {
+      "delta_pp": -2.0,
+      "fixes": 50,
+      "losses": 58,
+      "ci95_pp": [
+        -6.75,
+        2.75
+      ],
+      "mcnemar_p": 0.5007663934164359
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "delta_pp": 0.5,
+      "fixes": 15,
+      "losses": 13,
+      "ci95_pp": [
+        -2.0,
+        3.0
+      ],
+      "mcnemar_p": 0.8505540192127228
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "delta_pp": 2.5,
+      "fixes": 59,
+      "losses": 49,
+      "ci95_pp": [
+        -2.25,
+        7.25
+      ],
+      "mcnemar_p": 0.3865726089882613
+    }
+  },
+  "seconds": 407.3
+}

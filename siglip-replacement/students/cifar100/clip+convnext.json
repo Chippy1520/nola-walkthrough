@@ -1,0 +1,27 @@
+{
+  "backbone": "clip",
+  "teacher_correct": 252,
+  "frozen_correct": 238,
+  "untrained_prompt_correct": 109,
+  "student_correct": 225,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 190,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 25.88
+    },
+    {
+      "epoch": 2,
+      "correct": 225,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 25.65
+    }
+  ],
+  "checkpoint": "clip+convnext-epoch-2.pt",
+  "sha256": "adeb453d9c7905bdc69d6f01c2ef97b4551244438e7a79ceeee59bc20f7b12e6",
+  "trainable": 62464,
+  "seconds": 60.22
+}

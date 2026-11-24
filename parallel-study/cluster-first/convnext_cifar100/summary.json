@@ -1,0 +1,155 @@
+{
+  "dataset": "cifar100",
+  "smoke": false,
+  "model": "convnext_tiny.dinov3_lvd1689m",
+  "revision": "39c7bb32f83c11bbb13cb23058f8852a4dac88ed",
+  "sha256": "a7637753a2e85d709d1a5474e13382d39e7bc581a35868b477585c970f36847f",
+  "transform": {
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop_pct": 1.0,
+    "crop_mode": "center"
+  },
+  "train_n": 4096,
+  "val_n": 1024,
+  "matched_additions": 40,
+  "reference": "/home/chip/nola-walkthrough/parallel-study/cluster-first/spectral_cifar100",
+  "add_quotas": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    20,
+    0,
+    0,
+    0,
+    0,
+    20,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "results": {
+    "clip_expansion": {
+      "correct_additions": 28,
+      "val_correct": 670,
+      "target_classes": {
+        "large_carnivores": {
+          "new_correct": 17,
+          "val_correct": 31,
+          "val_n": 48,
+          "subtypes": [
+            "bear",
+            "leopard",
+            "lion",
+            "tiger",
+            "wolf"
+          ]
+        },
+        "non-insect_invertebrates": {
+          "new_correct": 11,
+          "val_correct": 25,
+          "val_n": 51,
+          "subtypes": [
+            "crab",
+            "lobster",
+            "snail",
+            "spider"
+          ]
+        }
+      }
+    },
+    "dino_seed_retrieval": {
+      "correct_additions": 38,
+      "val_correct": 656,
+      "target_classes": {
+        "large_carnivores": {
+          "new_correct": 20,
+          "val_correct": 24,
+          "val_n": 48,
+          "subtypes": [
+            "leopard",
+            "lion",
+            "tiger",
+            "wolf"
+          ]
+        },
+        "non-insect_invertebrates": {
+          "new_correct": 18,
+          "val_correct": 20,
+          "val_n": 51,
+          "subtypes": [
+            "crab",
+            "lobster",
+            "spider",
+            "worm"
+          ]
+        }
+      }
+    },
+    "convnext_v3": {
+      "correct_additions": 38,
+      "val_correct": 664,
+      "target_classes": {
+        "large_carnivores": {
+          "new_correct": 20,
+          "val_correct": 26,
+          "val_n": 48,
+          "subtypes": [
+            "leopard",
+            "lion",
+            "tiger"
+          ]
+        },
+        "non-insect_invertebrates": {
+          "new_correct": 18,
+          "val_correct": 21,
+          "val_n": 51,
+          "subtypes": [
+            "crab",
+            "lobster",
+            "snail",
+            "spider"
+          ]
+        }
+      }
+    }
+  },
+  "paired": {
+    "clip_expansion": {
+      "delta_pp": -0.5859375,
+      "ci95_pp": [
+        -1.953125,
+        0.68359375
+      ]
+    },
+    "dino_seed_retrieval": {
+      "delta_pp": 0.78125,
+      "ci95_pp": [
+        -0.1953125,
+        1.7578125
+      ]
+    }
+  }
+}

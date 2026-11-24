@@ -1,0 +1,68 @@
+{
+  "dataset": "eurosat",
+  "smoke": true,
+  "added": 8,
+  "val_n": 32,
+  "results": {
+    "clip+dino": {
+      "correct_additions": 5,
+      "val_correct": 12
+    },
+    "siglip2+dino": {
+      "correct_additions": 5,
+      "val_correct": 15
+    },
+    "clip+convnext": {
+      "correct_additions": 5,
+      "val_correct": 15
+    },
+    "siglip2+convnext": {
+      "correct_additions": 5,
+      "val_correct": 15
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "pp": 9.375,
+      "ci95_pp": [
+        0.0,
+        21.875
+      ]
+    },
+    "clip+convnext vs clip+dino": {
+      "pp": 9.375,
+      "ci95_pp": [
+        0.0,
+        21.875
+      ]
+    },
+    "siglip2+convnext vs clip+dino": {
+      "pp": 9.375,
+      "ci95_pp": [
+        0.0,
+        21.875
+      ]
+    },
+    "clip+convnext vs siglip2+dino": {
+      "pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

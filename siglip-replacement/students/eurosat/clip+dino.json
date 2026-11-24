@@ -1,0 +1,27 @@
+{
+  "backbone": "clip",
+  "teacher_correct": 143,
+  "frozen_correct": 103,
+  "untrained_prompt_correct": 26,
+  "student_correct": 129,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 116,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 21.51
+    },
+    {
+      "epoch": 2,
+      "correct": 129,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 21.27
+    }
+  ],
+  "checkpoint": "clip+dino-epoch-2.pt",
+  "sha256": "17148609b460ca47877bf3c627b327707b8f23745c9de30d187839f56090ceeb",
+  "trainable": 57344,
+  "seconds": 47.18
+}

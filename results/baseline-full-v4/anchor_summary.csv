@@ -1,0 +1,5 @@
+run_id,dataset,seed,split_id,variant,selected,correct,precision_pct
+baseline-full-v4,eurosat,7777,513f6e1964f9148a809b5306f071792256fbabac46da115d08d3e0ea1f1b5146,release_style,2323,1734,74.64485764503479
+baseline-full-v4,oxford_pets,7777,913b0d82ec5aa66aa90d4cb4be166142ff69313b18db177ce124901fe522e846,release_style,592,581,98.14189076423645
+baseline-full-v4,cifar10,7777,c71eaac8897bef54a6213be82c84f2f5225d467e45dd853dfb3fcc9aed26d350,release_style,9000,8987,99.85555410385132
+baseline-full-v4,dtd,7777,af4663c049d48fac903ef6eff2dffeccfb262e8bbdeef79f673b28a69dc411f0,release_style,726,515,70.93663811683655

@@ -1,0 +1,19 @@
+{
+  "seed": 7777,
+  "train": 13500,
+  "val": 5400,
+  "test": 8100,
+  "anchors_per_class": 270,
+  "dino_epochs": 50,
+  "dino_batch": 32,
+  "clip_max_epochs": 50,
+  "effective_batch": 512,
+  "microbatch": 32,
+  "clip_lr": 0.004,
+  "prec": "AMP FP16 T4",
+  "checkpoint": "best val; early stop after 15 subsequent non-improvements",
+  "threshold": 0.75,
+  "tau": 0.05,
+  "split_sha256": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+  "banks_sha256": "f564365b37c73b527f9f550df04803e311ecd33aed783d34fb031e95da6adbb4"
+}

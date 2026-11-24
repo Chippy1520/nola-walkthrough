@@ -1,0 +1,1302 @@
+01 / BASELINE AND TRAINING
+
+
+
+NoLA experiments
+An evidence review of prompt representations, anchor selection, and CLIP student adaptation.
+
+
+
+
+  76.27%                                        2 → 98                           0/3
+  EuroSAT student test                          Herbaceous correct / 600         Datasets with an active 0.75 blend
+
+
+
+
+Full-split EuroSAT: CLIP student validation by epoch
+
+
+                         80       76.69% at epoch 3
+
+
+                         75                                                71.13% at epoch 50
+  Validation top-1 (%)
+
+
+
+
+                         70
+
+
+                         65
+
+
+                         60
+
+
+                         55                                                                     Prompted student
+                                                                                                DINO teacher
+                                                                                                Frozen CDE
+                         50
+                              0   10                  20              30             40                   50
+                                                           Student epoch
+
+
+
+The selected student checkpoint scored 6,178/8,100 on test. The drop after the early peak is a
+checkpoint-selection finding, not proof of why training degraded.
+
+
+In the small replay, Herbaceous had 24 true train images, zero first-choice CLIP nominations and one
+incorrect fallback anchor. More training images or a bigger anchor budget alone did not prevent this
+failure.
+
+
+
+Scope: locally documented experiments; the older frozen Kaggle/DNC study was not re-audited. CDE =
+frozen CLIP text classifier; teacher = trained DINO head; student = visual-prompted CLIP.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                            01
+02 / FROZEN CLIP
+
+
+Prompt wording vs. vector blending
+Effects are estimated on identical image rows within each comparison. Positive values favor the
+modified prompt or scorer.
+
+
+Appending templates vs. the earlier mean baseline
+
+
+                   EuroSAT
+
+
+
+                  RESISC45
+
+
+
+        CIFAR-100 coarse
+
+
+                                         −8               −6           −4           −2                     0
+                                                          Top-1 change (percentage points)
+
+
+
+
+0.90 normalized blend vs. appended mean
+
+
+                   EuroSAT
+
+
+
+                  RESISC45
+
+
+
+        CIFAR-100 coarse
+
+
+                            −0.6       −0.4        −0.2       0.0      0.2      0.4       0.6               0.8    1.0
+                                                          Top-1 change (percentage points)
+
+
+
+Append comparison
+ Dataset                         N              Top-1 (%)        Fix / loss      Δ pp             95% CI (pp)            p
+
+ EuroSAT                     5,400          51.06 → 51.48        127 / 104      +0.43            [-0.11, +0.96]      0.148
+
+ RESISC45                    6,255          58.07 → 58.86        280 / 230      +0.80            [+0.11, +1.47]     0.0299
+
+ CIFAR-100 coarse            5,000          58.50 → 50.48        221 / 622       -8.02            [-9.00, -7.04]   6.94e-45
+
+
+
+Blend comparison
+ Dataset                         N              Top-1 (%)        Fix / loss      Δ pp             95% CI (pp)            p
+
+ EuroSAT                     5,400          51.48 → 51.20           19 / 34      -0.28            [-0.54, -0.02]    0.0534
+
+ RESISC45                    6,255          58.86 → 58.90           12 / 10     +0.03            [-0.11, +0.18]      0.832
+
+ CIFAR-100 coarse            5,000          50.48 → 51.10           59 / 28     +0.62            [+0.26, +0.98]    0.00117
+
+At 0.75 no variants entered on any dataset. At 0.90: 2 EuroSAT, 10 RESISC45, 5 CIFAR clusters.
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                                   02
+03 / STAGE-BY-STAGE CONTRASTS
+
+
+Does the suffix help after training?
+EuroSAT subset test (300 images) and separate full-split student validation milestones (5,400 images).
+
+
+
+Matched test effects in the small end-to-end run
+
+
+
+                                 Cde
+
+
+
+                              Teacher
+
+
+
+                              Student
+
+
+                                                  −4            −2                0                 2            4
+                                                        Appended minus separate (percentage points)
+
+
+
+Stage                                        N            Top-1 (%)    Fix / loss       Δ pp     95% CI (pp)         p
+
+Cde                                         300        49.67 → 48.67         5/8        -1.00   [-3.33, +1.33]   0.581
+
+Teacher                                     300        64.00 → 64.33       19 / 18     +0.33    [-2.67, +3.67]       1
+
+Student                                     300        69.33 → 67.33       25 / 31      -2.00   [-5.00, +1.00]   0.504
+
+
+
+
+Full-split student validation: the ranking reversed
+
+                         75
+                                                                Separate             Appended
+  Validation top-1 (%)
+
+
+
+
+                         74
+
+
+
+                         73
+
+
+
+                         72
+                                        1                                                                 2
+                                                                   Student epoch
+
+
+The full-split DINO teacher test score rose from 66.96% to 68.90%, and Herbaceous anchor count rose from 7
+to 21. No final paired full-split student test export was found.
+
+
+Oxford Pets: 85.61% to 87.90% on 3,669 images with the one-template comparison (156 fixes, 72 losses). The
+CIFAR-100 suffix contrast also changes wording and class-name use; it does not isolate placement.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                              03
+04 / ANCHOR SELECTION
+
+
+Cleaner anchors, mixed accuracy
+Matched anchor budgets. The panels show teacher validation, not the prompted CLIP student.
+
+
+
+Teacher accuracy vs. confidence top-k (archived paired 95% intervals)
+
+
+                        EuroSAT / Farthest-first
+
+                            EuroSAT / Medoids
+
+               EuroSAT / Neighbor agreement
+
+                      RESISC45 / Farthest-first
+
+                           RESISC45 / Medoids
+
+              RESISC45 / Neighbor agreement
+
+              CIFAR-100 coarse / Farthest-first
+
+                   CIFAR-100 coarse / Medoids
+
+      CIFAR-100 coarse / Neighbor agreement
+
+                                                     −6         −4        −2        0                2       4
+                                                                 Teacher top-1 change (pp)
+
+
+
+Neighbor agreement improved anchor precision on all three datasets, but teacher gains were clear only on
+EuroSAT. Farthest-first and medoids lost teacher accuracy on all three.
+
+
+
+
+EuroSAT Herbaceous: widening the candidate pool mattered
+
+
+                     No rescue       2
+
+
+               CLIP expansion                                                  72
+
+
+            Spherical k-means                                                       79
+
+
+                     Ward PCA                                                                 90
+
+
+         Direct DINO retrieval                                                                      98
+
+
+                      DBSCAN                                                             83
+
+
+                                 0          20          40         60           80                 100
+                                                   Correct Herbaceous predictions / 600
+
+
+Earlier cluster-first added zero Herbaceous anchors; all 113 additions went to Pasture. This later comparison used a
+broader pool and matched 64 additions per target class.
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           04
+05 / RERANKING AND METHODS
+
+
+
+What SigLIP 2 actually tested
+CLIP still supplied seeds and the candidate pool; SigLIP 2 was a reranker, not a full replacement.
+
+
+
+Swap only the reranker, keeping the retrieval encoder fixed
+
+
+
+                                      EuroSAT / DINO
+
+
+                                  EuroSAT / ConvNeXt
+
+
+                      CIFAR-100 scarcity pilot / DINO
+
+
+                 CIFAR-100 scarcity pilot / ConvNeXt
+
+                                                         −1.0    −0.5     0.0      0.5      1.0        1.5
+                                                          SigLIP 2 minus CLIP: teacher top-1 (pp)
+
+
+
+Dataset / retriever                                      Correct added anchors               Teacher top-1 (%)
+
+EuroSAT / DINO                                                     96 → 108 / 128                 68.02 → 68.57
+
+EuroSAT / ConvNeXt                                                 94 → 102 / 128                 68.43 → 68.83
+
+CIFAR-100 scarcity pilot / DINO                                       38 → 40 / 40                64.06 → 64.55
+
+CIFAR-100 scarcity pilot / ConvNeXt                                   38 → 40 / 40                64.84 → 64.65
+
+
+
+
+Statistical reading
+New paired intervals: 20,000 percentile bootstrap draws of correctness differences, stratified by true class
+(fine subtype for CIFAR-100). Fixes and losses are computed on the same images; p is the two-sided exact
+McNemar test. These exploratory p-values are not adjusted for multiple comparisons.
+
+
+
+Anchor and reranking plots use the paired bootstrap intervals saved with their original reports. Image-level
+intervals do not capture variation from retraining seeds, prompt choices, split construction, or repeated
+development-set use.
+
+
+
+The next page tests whether SigLIP 2 can nominate anchors independently. Independent nomination is a distinct
+change from reranking a pool defined by CLIP.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                        05
+06 / FULL 2 × 2 COMPARISON
+
+
+
+SigLIP 2 × DINOv3 ConvNeXt
+Four arms per dataset: CLIP or SigLIP 2 reranking crossed with original DINO or DINOv3 ConvNeXt-Tiny
+retrieval. The trained teacher features are original DINO in every arm.
+
+
+
+EuroSAT / 5,400 validation images
+
+
+                                    CLIP + DINO
+
+
+
+                                SigLIP 2 + DINO
+
+
+
+                      CLIP + DINOv3 ConvNeXt
+
+
+
+                  SigLIP 2 + DINOv3 ConvNeXt
+
+                                                       −0.5      0.0        0.5       1.0        1.5               2.0
+                                                           Teacher top-1 change vs. CLIP + DINO (pp)
+
+Top-1 (correct additions), in plot order: 68.02% (96/128)       /    68.57% (108/128)    /   68.43% (94/128)   /
+68.83% (102/128)
+
+CIFAR-100 coarse scarcity pilot / 1,024 validation images
+
+
+                                    CLIP + DINO
+
+
+
+                                SigLIP 2 + DINO
+
+
+
+                      CLIP + DINOv3 ConvNeXt
+
+
+
+                  SigLIP 2 + DINOv3 ConvNeXt
+
+                                                       −0.5      0.0        0.5       1.0        1.5               2.0
+                                                           Teacher top-1 change vs. CLIP + DINO (pp)
+
+Top-1 (correct additions), in plot order: 64.06% (38/40)    /       64.55% (40/40)   /   64.84% (38/40)   /
+64.65% (40/40)
+
+
+
+
+CIFAR scarcity was simulated. EuroSAT had naturally underfilled classes. Intervals compare each arm with CLIP
++ original DINO within the same dataset. Better anchor precision did not consistently improve the teacher.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                                  06
+07 / INDEPENDENT NOMINATION
+
+
+
+Can SigLIP 2 replace CLIP?
+The replacement selects its own initial anchors and its own expansion candidates. Original DINO
+retrieval and teacher stay fixed; no visual-prompt student was trained.
+
+
+
+
+                            EuroSAT
+
+
+
+
+                 CIFAR-100 pilot
+
+
+
+                                         −10        −8         −6         −4          −2             0
+                                               Matched teacher top-1 change vs. CLIP-only (pp)
+
+
+
+
+EuroSAT / 5,400 validation images
+Arm                                                                  Correct anchors             Teacher top-1
+
+CLIP only                                                                1,834 / 2,452                   68.02%
+
+CLIP pool / SigLIP rerank                                                1,846 / 2,452                   68.57%
+
+SigLIP 2 only                                                            1,648 / 2,452                   58.13%
+
+
+
+
+CIFAR-100 coarse pilot / 1,024 validation images
+Arm                                                                  Correct anchors             Teacher top-1
+
+CLIP only                                                                    687 / 800                   65.04%
+
+CLIP pool / SigLIP rerank                                                    687 / 800                   65.04%
+
+SigLIP 2 only                                                                718 / 800                   63.87%
+
+
+
+
+EuroSAT: SigLIP nominates 144 correct Herbaceous examples where CLIP nominates zero at top-1, but it selects
+only 2 correct Herbaceous anchors out of 71 at matched budgets, versus 38/71 for CLIP. With native budgets
+Herbaceous recall improves (98 to 345 out of 600), but overall teacher accuracy still drops from 68.02% to
+60.98%.
+
+
+The CIFAR pilot did not need expansion, so the rerank control duplicates CLIP-only. These are single-seed
+development-validation results; the intervals quantify paired image variation, not training-seed variation.
+No end-to-end timing was measured from these cached runs.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                       07
+08 / INDEPENDENT NOMINATION FACTORIAL
+
+
+
+Replacement × retrieval
+Each VLM independently selects seeds and expansion candidates. Per-class quotas and downstream
+original-DINO features are matched in all four arms.
+
+
+EuroSAT, full validation / 5,400 images
+
+
+                            CLIP + DINO
+
+
+                        SigLIP 2 + DINO
+
+
+                       CLIP + ConvNeXt
+
+
+                   SigLIP 2 + ConvNeXt
+
+                                                    −10         −8         −6        −4        −2           0
+                                                            Teacher top-1 change vs. CLIP + DINO (pp)
+
+
+ Arm                                                         Correct anchors            Correct additions        Top-1
+
+ CLIP + DINO                                                       1,834/2,452                    96/128        68.02%
+
+ SigLIP 2 + DINO                                                   1,648/2,452                    66/128        58.13%
+
+ CLIP + ConvNeXt                                                   1,832/2,452                    94/128        68.43%
+
+CIFAR-100      coarse, simulated scarcity / 1,650/2,452
+SigLIP 2 + ConvNeXt                         1,024 images                                          68/128        58.93%
+
+
+
+                            CLIP + DINO
+
+
+                        SigLIP 2 + DINO
+
+
+                       CLIP + ConvNeXt
+
+
+                   SigLIP 2 + ConvNeXt
+
+                                              −3             −2          −1            0           1              2
+                                                            Teacher top-1 change vs. CLIP + DINO (pp)
+
+
+ Arm                                                         Correct anchors            Correct additions        Top-1
+
+ CLIP + DINO                                                           666/768                     38/40        64.06%
+
+ SigLIP 2 + DINO                                                       697/768                     39/40        63.18%
+
+ CLIP + ConvNeXt                                                       666/768                     38/40        64.84%
+
+ SigLIP 2 + ConvNeXt                                                   695/768                     37/40        63.77%
+
+
+
+95% within-class paired bootstrap intervals. Earlier CLIP controls reproduce exactly.
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                               08
+09 / VISUAL-PROMPT STUDENT PILOT
+
+
+
+Replacing the student too
+The student uses the same backbone as its anchor nominator. Original-DINO teacher predictions replayed
+exactly before training.
+
+
+EuroSAT / 320 fit, 200 validation images
+                                          CLIP + DINO           CLIP + ConvNeXt
+                                          SigLIP 2 + DINO       SigLIP 2 + ConvNeXt
+                     100
+
+                      80
+         Top-1 (%)
+
+
+
+
+                      60
+
+                      40
+
+                      20
+
+                       0
+                       Frozen VLM                  Student epoch 1                       Student epoch 2
+
+
+Arm                                                  Teacher          Frozen VLM      Student, epoch 2
+
+CLIP + DINO                                            71.50%               51.50%             64.50%
+
+SigLIP 2 + DINO                                        56.50%               47.00%             56.00%
+
+CLIP + ConvNeXt                                        70.00%               51.50%             60.50%
+
+CIFAR-100      coarse scarcity / 320 fit, 40056.00%
+SigLIP 2 + ConvNeXt                           validation images
+                                                           47.00%                              68.50%
+
+
+                     100
+
+                      80
+         Top-1 (%)
+
+
+
+
+                      60
+
+                      40
+
+                      20
+
+                       0
+                       Frozen VLM                  Student epoch 1                       Student epoch 2
+
+
+Arm                                                  Teacher          Frozen VLM      Student, epoch 2
+
+CLIP + DINO                                            61.50%               59.50%             60.50%
+
+SigLIP 2 + DINO                                        59.25%               63.75%             58.25%
+
+CLIP + ConvNeXt                                        63.00%               59.50%             56.25%
+
+SigLIP 2 + ConvNeXt                                    60.25%               63.75%             58.75%
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                              09
+10 / MATCHED LONGER TRAINING
+
+
+
+Does the ranking hold?
+Continuation restores the same optimizer and prompts. Same 320 fit images per dataset; both datasets
+use the original pilot validation rows.
+
+
+EuroSAT / 200 validation images
+                                          CLIP + DINO           CLIP + ConvNeXt
+                                          SigLIP 2 + DINO       SigLIP 2 + ConvNeXt
+                          80
+
+                          75
+
+                          70
+              Top-1 (%)
+
+
+
+
+                          65
+
+                          60
+
+                          55
+
+                          50
+
+                               2      4              6                8                 10       12
+                                                  Student epoch
+
+Arm                                                         Epoch 2              Epoch 4       Epoch 12
+
+CLIP + DINO                                                 64.50%                    68.50%     64.00%
+
+SigLIP 2 + DINO                                             56.00%                    60.00%     60.00%
+
+CLIP + ConvNeXt                                             60.50%                    73.50%     69.50%
+CIFAR-100 coarse scarcity / 400 validation images
+SigLIP 2 + ConvNeXt                                         68.50%                    58.50%     62.00%
+
+
+
+                   60.0
+
+                   57.5
+       Top-1 (%)
+
+
+
+
+                   55.0
+
+                   52.5
+
+                   50.0
+
+                   47.5
+                               2      4              6                8                 10       12
+                                                  Student epoch
+
+Arm                                                         Epoch 2              Epoch 4       Epoch 12
+
+CLIP + DINO                                                 60.50%                    59.50%     55.50%
+
+SigLIP 2 + DINO                                             58.25%                    58.00%     56.75%
+
+CLIP + ConvNeXt                                             56.25%                    56.25%     53.00%
+
+SigLIP 2 + ConvNeXt                                         58.75%                    56.25%     54.75%
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                               10
+OVERALL REPORT / DRAFT
+
+
+
+Abstract
+
+ We tested three parts of a NoLA-style adaptation pipeline: CLIP class-description embeddings (CDE),
+ pseudo-labeled anchor selection and visual retrieval, and visual-prompt student training. The strongest
+ reproducible-within-run effect of a modification was targeted rescue of an underfilled EuroSAT class: direct
+ DINO retrieval raised Herbaceous Vegetation recall from 2/600 without rescue to 98/600, compared with 72/600
+ for a matched CLIP expansion. Overall gains were smaller and did not consistently transfer. Replacing CLIP
+ with SigLIP 2 for independent anchor selection clearly degraded the EuroSAT DINO teacher under both
+ retrievers. An early EuroSAT win for the SigLIP 2 + ConvNeXt student disappeared at longer fixed training
+ budgets. We have not established that any modification improves on the release-style CLIP baseline in a
+ matched, full-split student test, or across datasets.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                         11
+OVERALL REPORT / DRAFT
+
+
+
+Protocol and baseline
+
+ CDE denotes the frozen text-based classifier; the teacher is a learned head on frozen original DINO ViT-B/16
+ features; the student is CLIP or SigLIP 2 with visual-prompt adaptation. DINOv3 ConvNeXt-Tiny
+ (convnext_tiny.dinov3_lvd1689m) was a frozen retrieval encoder only, never the teacher or student. Most
+ follow-ups use development validation, with one training seed per major comparison. Coarse CIFAR-100 includes
+ separate 5,000-image validation analyses and a 1,024-image simulated-scarcity teacher pilot; these are not
+ interchangeable. RESISC45 uses an adapter-derived split. The older frozen Kaggle/DNC study was not re-audited
+ and is outside this draft.
+
+
+
+ The local release-style EuroSAT run achieved 51.09% CDE, 67.09% DINO teacher, and 76.69% best student on the
+ same 5,400 validation images. The validation-selected epoch-3 checkpoint scored 76.27% on 8,100 test images
+ (6,178 correct). The same run finished at 71.13% validation at epoch 50. A small sweep with 160 and 320
+ adaptation images showed that a larger anchor cap could improve the teacher while hurting the student; only 10
+ of 128 jobs from the larger hyperparameter grid were saved. These are reasons to record class coverage and
+ checkpoint trajectories, not evidence that longer training or larger anchor budgets always hurt.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           12
+OVERALL REPORT / DRAFT
+
+
+Prompt and prototype hypotheses
+
+
+
+ A 240-image EuroSAT pilot favored three prototypes with log-mean-exp (127 correct) over one mean (118); max
+ pooling scored 103. The larger 5,160-image analysis showed that clustering the authored bank could
+ underperform both the single mean (53.59%) and the unmerged bank (54.28%): merged variants scored
+ 48.39–49.42%. Broad-plus-variant prompts improved the weak broad-only bank (47.67% to 50.21% at best) but did
+ not beat those controls. For the released prompt bank, one merge reached 52.29% versus 51.10% for released
+ CDE, yet Herbaceous stayed at zero correct. The SVD/cosine audit showed that dimensionality reduction could
+ make prompt pairs appear close that did not pass the full-space test. Photo-wrapped prototypes on EuroSAT
+ briefly improved the student by 1.15 pp at epoch 1 and lost 0.30 pp at epoch 2; on RESISC45 the frozen score
+ declined from 58.03% to 56.05%. Conclusion: neither prompt grouping nor a better raw text score guarantees
+ useful anchors or a better student.
+
+
+
+ Oxford-IIIT Pet, one-template comparison
+ N: 3,669 / Baseline → appended: 85.61% → 87.90% / Appending effect, 95% CI (pp): +2.29; 156 fixes, 72
+ losses / Extra effect of the 0.90 normalized blend (pp): Not tested
+
+
+ EuroSAT validation
+ N: 5,400 / Baseline → appended: 51.06% → 51.48% / Appending effect, 95% CI (pp): +0.43 [−0.11, +0.96] /
+ Extra effect of the 0.90 normalized blend (pp): −0.28 [−0.54, −0.02]
+
+
+ RESISC45 validation
+ N: 6,255 / Baseline → appended: 58.07% → 58.86% / Appending effect, 95% CI (pp): +0.80 [+0.11, +1.47] /
+ Extra effect of the 0.90 normalized blend (pp): +0.03 [−0.11, +0.18]
+
+
+ CIFAR-100 coarse validation
+ N: 5,000 / Baseline → appended: 58.50% → 50.48% / Appending effect, 95% CI (pp): −8.02 [−9.00, −7.04] /
+ Extra effect of the 0.90 normalized blend (pp): +0.62 [+0.26, +0.98]
+
+
+ CIFAR changed wording and included explicit class names, so its contrast does not isolate suffix placement.
+ The 0.75 variant cutoff retained nothing in the final appended-bank experiment; its predictions were identical
+ to the mean. At 0.90, one normalized weighted vector performed numerically worse than soft pooling of the same
+ components on every dataset. The earlier 0.90 wrapped-bank CIFAR LME experiment was also inconclusive (−0.14
+ pp). These results do not support a universal variation recipe. In a 300-image paired EuroSAT student test,
+ the suffix changed top-1 by −2.00 pp [−5.00, +1.00]. The separate full-split suffix run improved teacher test
+ accuracy (66.96% to 68.90%), but the student validation ordering reversed between epoch 1 and 2; no verified
+ final paired student test was found for that run. CIFAR-10 suffix training has no verified endpoint.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           13
+OVERALL REPORT / DRAFT
+
+
+Anchor and retrieval hypotheses
+
+
+
+ The baseline sometimes nominated no correct candidates for a class. For example, a small EuroSAT audit found
+ 24 true Herbaceous fit images, zero first-choice CLIP nominations, and one incorrect fallback. More anchors
+ helped only if the additional images were useful. Farthest-first and medoids lowered teacher accuracy on all
+ three datasets. Neighbor agreement improved EuroSAT by +2.67 pp [1.80, 3.54], was inconclusive on RESISC45
+ (+0.27 pp [−0.59, 1.12]), and hurt coarse CIFAR-100 (−1.18 pp [−2.20, −0.18]). Forced cluster balance lost
+ roughly 9.50–11.24 pp on EuroSAT; mapping text prototypes onto clusters did not recover the loss.
+
+
+
+ In the first cluster-first rescue, all 113 additions went to Pasture and none to Herbaceous. Opening the pool,
+ while matching 64 additions per target class, changed that: no-rescue, CLIP expansion, and direct DINO
+ retrieval gave 2/600, 72/600, and 98/600 Herbaceous recall. Direct retrieval raised overall teacher top-1 from
+ 67.28% to 68.02% versus matched CLIP expansion (+0.74 pp [0.15, 1.35]) and selected 96/128 correct additions
+ versus 79/128. DBSCAN reached 68.28%, but one dominant cluster and thousands of noise points do not establish
+ meaningful subtypes. Ward and spherical k-means did not surpass DBSCAN in this run; spectral clustering and
+ CLIP-reweighted edges did not consistently beat direct retrieval. In the CIFAR scarcity pilot, direct DINO had
+ 38/40 correct additions versus CLIP's 28/40, yet lowered teacher accuracy, showing that anchor purity alone is
+ an insufficient criterion.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           14
+OVERALL REPORT / DRAFT
+
+
+SigLIP 2 and DINOv3 ConvNeXt-Tiny
+
+
+
+ The original four-way reranking study retained CLIP-defined seeds and candidates. SigLIP 2 made more chosen
+ additions correct in every matched swap. It raised EuroSAT DINO-retrieval teacher accuracy from 68.02% to
+ 68.57%, but did not help every pairing on CIFAR. The independent-nomination experiment then gave each model
+ its own pool and matched per-class counts. The CLIP controls reproduced earlier predictions exactly.
+
+
+ CLIP + original DINO
+ EuroSAT teacher, n=5,400: 68.02% / CIFAR-100 scarcity teacher, n=1,024: 64.06% / EuroSAT student, epoch
+ 12, n=200: 64.00% / CIFAR-100 student, epoch 12, n=400: 55.50%
+
+
+ SigLIP 2 + original DINO
+ EuroSAT teacher, n=5,400: 58.13% / CIFAR-100 scarcity teacher, n=1,024: 63.18% / EuroSAT student, epoch
+ 12, n=200: 60.00% / CIFAR-100 student, epoch 12, n=400: 56.75%
+
+
+ CLIP + DINOv3 ConvNeXt-Tiny
+ EuroSAT teacher, n=5,400: 68.43% / CIFAR-100 scarcity teacher, n=1,024: 64.84% / EuroSAT student, epoch
+ 12, n=200: 69.50% / CIFAR-100 student, epoch 12, n=400: 53.00%
+
+
+ SigLIP 2 + DINOv3 ConvNeXt-Tiny
+ EuroSAT teacher, n=5,400: 58.93% / CIFAR-100 scarcity teacher, n=1,024: 63.77% / EuroSAT student, epoch
+ 12, n=200: 62.00% / CIFAR-100 student, epoch 12, n=400: 54.75%
+
+
+ Against CLIP with the same retriever, SigLIP-only EuroSAT teacher effects were −9.89 pp [−11.17, −8.61] with
+ DINO and −9.50 pp [−10.81, −8.26] with ConvNeXt. Both CIFAR intervals included zero. SigLIP independently
+ nominated 144 correct Herbaceous examples at top-1 where CLIP nominated none, but the matched selection
+ retained only 2 correct out of 71 versus 38/71 with CLIP and DINO expansion. Under native budgets SigLIP
+ improved Herbaceous teacher recall from 98/600 to 345/600, but aggregate accuracy fell to 60.98% versus
+ 68.02%. The ability to propose useful examples is therefore distinct from ranking and selecting them under a
+ tight budget.
+
+
+
+ The student experiments changed both the nominator and student backbone in the SigLIP arms; they do not
+ isolate which caused the difference. All students saw the same 320 fit images per dataset and used fixed
+ checkpoints at epochs 2, 4, and 12. The early EuroSAT SigLIP 2 + ConvNeXt result (68.50% at epoch 2) did not
+ improve later. CLIP + ConvNeXt reached 78.50% at epoch 11 and ended 5.50 pp [1.00, 10.00] ahead of CLIP + DINO
+ at epoch 12 on the same pilot rows. On CIFAR that same retrieval swap ended −2.50 pp [−4.75, −0.25]. The best
+ observed CIFAR run was CLIP + DINO at epoch 2 (60.50%). Best-observed validation scores are descriptive and
+ cannot be compared directly with the 76.27% full-split EuroSAT test baseline.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                         15
+OVERALL REPORT / DRAFT
+
+
+Conclusions and next comparison
+
+
+
+ Keep released CLIP CDE and the simple confidence selector as the baseline. Test targeted expansion for
+ genuinely underfilled classes, using CLIP-only expansion as the control that distinguishes the added budget
+ from the retrieval method. Compare against direct DINO retrieval and optionally ConvNeXt with the same
+ per-class additions. Use EuroSAT and a second dataset with measured natural scarcity; keep the student
+ architecture and checkpoint-selection rule fixed, report multiple seeds, and lock a held-out test before
+ looking at outcomes. Report overall student top-1, correctness and coverage of rescued anchors, rare-class
+ recall, and any regression on non-target classes. The current runs support a rescue hypothesis, not a
+ universal new pipeline.
+
+
+
+ Statistical notes: differences are in percentage points; quoted 95% intervals are paired image-level bootstrap
+ intervals from the report builders or archived studies. The recent frozen comparisons stratify by true class
+ (fine subtype for CIFAR), and retain exact McNemar p-values and fix/loss counts in the PDF or machine-readable
+ results. Repeated development sets, multiple comparisons, training seeds, and checkpoint selection limit
+ generalization; the intervals do not quantify all of those sources of uncertainty. No new experiments were run
+ to write this draft.
+
+
+
+ Sources and full experiment register: EXPERIMENT-SUMMARY.md; NoLA-Experiment-Report.pdf (plots and appendix);
+ report-assets/paired-statistics.json; parallel-study/dino-anchors/reports/combined.csv;
+ parallel-study/cluster-first/clustering_sweep_eurosat/verification.json; cde-suffix-blend/;
+ siglip-replacement/{factorial,students,students-epoch4,students-epoch12}/; and the saved EuroSAT walkthrough
+ notebook outputs.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           16
+APPENDIX / EXPERIMENT INVENTORY
+
+
+Baseline, scale, and what fails
+Hypotheses, measured results, and failure modes; stages and splits are kept separate.
+
+
+
+ HYPOTHESIS
+ EuroSAT small pipeline and 160/320-image sweep: more data or more anchors should help.
+
+ RESULT
+ 160-image trace: 35 candidates → 34 distinct anchors, 25 correct; Herbaceous had no CLIP top-1 candidates and
+ needed fallback. In the separate four-cell sweep, CDE was 117/240, DINO 142–159/240, student 81–140/240.
+ Raising the cap from 4 to 12 added anchors, reduced precision, improved the teacher in both matched rows, and
+ hurt the student. At 320 images one class lost coverage.
+
+ INTERPRETATION
+ More images or anchors do not guarantee class coverage; fallback and deduplication matter. Higher teacher
+ accuracy did not automatically reach the student.
+
+
+ HYPOTHESIS
+ Larger small-data hyperparameter grid: tune head and student to remove the gap.
+
+ RESULT
+ 10 of 128 configurations are saved, 20 epoch checkpoints. Best saved student 143/240, tied with its teacher;
+ students ranged from 59 to 143 correct.
+
+ INTERPRETATION
+ Partial, single-seed grid; no defensible global winner. Epochs and batch size also change the number of
+ updates.
+
+
+ HYPOTHESIS
+ Instrumented EuroSAT CPU replay and DINO-space audit: find the specific failure.
+
+ RESULT
+ On 240 validation images: CDE 117, teacher 134, student 87 at epoch 1 and 124 at epoch 4. Fresh 240-image
+ subset: 130, 137, and 121 at epoch 4. Herbaceous: 24 true train examples, zero top-1 nominations, one wrong
+ fallback, 0/16 validation correct throughout. Pasture had no correct anchors; Permanent Crop had four wrong
+ anchors. Two of nine supported predicted-class DINO regions lacked anchors; only 3/7 and 1/4 of their rows had
+ correct CLIP labels.
+
+ INTERPRETATION
+ An absent nomination is different from low anchor precision. Pure diversity may give more slots to coherent
+ *wrong* labels. At epoch 4 the student fixed 24 teacher errors and lost 34 correct teacher predictions.
+
+
+ HYPOTHESIS
+ Full-split EuroSAT local release-style baseline: is NoLA itself viable at scale?
+
+ RESULT
+ CDE 51.09%, teacher 67.09%, best student 76.69% validation (epoch 3); selected checkpoint 76.27% test
+ (6,178/8,100). Epoch 50 fell to 71.13% validation.
+
+ INTERPRETATION
+ End-to-end NoLA worked well in this run. Checkpoint selection mattered; small pilots that lost to DINO do not
+ establish that the student generally fails. Local release-style run, not an exact multi-seed paper
+ reproduction.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           17
+APPENDIX / EXPERIMENT INVENTORY
+
+
+Baseline, scale, and what fails
+Continued from the previous page.
+
+
+
+ Sources: NoLA-EuroSAT-{Pipeline,Sweep,Full-Sweep,Run-It-Yourself}.ipynb, eurosat-full-sweep.jsonl,
+ eurosat-case-study/{metrics.json,weakness-audit/README.md}.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                               18
+APPENDIX / EXPERIMENT INVENTORY
+
+
+
+Text-side experiments (CDE)
+Hypotheses, measured results, and failure modes; stages and splits are kept separate.
+
+
+
+ HYPOTHESIS
+ Three prompt prototypes via K-means instead of one class mean.
+
+ RESULT
+ EuroSAT 240-image pilot: mean 118, log-mean-exp (LME) 127, max 103; Herbaceous 0/16 in all arms.
+
+ INTERPRETATION
+ Soft pooling looked promising on a reused small set; max was worse, consistent with an individual mismatched
+ prompt dominating. No evidence of rare-class rescue.
+
+
+ HYPOTHESIS
+ Compress authored prompts via complete-link cosine; use SVD as a geometry diagnostic.
+
+ RESULT
+ On the other 5,160 EuroSAT validation images: mean 53.59%; unmerged 100 descriptions 54.28%; 36/57/72 merged
+ prototypes 48.90/48.39/49.42%. SVD projection marked some pairs as close that failed full-space cosine; they
+ were not merged on that basis.
+
+ INTERPRETATION
+ Merging can alter both representation and per-description weights; the losses do not isolate information loss.
+ SVD directions are not subtype counts.
+
+
+ HYPOTHESIS
+ Broad descriptions plus named or unnamed variations should recover semantic coverage.
+
+ RESULT
+ Same 5,160 rows: broad-only 47.67%, best broad-plus-variants 50.21%, below 53.59% mean and 54.28% unmerged
+ controls.
+
+ INTERPRETATION
+ Adding variants helped that weak broad bank, not the strongest matched prompt controls. Explicit class naming
+ was not a guarantee of improvement.
+
+
+ HYPOTHESIS
+ Merge the released EuroSAT bank rather than the newly authored bank.
+
+ RESULT
+ Same 5,160 rows: original released CDE 51.10%; descriptions-only centroid 50.79%; unmerged released
+ descriptions 51.96%; best merge (0.80) 52.29%, 0.75 merge 52.15%. Herbaceous still had zero correct.
+
+ INTERPRETATION
+ Some prompt compression worked for this bank, but the result did not transfer across banks or solve the main
+ class failure.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           19
+APPENDIX / EXPERIMENT INVENTORY
+
+
+
+Text-side experiments (CDE)
+Continued from the previous page.
+
+
+
+ HYPOTHESIS
+ Photo-wrap each description, then cluster at 0.75 and use in NoLA.
+
+ RESULT
+ EuroSAT corrected Colab arm (16 prototypes): teacher 3,624→3,679/5,400; student epoch 1 +1.15 pp and epoch 2
+ −0.30 pp. No verified final test result for this comparison. RESISC45: 50 descriptions/class → 123 total
+ prototypes; frozen CDE 58.03→56.05%.
+
+ INTERPRETATION
+ Student advantage reversed by epoch; across datasets even the CDE effect reversed. An earlier unwrapped
+ author-scale arm was superseded, not a completed comparison.
+
+
+ HYPOTHESIS
+ Keep the mean and add only sufficiently different clusters with separate LME components.
+
+ RESULT
+ Wrapped-bank 0.75 gate retained 0/16 EuroSAT clusters and 0/27 CIFAR-100 coarse clusters. Exact mean parity:
+ 51.56% and 58.50%. CIFAR gate 0.90 activated 7 clusters: 58.36% (−0.14 pp, interval includes zero).
+
+ INTERPRETATION
+ An inactive gate tests the mean, not active variants. More permissive gating did not show a gain on that CIFAR
+ bank.
+
+
+ HYPOTHESIS
+ Append the class template to each description, with a single mean vector.
+
+ RESULT
+ Frozen CDE: Oxford Pets 85.61→87.90% (3,669, our one-template control); EuroSAT 51.06→51.48%; RESISC45
+ 58.07→58.86%; CIFAR-100 coarse 58.50→50.48% versus previous photo-wrapped prompts.
+
+ INTERPRETATION
+ Favorable for some domain/breed wording; not a universal formatting rule. CIFAR also changed wording and
+ introduced class names, so the −8.02 pp is not isolated to word order.
+
+
+ HYPOTHESIS
+ Blend normalized mean and variation directions into one vector per class, weighting by description count.
+
+ RESULT
+ Appended-bank 0.75 gate retained nothing on all three. At 0.90, relative to appended mean: EuroSAT −0.28 pp,
+ CIFAR-100 +0.62 pp, RESISC45 +0.03 pp. LME on the same appended bank scored 51.59%, 51.58%, 58.96% vs blend
+ 51.20%, 51.10%, 58.90%.
+
+ INTERPRETATION
+ A single vector shifts every image score in the same way for that class, whereas LME can favor an
+ image-specific prototype. On EuroSAT only River and Sea or Lake vectors moved; River gained 17 correct but
+ Forest lost 26 through class competition. The RESISC45 difference is only a few images. No downstream blend
+ retraining.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           20
+APPENDIX / EXPERIMENT INVENTORY
+
+
+
+Text-side experiments (CDE)
+Continued from the previous page.
+
+
+
+ HYPOTHESIS
+ Does the suffix alone help after training? Local EuroSAT matched runs.
+
+ RESULT
+ 300-image pilot test, baseline→suffix: CDE 49.67→48.67%; teacher 64.00→64.33%; student 69.33→67.33%. Full
+ split: teacher test 66.96→68.90%, Herbaceous anchors 7→21; student validation 74.33→72.33% at epoch 1,
+ 73.15→74.74% at epoch 2. No final paired student test export found for the full split.
+
+ INTERPRETATION
+ Teacher gains and better class coverage did not imply stable student gains. Both full-split arms reached their
+ two validation milestones; a completed paired student test is not established. CIFAR-10 archive was verified,
+ but the local log stops at waiting for the GPU; no verified CIFAR-10 suffix result found.
+
+
+ Sources: colab-nola/ (prompt/metrics ZIPs and SVD audit), parallel-study/REPORT-LEDGER.md,
+ oxford-pets-template-suffix-result.md, cde-suffix-blend/README.md, offline-suffix-20261121T174021-Bfe0QH/
+ (paired pilot and full-split event log).
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           21
+APPENDIX / EXPERIMENT INVENTORY
+
+
+Anchor selection and retrieval (DINO teacher only)
+Hypotheses, measured results, and failure modes; stages and splits are kept separate.
+
+
+
+ HYPOTHESIS
+ Confidence-gated DINO coverage swaps replace redundant anchors.
+
+ RESULT
+ Tiny EuroSAT pilot on 240 images gained +5, +2, +9 correct across three seeds.
+
+ INTERPRETATION
+ Worth scaling, not independent datasets or untouched splits; same small development rows.
+
+
+ HYPOTHESIS
+ At matched anchor counts, choose farthest-first, medoids, or agreement with visual neighbors.
+
+ RESULT
+ Teacher validation (confidence / farthest / medoids / agreement): EuroSAT 67.07 / 61.48 / 62.07 / 69.74%;
+ RESISC45 69.32 / 66.38 / 67.16 / 69.59%; CIFAR-100 coarse 63.98 / 62.20 / 62.38 / 62.80%.
+
+ INTERPRETATION
+ Farthest-first and medoids lost everywhere. Agreement raised anchor precision across datasets, but teacher
+ gain was clear only on EuroSAT, and CIFAR declined. Agreement alone does not ensure useful coverage.
+
+
+ HYPOTHESIS
+ Cluster-first rescue with top-2/3 CLIP constraints.
+
+ RESULT
+ EuroSAT baseline 67.06%, plain expansion 67.81%, DINO cluster-first 67.83%. All 113 additions went to Pasture;
+ zero Herbaceous passed the gate, and Herbaceous recall was 2/600 at baseline and with cluster-first.
+
+ INTERPRETATION
+ The aggregate gain was not a rescue of the intended class. Candidate/gate restrictions mattered more than the
+ clustering here.
+
+
+ HYPOTHESIS
+ Relax the candidate pool, add 64 anchors each to Herbaceous and Pasture, compare no-cluster retrieval and
+ clustering.
+
+ RESULT
+ EuroSAT baseline 67.06%; CLIP expansion 67.28%, spherical K-means 67.52%, Ward 67.93%, direct DINO seed
+ retrieval 68.02%, DBSCAN 68.28%. Direct retrieval found 96/128 correct additions (CLIP 79/128) and Herbaceous
+ recall 98/600 (baseline 2/600; CLIP expansion 72/600).
+
+ INTERPRETATION
+ Best concrete rare-class rescue. DBSCAN had one dominant cluster and 6,810 noise points, not evidence of
+ semantic subtypes. One dataset/seed; no zero-seed rescue tested here.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           22
+APPENDIX / EXPERIMENT INVENTORY
+
+
+Anchor selection and retrieval (DINO teacher only)
+Continued from the previous page.
+
+
+
+ HYPOTHESIS
+ Cluster-balance anchors and map visual clusters to text prototypes.
+
+ RESULT
+ Same EuroSAT budgets across seven arms. Cluster balance cut accuracy by 9.50–11.24 pp depending on bank.
+ Prototype confidence 67.43% vs cluster-balanced 56.98%; mapping 57.09%, just +0.11 pp vs unmapped.
+
+ INTERPRETATION
+ Counting cluster coverage without preserving pseudo-label quality was costly; prototype mapping did not fix
+ it.
+
+
+ HYPOTHESIS
+ DINO spectral clustering; reweight the same graph with CLIP posterior overlap.
+
+ RESULT
+ EuroSAT: CLIP expansion 67.28%, direct retrieval 68.02%, DINO spectral 67.52%, CLIP-weighted spectral 67.28%.
+ CIFAR-100 simulated-scarcity pilot: 65.43%, 64.06%, 64.36%, 63.87% in the same order.
+
+ INTERPRETATION
+ Edge weighting did not improve spectral. CIFAR direct retrieval had 38/40 correct added anchors versus 28/40
+ for CLIP but worse teacher accuracy. Purity is not enough; subtype diversity and representativeness are
+ plausible factors, not established causes.
+
+
+ HYPOTHESIS
+ Stronger frozen retrieval encoder (public DINOv3 ConvNeXt-Tiny), then SigLIP 2 reranking × retrieval
+ factorial.
+
+ RESULT
+ ConvNeXt with CLIP: EuroSAT 68.43% vs original DINO 68.02%; CIFAR scarcity pilot 64.84% vs 64.06%, still below
+ CLIP-only expansion 65.43%. Factorial (CLIP+DINO / SigLIP+DINO / CLIP+ConvNeXt / SigLIP+ConvNeXt): EuroSAT
+ 68.02 / 68.57 / 68.43 / 68.83%; CIFAR pilot 64.06 / 64.55 / 64.84 / 64.65%.
+
+ INTERPRETATION
+ SigLIP increased correct additions in all matched swaps but not teacher accuracy in every pairing. CLIP still
+ nominated candidates and seeds, so no full replacement was tested. Gated DINOv3 ViT checkpoint returned HTTP
+ 401; public ConvNeXt was a separate tested backbone, not a result for the blocked ViT.
+
+
+ Sources: colab-nola/nola_anchor_pilot_validation.csv, parallel-study/dino-anchors/reports/combined.csv,
+ parallel-study/cluster-first/*-LEDGER.md and matched per-run verification/summary JSONs. RESISC45 uses the
+ saved adapter-derived split, not a verified author partition. The full CIFAR-100 sorter study and the
+ deliberately underfilled CIFAR pilot are separate.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           23
+APPENDIX / EXPERIMENT INVENTORY
+
+
+Current judgment and next hypothesis
+Hypotheses, measured results, and failure modes; stages and splits are kept separate.
+
+
+
+ 1. Keep the released single-mean CDE and confidence-based anchors as the cross-dataset baseline. Do not
+ promote a template, threshold, or clustering rule just because it won one development run.
+
+
+ 2. Most promising mechanism: a class needs correct anchors across its visual modes. Missing nominations cannot
+ be fixed by reranking the same candidates, and adding correct but redundant anchors can still harm
+ generalization. Measure candidate availability, correct anchors per class/subtype, teacher accuracy, and
+ student accuracy independently.
+
+
+
+ 3. Independent replacement is now tested: see siglip-replacement/README.md. At matched budgets, SigLIP 2-only
+ teacher accuracy trails CLIP-only by 9.89 pp on EuroSAT and by 1.17 pp on the CIFAR-100 pilot (the latter
+ interval includes zero). SigLIP nominates 144 correct EuroSAT Herbaceous examples at top-1 versus none from
+ CLIP, yet selects fewer correct Herbaceous anchors with the matched budgets. Keep CLIP as default; the next
+ discriminating check is how to rank candidates for that class, rather than another wholesale backbone swap. A
+ secondary check is satellite suffix mean versus released CDE at matched anchor budgets.
+
+
+
+ Technical issues (not scientific failures): an import namespace collision in a local pilot was worked around
+ before the successful EuroSAT run; public archive transfers timed out/reset, and the RESISC45 archive was
+ resumed and hash-checked. A float32 grouping consistency check differed by 1.69e-7; moving the check to
+ float64 recovered the run without changing classifier math. No score was inferred for unfinished runs.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                           24
+

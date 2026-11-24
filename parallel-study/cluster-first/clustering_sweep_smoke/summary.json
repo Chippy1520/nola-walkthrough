@@ -1,0 +1,51 @@
+{
+  "smoke": true,
+  "train_n": 64,
+  "val_n": 32,
+  "test_scored": false,
+  "cluster_count_target": 8,
+  "density_cosine_cutoff": 0.6242607951164245,
+  "diagnostics": {
+    "spherical_kmeans": {
+      "clusters": 8,
+      "noise": 0,
+      "largest": 13
+    },
+    "ward_pca32": {
+      "clusters": 8,
+      "noise": 0,
+      "largest": 17
+    },
+    "dbscan": {
+      "clusters": 1,
+      "noise": 30,
+      "largest": 34
+    }
+  },
+  "base_budgets": [
+    11,
+    1,
+    0,
+    1,
+    9,
+    1,
+    16,
+    5,
+    0,
+    0
+  ],
+  "add_quotas": [
+    5,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "feature_signature": "4605c96f0f9e2cf104c4c7094d1c252024ebad570a34839e03778b6d379a3416",
+  "code_sha256": "97aa8443b053859c05ebc2e44345ebbaad42dc37935c34af15131b1671d45ffe"
+}

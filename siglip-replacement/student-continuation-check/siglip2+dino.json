@@ -1,0 +1,27 @@
+{
+  "backbone": "siglip2",
+  "teacher_correct": 8,
+  "frozen_correct": 6,
+  "untrained_prompt_correct": 1,
+  "student_correct": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 1,
+      "updates": 2,
+      "skips": 0,
+      "seconds": 1.11
+    },
+    {
+      "epoch": 2,
+      "correct": 1,
+      "updates": 2,
+      "skips": 0,
+      "seconds": 1.11
+    }
+  ],
+  "checkpoint": "siglip2+dino-epoch-2.pt",
+  "sha256": "ae4a27148f727a98d743148582cedc948447e5d81cdac91a7e71c1be477efd33",
+  "trainable": 59904,
+  "seconds": 1.95
+}

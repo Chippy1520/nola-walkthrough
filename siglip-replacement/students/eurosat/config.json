@@ -1,0 +1,20 @@
+{
+  "dataset": "eurosat",
+  "smoke": false,
+  "epochs": 2,
+  "train_n": 320,
+  "val_n": 200,
+  "train_full": 13500,
+  "val_full": 5400,
+  "steps": 10,
+  "micro": 4,
+  "effective": 32,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "2740346d6c9521dd1093c74ef3b225b5efd711236712330000e9393fb1377e33",
+  "code_sha": "d16130044059d7c240ff2f2523578f0f55d719b58fad06faf5af4a674cdebdff",
+  "test_scored": false
+}

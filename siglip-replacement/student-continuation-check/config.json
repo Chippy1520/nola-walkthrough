@@ -1,0 +1,22 @@
+{
+  "dataset": "eurosat",
+  "smoke": true,
+  "epochs": 2,
+  "train_n": 11,
+  "val_n": 10,
+  "train_full": 13500,
+  "val_full": 5400,
+  "steps": 2,
+  "micro": 4,
+  "effective": 8,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "2740346d6c9521dd1093c74ef3b225b5efd711236712330000e9393fb1377e33",
+  "code_sha": "54c17de51c5404b58805dd88f264fd066a3ccaa995b2148959534d35d9642d25",
+  "test_scored": false,
+  "continued_from": "/home/chip/nola-walkthrough/siglip-replacement/student-check",
+  "parent_metrics_sha": "31349eb21a1e6f497ca4e06ed8ab0f5da096b2e4d1cc4ba943e59290c9821249"
+}

@@ -1,0 +1,76 @@
+{
+  "stage": "validation",
+  "n": 5400,
+  "arms": {
+    "baseline": {
+      "anchors": 2324,
+      "correct_anchors": 1738,
+      "val_correct": 3621
+    },
+    "expanded_clip": {
+      "anchors": 2437,
+      "correct_anchors": 1845,
+      "val_correct": 3662
+    },
+    "dino_clusters": {
+      "anchors": 2437,
+      "correct_anchors": 1849,
+      "val_correct": 3663
+    }
+  },
+  "paired": {
+    "baseline": {
+      "delta_pp": 0.0,
+      "fixes": 0,
+      "regressions": 0,
+      "paired_95ci_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    "expanded_clip": {
+      "delta_pp": 0.7592592592592593,
+      "fixes": 108,
+      "regressions": 67,
+      "paired_95ci_pp": [
+        0.2962962962962963,
+        1.2222222222222223
+      ]
+    },
+    "dino_clusters": {
+      "delta_pp": 0.7777777777777778,
+      "fixes": 108,
+      "regressions": 66,
+      "paired_95ci_pp": [
+        0.2962962962962963,
+        1.2407407407407407
+      ]
+    }
+  },
+  "herbaceous": [
+    {
+      "arm": "baseline",
+      "class_name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "4",
+      "val_n": "600",
+      "val_correct": "2"
+    },
+    {
+      "arm": "expanded_clip",
+      "class_name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "4",
+      "val_n": "600",
+      "val_correct": "3"
+    },
+    {
+      "arm": "dino_clusters",
+      "class_name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "4",
+      "val_n": "600",
+      "val_correct": "2"
+    }
+  ]
+}

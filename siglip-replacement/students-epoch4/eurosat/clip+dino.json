@@ -1,0 +1,41 @@
+{
+  "backbone": "clip",
+  "teacher_correct": 143,
+  "frozen_correct": 103,
+  "untrained_prompt_correct": 26,
+  "student_correct": 137,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 116,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 21.51
+    },
+    {
+      "epoch": 2,
+      "correct": 129,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 21.27
+    },
+    {
+      "epoch": 3,
+      "correct": 135,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 21.78
+    },
+    {
+      "epoch": 4,
+      "correct": 137,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 21.58
+    }
+  ],
+  "checkpoint": "clip+dino-epoch-4.pt",
+  "sha256": "e5832a6b3b78078f9d35f1007a0a5768709d814364e752ca2e7922ed6642e1f9",
+  "trainable": 57344,
+  "seconds": 52.21
+}

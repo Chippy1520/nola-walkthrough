@@ -1,0 +1,73 @@
+{
+  "stage": "validation",
+  "test_scored": false,
+  "teacher_epochs": 50,
+  "clusters": 120,
+  "train_n": 13500,
+  "val_n": 5400,
+  "metadata": {
+    "dataset": "eurosat",
+    "split_origin": "Published CoOp split_zhou_EuroSAT.json",
+    "train_count": 13500,
+    "val_count": 5400,
+    "test_count": 8100,
+    "test_decoded": false,
+    "text_origin": "Released NoLA EuroSAT broad CDE tensor (embeddings.pt::broad, NoLA-EuroSAT-Author-Inputs.zip)",
+    "text_kind": "released_cde",
+    "input_sha256": {
+      "eurosat/clip_mean.npy": "7042a6496549ad5919b3543289cb5cbcf2eea9bf184bd00c4f6b2275f4136c2f",
+      "eurosat/descriptions.json": "fe1076499e4fb8c019e83e677af2e9ecc302cb2240edcca0a1ed7fbb35af2110",
+      "eurosat/split_zhou_EuroSAT.json": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+      "eurosat/text_config.json": "58cd52dd89e59daa49653b58e8a1c0556de67b07d67e0c77b48628ab25818afd"
+    },
+    "archive_checksum": [
+      "md5",
+      "f46e308c4d50d4bf32fedad2d3d62f3b"
+    ],
+    "archive_verified": true,
+    "clip_weights_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "dino_weights_sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+    "clip_scores": "cosine (unscaled)",
+    "clip_logit_scale": 100.00000762939453,
+    "dino_features": "raw CLS",
+    "dtype": "float32",
+    "preprocess": "bicubic short side 224 / center crop 224 / CLIP RGB mean and std for both backbones",
+    "runtime": [
+      "2.5.1+cu121",
+      "0.20.1+cu121",
+      "cuda",
+      "NVIDIA GeForce GTX 1050 Ti",
+      "13.0.0",
+      "highest",
+      false,
+      true
+    ],
+    "limits": {
+      "train": null,
+      "val": null
+    },
+    "batch_size": 8,
+    "chunk_size": 256,
+    "source_sha256": "b51efd1117e04d72365e779a1bd2ad1da959ba6592f70640727fbfe590f1404b",
+    "pins_sha256": "97fe3ec44d330e78a9baaa649ee0b894579dc234742d048c6b20c0adf4ebcc25",
+    "cache_signature": "205822a98903f3367a0e9843a7f04dbb9f6f3a279d64e213805e808447b13ffc"
+  },
+  "selector_sha256": "e3c8931f7a6bb1a9ac2e8dab06e61ad2b48ddd1aa0506d37f119a8ee21cc35a2",
+  "arms": {
+    "baseline": {
+      "anchors": 2324,
+      "correct_anchors": 1738,
+      "val_correct": 3621
+    },
+    "expanded_clip": {
+      "anchors": 2437,
+      "correct_anchors": 1845,
+      "val_correct": 3662
+    },
+    "dino_clusters": {
+      "anchors": 2437,
+      "correct_anchors": 1849,
+      "val_correct": 3663
+    }
+  }
+}

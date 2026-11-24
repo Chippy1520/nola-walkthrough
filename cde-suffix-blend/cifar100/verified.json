@@ -1,0 +1,82 @@
+{
+  "rows": 5000,
+  "verified": true,
+  "retained": {
+    "075": 0,
+    "090": 5
+  },
+  "metrics": {
+    "legacy_mean": {
+      "correct": 2925,
+      "n": 5000,
+      "acc_pct": 58.5,
+      "fixed_vs_suffix_mean": 622,
+      "lost_vs_suffix_mean": 221,
+      "delta_pp_vs_suffix_mean": 8.02,
+      "paired_p": 6.935851349499583e-45
+    },
+    "legacy_hybrid075": {
+      "correct": 2925,
+      "n": 5000,
+      "acc_pct": 58.5,
+      "fixed_vs_suffix_mean": 622,
+      "lost_vs_suffix_mean": 221,
+      "delta_pp_vs_suffix_mean": 8.02,
+      "paired_p": 6.935851349499583e-45
+    },
+    "suffix_mean": {
+      "correct": 2524,
+      "n": 5000,
+      "acc_pct": 50.48,
+      "fixed_vs_suffix_mean": 0,
+      "lost_vs_suffix_mean": 0,
+      "delta_pp_vs_suffix_mean": 0.0,
+      "paired_p": 1.0
+    },
+    "suffix_blend075": {
+      "correct": 2524,
+      "n": 5000,
+      "acc_pct": 50.48,
+      "fixed_vs_suffix_mean": 0,
+      "lost_vs_suffix_mean": 0,
+      "delta_pp_vs_suffix_mean": 0.0,
+      "paired_p": 1.0
+    },
+    "suffix_blend090": {
+      "correct": 2555,
+      "n": 5000,
+      "acc_pct": 51.1,
+      "fixed_vs_suffix_mean": 59,
+      "lost_vs_suffix_mean": 28,
+      "delta_pp_vs_suffix_mean": 0.62,
+      "paired_p": 0.0011686374974383248
+    },
+    "suffix_lme075": {
+      "correct": 2524,
+      "n": 5000,
+      "acc_pct": 50.48,
+      "fixed_vs_suffix_mean": 0,
+      "lost_vs_suffix_mean": 0,
+      "delta_pp_vs_suffix_mean": 0.0,
+      "paired_p": 1.0
+    },
+    "suffix_lme090": {
+      "correct": 2579,
+      "n": 5000,
+      "acc_pct": 51.58,
+      "fixed_vs_suffix_mean": 93,
+      "lost_vs_suffix_mean": 38,
+      "delta_pp_vs_suffix_mean": 1.1,
+      "paired_p": 1.700505180668006e-06
+    },
+    "legacy_hybrid090": {
+      "correct": 2918,
+      "n": 5000,
+      "acc_pct": 58.36,
+      "fixed_vs_suffix_mean": 615,
+      "lost_vs_suffix_mean": 221,
+      "delta_pp_vs_suffix_mean": 7.88,
+      "paired_p": 1.0540790164575143e-43
+    }
+  }
+}

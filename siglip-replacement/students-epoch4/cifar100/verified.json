@@ -1,0 +1,251 @@
+{
+  "dataset": "cifar100",
+  "smoke": false,
+  "epochs": 4,
+  "train_n": 320,
+  "val_n": 400,
+  "train_full": 4096,
+  "val_full": 1024,
+  "steps": 10,
+  "micro": 4,
+  "effective": 32,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "372c7fada4d713678b53701cd3f351057919db178470f09b7dcac2874945f439",
+  "code_sha": "54c17de51c5404b58805dd88f264fd066a3ccaa995b2148959534d35d9642d25",
+  "test_scored": false,
+  "continued_from": "/home/chip/nola-walkthrough/siglip-replacement/students/cifar100",
+  "parent_metrics_sha": "72dd2d32d00565461a579e1bd2f2756a77f5990b62df8dd5be51788cff94a297",
+  "arms": {
+    "clip+dino": {
+      "backbone": "clip",
+      "teacher_correct": 246,
+      "frozen_correct": 238,
+      "untrained_prompt_correct": 109,
+      "student_correct": 238,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 213,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 26.03
+        },
+        {
+          "epoch": 2,
+          "correct": 242,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.7
+        },
+        {
+          "epoch": 3,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 26.08
+        },
+        {
+          "epoch": 4,
+          "correct": 238,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.91
+        }
+      ],
+      "checkpoint": "clip+dino-epoch-4.pt",
+      "sha256": "70b8b03cb586cdf107baf4a6263524c983b16affc260ec8c7cdd95c1ed2e7437",
+      "trainable": 62464,
+      "seconds": 69.5
+    },
+    "siglip2+dino": {
+      "backbone": "siglip2",
+      "teacher_correct": 237,
+      "frozen_correct": 255,
+      "untrained_prompt_correct": 122,
+      "student_correct": 232,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 224,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.05
+        },
+        {
+          "epoch": 2,
+          "correct": 233,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.24
+        },
+        {
+          "epoch": 3,
+          "correct": 215,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 35.98
+        },
+        {
+          "epoch": 4,
+          "correct": 232,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.07
+        }
+      ],
+      "checkpoint": "siglip2+dino-epoch-4.pt",
+      "sha256": "c529d043355a81a6324a7ce965ce4605ed821bb9d4530de45dd898fd81f60919",
+      "trainable": 67584,
+      "seconds": 100.42
+    },
+    "clip+convnext": {
+      "backbone": "clip",
+      "teacher_correct": 252,
+      "frozen_correct": 238,
+      "untrained_prompt_correct": 109,
+      "student_correct": 225,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 190,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.88
+        },
+        {
+          "epoch": 2,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.65
+        },
+        {
+          "epoch": 3,
+          "correct": 211,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.68
+        },
+        {
+          "epoch": 4,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 25.84
+        }
+      ],
+      "checkpoint": "clip+convnext-epoch-4.pt",
+      "sha256": "2e06a20845ae16bb01d14794bcbd1f84c5f30d0454e48d236f6fcf6cce1ccc52",
+      "trainable": 62464,
+      "seconds": 69.04
+    },
+    "siglip2+convnext": {
+      "backbone": "siglip2",
+      "teacher_correct": 241,
+      "frozen_correct": 255,
+      "untrained_prompt_correct": 122,
+      "student_correct": 225,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 36.04
+        },
+        {
+          "epoch": 2,
+          "correct": 235,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 35.89
+        },
+        {
+          "epoch": 3,
+          "correct": 219,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 35.74
+        },
+        {
+          "epoch": 4,
+          "correct": 225,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 35.77
+        }
+      ],
+      "checkpoint": "siglip2+convnext-epoch-4.pt",
+      "sha256": "43de682a9c49fb9721900e68ebc9e6bd48ca92a902424b571f9e267145a1e2b7",
+      "trainable": 67584,
+      "seconds": 99.84
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "delta_pp": -1.5,
+      "fixes": 47,
+      "losses": 53,
+      "ci95_pp": [
+        -6.0,
+        2.75
+      ],
+      "mcnemar_p": 0.6172994135892521
+    },
+    "clip+convnext vs clip+dino": {
+      "delta_pp": -3.25,
+      "fixes": 9,
+      "losses": 22,
+      "ci95_pp": [
+        -5.75,
+        -0.75
+      ],
+      "mcnemar_p": 0.029449373483657837
+    },
+    "siglip2+convnext vs clip+dino": {
+      "delta_pp": -3.25,
+      "fixes": 42,
+      "losses": 55,
+      "ci95_pp": [
+        -7.5,
+        1.25
+      ],
+      "mcnemar_p": 0.22287765458337647
+    },
+    "clip+convnext vs siglip2+dino": {
+      "delta_pp": -1.75,
+      "fixes": 51,
+      "losses": 58,
+      "ci95_pp": [
+        -6.5,
+        2.75
+      ],
+      "mcnemar_p": 0.5657001139736346
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "delta_pp": -1.75,
+      "fixes": 14,
+      "losses": 21,
+      "ci95_pp": [
+        -4.5,
+        1.0
+      ],
+      "mcnemar_p": 0.31050465907901537
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "delta_pp": 0.0,
+      "fixes": 51,
+      "losses": 51,
+      "ci95_pp": [
+        -4.5,
+        4.25
+      ],
+      "mcnemar_p": 1.0
+    }
+  },
+  "seconds": 452.1
+}

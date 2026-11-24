@@ -1,0 +1,199 @@
+{
+  "smoke": false,
+  "diagnostics": {
+    "spectral_dino": {
+      "clusters": 120,
+      "noise": 0,
+      "largest": 225
+    },
+    "spectral_dino_clip": {
+      "clusters": 120,
+      "noise": 0,
+      "largest": 242
+    }
+  },
+  "results": {
+    "baseline": {
+      "anchors": 2324,
+      "added": 0,
+      "added_correct": 0,
+      "beyond_top3": 0,
+      "val_correct": 3621,
+      "accuracy_pct": 67.056
+    },
+    "clip_expansion": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 79,
+      "beyond_top3": 47,
+      "val_correct": 3633,
+      "accuracy_pct": 67.278
+    },
+    "dino_seed_retrieval": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 96,
+      "beyond_top3": 44,
+      "val_correct": 3673,
+      "accuracy_pct": 68.019
+    },
+    "spectral_dino": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 83,
+      "beyond_top3": 47,
+      "val_correct": 3646,
+      "accuracy_pct": 67.519
+    },
+    "spectral_dino_clip": {
+      "anchors": 2452,
+      "added": 128,
+      "added_correct": 83,
+      "beyond_top3": 46,
+      "val_correct": 3633,
+      "accuracy_pct": 67.278
+    }
+  },
+  "vs_clip": {
+    "baseline": {
+      "delta_pp": -0.222,
+      "ci95_pp": [
+        -0.852,
+        0.407
+      ]
+    },
+    "dino_seed_retrieval": {
+      "delta_pp": 0.741,
+      "ci95_pp": [
+        0.148,
+        1.352
+      ]
+    },
+    "spectral_dino": {
+      "delta_pp": 0.241,
+      "ci95_pp": [
+        -0.296,
+        0.778
+      ]
+    },
+    "spectral_dino_clip": {
+      "delta_pp": 0.0,
+      "ci95_pp": [
+        -0.519,
+        0.537
+      ]
+    }
+  },
+  "target_classes": [
+    {
+      "arm": "baseline",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "0",
+      "added_correct": "0",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "2"
+    },
+    {
+      "arm": "baseline",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "0",
+      "added_correct": "0",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "236"
+    },
+    {
+      "arm": "clip_expansion",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "19",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "72"
+    },
+    {
+      "arm": "clip_expansion",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "60",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "261"
+    },
+    {
+      "arm": "dino_seed_retrieval",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "34",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "98"
+    },
+    {
+      "arm": "dino_seed_retrieval",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "62",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "245"
+    },
+    {
+      "arm": "spectral_dino",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "22",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "73"
+    },
+    {
+      "arm": "spectral_dino",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "61",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "254"
+    },
+    {
+      "arm": "spectral_dino_clip",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "base": "7",
+      "added": "64",
+      "added_correct": "22",
+      "pool": "2749",
+      "val_n": "600",
+      "val_correct": "69"
+    },
+    {
+      "arm": "spectral_dino_clip",
+      "class_id": "5",
+      "name": "Pasture Land",
+      "base": "157",
+      "added": "64",
+      "added_correct": "61",
+      "pool": "8044",
+      "val_n": "400",
+      "val_correct": "251"
+    }
+  ]
+}

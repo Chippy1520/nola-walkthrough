@@ -1,0 +1,7 @@
+# CDE prompt suffix follow-up
+
+- [x] Oxford Pets: separated previous paired zero-shot result into `oxford-pets-template-suffix-result.md`; edited the exact Drive notebook, removed comparison heading/cell, and verified saved `build_cde` output `[37, 512]`.
+- [x] EuroSAT teaching pilot complete and independently verified from saved predictions: CDE 49.67% → 48.67%, DINO teacher 64.00% → 64.33%, final prompted CLIP 69.33% → 67.33% (−2.00 pp, n=300).
+- [ ] Full-split EuroSAT, two student epochs per arm, is running on the GTX 1050 Ti. Run root: `offline-suffix-20261121T174021-Bfe0QH`; monitor `eurosat-full.log`. This is an end-to-end full-split comparison, not the 50-student-epoch release reproduction.
+- [ ] CIFAR-10 archive is now locally staged and checked against the official checksum. Torchvision loaded 50,000 train and 10,000 test rows with downloads disabled. `run_cifar10_pilot.sh` is queued in `proc_141d39f62875` behind EuroSAT's exclusive GPU lock; monitor `cifar10.log`. It evaluates a matched end-to-end 540/200/300 pilot, seed 7777, with no cloud compute.
+- [ ] Verify full EuroSAT and CIFAR-10 against saved predictions. Both launchers invoke `verify_pair.py`; read their resulting `verification.txt` before reporting final metrics. `prompt-suffix-offline-status.txt` records the earlier EuroSAT launch; its missing-CIFAR note is superseded by the verified local archive and queue above.

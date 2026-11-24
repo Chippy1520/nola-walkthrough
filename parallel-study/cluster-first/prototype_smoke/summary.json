@@ -1,0 +1,118 @@
+{
+  "stage": "smoke",
+  "test_scored": false,
+  "n": 32,
+  "train_n": 64,
+  "teachers": "50 epochs, same fixed seed",
+  "anchors": 35,
+  "cluster_count": 20,
+  "bank_sha256": "3d72f18c1dd2a7c45a18936ff57e937bdbf0e29fdb720f2da0d326146cdc4b07",
+  "source_sha256": "7e79face66d54f2f997cfef1d7a6729e8c9beed1b0741c93002e747749964571",
+  "features": {
+    "dataset": "eurosat",
+    "split_origin": "Published CoOp split_zhou_EuroSAT.json",
+    "train_count": 13500,
+    "val_count": 5400,
+    "test_count": 8100,
+    "test_decoded": false,
+    "text_origin": "Released NoLA EuroSAT broad CDE tensor (embeddings.pt::broad, NoLA-EuroSAT-Author-Inputs.zip)",
+    "text_kind": "released_cde",
+    "input_sha256": {
+      "eurosat/clip_mean.npy": "7042a6496549ad5919b3543289cb5cbcf2eea9bf184bd00c4f6b2275f4136c2f",
+      "eurosat/descriptions.json": "fe1076499e4fb8c019e83e677af2e9ecc302cb2240edcca0a1ed7fbb35af2110",
+      "eurosat/split_zhou_EuroSAT.json": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+      "eurosat/text_config.json": "58cd52dd89e59daa49653b58e8a1c0556de67b07d67e0c77b48628ab25818afd"
+    },
+    "archive_checksum": [
+      "md5",
+      "f46e308c4d50d4bf32fedad2d3d62f3b"
+    ],
+    "archive_verified": true,
+    "clip_weights_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+    "dino_weights_sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+    "clip_scores": "cosine (unscaled)",
+    "clip_logit_scale": 100.00000762939453,
+    "dino_features": "raw CLS",
+    "dtype": "float32",
+    "preprocess": "bicubic short side 224 / center crop 224 / CLIP RGB mean and std for both backbones",
+    "runtime": [
+      "2.5.1+cu121",
+      "0.20.1+cu121",
+      "cuda",
+      "NVIDIA GeForce GTX 1050 Ti",
+      "13.0.0",
+      "highest",
+      false,
+      true
+    ],
+    "limits": {
+      "train": 64,
+      "val": 32
+    },
+    "batch_size": 8,
+    "chunk_size": 256,
+    "source_sha256": "b51efd1117e04d72365e779a1bd2ad1da959ba6592f70640727fbfe590f1404b",
+    "pins_sha256": "97fe3ec44d330e78a9baaa649ee0b894579dc234742d048c6b20c0adf4ebcc25",
+    "cache_signature": "4605c96f0f9e2cf104c4c7094d1c252024ebad570a34839e03778b6d379a3416"
+  },
+  "config": {
+    "original": {
+      "bank": "original",
+      "stratified": false
+    },
+    "original_clusters": {
+      "bank": "original",
+      "stratified": true
+    },
+    "wrapped_mean": {
+      "bank": "wrapped_mean",
+      "stratified": false
+    },
+    "wrapped_mean_clusters": {
+      "bank": "wrapped_mean",
+      "stratified": true
+    },
+    "prototypes": {
+      "bank": "prototypes",
+      "stratified": false
+    },
+    "prototypes_clusters": {
+      "bank": "prototypes",
+      "stratified": true
+    },
+    "mapped_clusters": {
+      "bank": "mapped",
+      "stratified": true
+    }
+  },
+  "arms": {
+    "original": {
+      "anchor_correct": 5,
+      "val_correct": 4
+    },
+    "original_clusters": {
+      "anchor_correct": 5,
+      "val_correct": 2
+    },
+    "wrapped_mean": {
+      "anchor_correct": 5,
+      "val_correct": 2
+    },
+    "wrapped_mean_clusters": {
+      "anchor_correct": 5,
+      "val_correct": 2
+    },
+    "prototypes": {
+      "anchor_correct": 5,
+      "val_correct": 4
+    },
+    "prototypes_clusters": {
+      "anchor_correct": 5,
+      "val_correct": 1
+    },
+    "mapped_clusters": {
+      "anchor_correct": 5,
+      "val_correct": 1
+    }
+  }
+}

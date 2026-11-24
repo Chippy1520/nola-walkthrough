@@ -1,0 +1,22 @@
+{
+  "dataset": "cifar100",
+  "smoke": false,
+  "epochs": 4,
+  "train_n": 320,
+  "val_n": 400,
+  "train_full": 4096,
+  "val_full": 1024,
+  "steps": 10,
+  "micro": 4,
+  "effective": 32,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "372c7fada4d713678b53701cd3f351057919db178470f09b7dcac2874945f439",
+  "code_sha": "54c17de51c5404b58805dd88f264fd066a3ccaa995b2148959534d35d9642d25",
+  "test_scored": false,
+  "continued_from": "/home/chip/nola-walkthrough/siglip-replacement/students/cifar100",
+  "parent_metrics_sha": "72dd2d32d00565461a579e1bd2f2756a77f5990b62df8dd5be51788cff94a297"
+}

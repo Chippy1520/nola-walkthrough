@@ -1,0 +1,56 @@
+[
+  {
+    "row": 102,
+    "path": "Forest/Forest_2794.jpg",
+    "true_class": "Forest",
+    "dino_label": "Forest",
+    "original": "augmentations/102-original.jpg",
+    "weak": "augmentations/102-weak.png",
+    "strong": "augmentations/102-strong.png"
+  },
+  {
+    "row": 24,
+    "path": "PermanentCrop/PermanentCrop_1917.jpg",
+    "true_class": "Permanent Crop Land",
+    "dino_label": "Residential Buildings",
+    "original": "augmentations/024-original.jpg",
+    "weak": "augmentations/024-weak.png",
+    "strong": "augmentations/024-strong.png"
+  },
+  {
+    "row": 132,
+    "path": "Pasture/Pasture_657.jpg",
+    "true_class": "Pasture Land",
+    "dino_label": "Forest",
+    "original": "augmentations/132-original.jpg",
+    "weak": "augmentations/132-weak.png",
+    "strong": "augmentations/132-strong.png"
+  },
+  {
+    "row": 34,
+    "path": "Highway/Highway_1768.jpg",
+    "true_class": "Highway or Road",
+    "dino_label": "Highway or Road",
+    "original": "augmentations/034-original.jpg",
+    "weak": "augmentations/034-weak.png",
+    "strong": "augmentations/034-strong.png"
+  },
+  {
+    "row": 85,
+    "path": "Industrial/Industrial_456.jpg",
+    "true_class": "Industrial Buildings",
+    "dino_label": "Industrial Buildings",
+    "original": "augmentations/085-original.jpg",
+    "weak": "augmentations/085-weak.png",
+    "strong": "augmentations/085-strong.png"
+  },
+  {
+    "row": 70,
+    "path": "HerbaceousVegetation/HerbaceousVegetation_700.jpg",
+    "true_class": "Herbaceous Vegetation Land",
+    "dino_label": "Pasture Land",
+    "original": "augmentations/070-original.jpg",
+    "weak": "augmentations/070-weak.png",
+    "strong": "augmentations/070-strong.png"
+  }
+]

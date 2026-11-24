@@ -1,0 +1,76 @@
+09 / VISUAL-PROMPT STUDENT PILOT
+
+
+
+Replacing the student too
+The student uses the same backbone as its anchor nominator. Original-DINO teacher predictions replayed
+exactly before training.
+
+
+EuroSAT / 320 fit, 200 validation images
+                                          CLIP + DINO           CLIP + ConvNeXt
+                                          SigLIP 2 + DINO       SigLIP 2 + ConvNeXt
+                     100
+
+                      80
+         Top-1 (%)
+
+
+
+
+                      60
+
+                      40
+
+                      20
+
+                       0
+                       Frozen VLM                  Student epoch 1                       Student epoch 2
+
+
+Arm                                                  Teacher          Frozen VLM      Student, epoch 2
+
+CLIP + DINO                                            71.50%               51.50%             64.50%
+
+SigLIP 2 + DINO                                        56.50%               47.00%             56.00%
+
+CLIP + ConvNeXt                                        70.00%               51.50%             60.50%
+
+CIFAR-100      coarse scarcity / 320 fit, 40056.00%
+SigLIP 2 + ConvNeXt                           validation images
+                                                           47.00%                              68.50%
+
+
+                     100
+
+                      80
+         Top-1 (%)
+
+
+
+
+                      60
+
+                      40
+
+                      20
+
+                       0
+                       Frozen VLM                  Student epoch 1                       Student epoch 2
+
+
+Arm                                                  Teacher          Frozen VLM      Student, epoch 2
+
+CLIP + DINO                                            61.50%               59.50%             60.50%
+
+SigLIP 2 + DINO                                        59.25%               63.75%             58.25%
+
+CLIP + ConvNeXt                                        63.00%               59.50%             56.25%
+
+SigLIP 2 + ConvNeXt                                    60.25%               63.75%             58.75%
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                              09
+

@@ -1,0 +1,68 @@
+{
+  "dataset": "cifar100",
+  "smoke": false,
+  "added": 40,
+  "val_n": 1024,
+  "results": {
+    "clip+dino": {
+      "correct_additions": 38,
+      "val_correct": 656
+    },
+    "siglip2+dino": {
+      "correct_additions": 40,
+      "val_correct": 661
+    },
+    "clip+convnext": {
+      "correct_additions": 38,
+      "val_correct": 664
+    },
+    "siglip2+convnext": {
+      "correct_additions": 40,
+      "val_correct": 662
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "pp": 0.48828125,
+      "ci95_pp": [
+        -0.390625,
+        1.46484375
+      ]
+    },
+    "clip+convnext vs clip+dino": {
+      "pp": 0.78125,
+      "ci95_pp": [
+        -0.1953125,
+        1.7578125
+      ]
+    },
+    "siglip2+convnext vs clip+dino": {
+      "pp": 0.5859375,
+      "ci95_pp": [
+        -0.390625,
+        1.5625
+      ]
+    },
+    "clip+convnext vs siglip2+dino": {
+      "pp": 0.29296875,
+      "ci95_pp": [
+        -0.78125,
+        1.3671875
+      ]
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "pp": 0.09765625,
+      "ci95_pp": [
+        -0.87890625,
+        1.07421875
+      ]
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "pp": -0.1953125,
+      "ci95_pp": [
+        -1.26953125,
+        0.87890625
+      ]
+    }
+  }
+}

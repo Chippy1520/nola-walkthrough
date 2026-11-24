@@ -1,0 +1,11 @@
+class_id,class_name,support,original_correct,templated_correct,fixed,lost,delta_pp
+0,Annual Crop Land,600,514,380,0,134,-22.333333333333332
+1,Forest,600,516,523,12,5,1.1666666666666667
+2,Herbaceous Vegetation Land,600,0,0,0,0,0.0
+3,Highway or Road,500,443,421,1,23,-4.4
+4,Industrial Buildings,500,482,475,1,8,-1.4
+5,Pasture Land,400,247,355,109,1,27.0
+6,Permanent Crop Land,500,307,403,117,21,19.2
+7,Residential Buildings,600,585,587,3,1,0.3333333333333333
+8,River,500,422,420,7,9,-0.4
+9,Sea or Lake,600,536,550,14,0,2.3333333333333335

@@ -1,0 +1,65 @@
+07 / INDEPENDENT NOMINATION
+
+
+
+Can SigLIP 2 replace CLIP?
+The replacement selects its own initial anchors and its own expansion candidates. Original DINO
+retrieval and teacher stay fixed; no visual-prompt student was trained.
+
+
+
+
+                            EuroSAT
+
+
+
+
+                 CIFAR-100 pilot
+
+
+
+                                         −10        −8         −6         −4          −2             0
+                                               Matched teacher top-1 change vs. CLIP-only (pp)
+
+
+
+
+EuroSAT / 5,400 validation images
+Arm                                                                  Correct anchors             Teacher top-1
+
+CLIP only                                                                1,834 / 2,452                   68.02%
+
+CLIP pool / SigLIP rerank                                                1,846 / 2,452                   68.57%
+
+SigLIP 2 only                                                            1,648 / 2,452                   58.13%
+
+
+
+
+CIFAR-100 coarse pilot / 1,024 validation images
+Arm                                                                  Correct anchors             Teacher top-1
+
+CLIP only                                                                    687 / 800                   65.04%
+
+CLIP pool / SigLIP rerank                                                    687 / 800                   65.04%
+
+SigLIP 2 only                                                                718 / 800                   63.87%
+
+
+
+
+EuroSAT: SigLIP nominates 144 correct Herbaceous examples where CLIP nominates zero at top-1, but it selects
+only 2 correct Herbaceous anchors out of 71 at matched budgets, versus 38/71 for CLIP. With native budgets
+Herbaceous recall improves (98 to 345 out of 600), but overall teacher accuracy still drops from 68.02% to
+60.98%.
+
+
+The CIFAR pilot did not need expansion, so the rerank control duplicates CLIP-only. These are single-seed
+development-validation results; the intervals quantify paired image variation, not training-seed variation.
+No end-to-end timing was measured from these cached runs.
+
+
+
+
+NOLA RESEARCH NOTES / EXPERIMENT REPORT                                                                       07
+

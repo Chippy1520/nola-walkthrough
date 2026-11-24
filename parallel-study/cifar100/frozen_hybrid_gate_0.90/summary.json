@@ -1,0 +1,56 @@
+{
+  "stage": "frozen CLIP ViT-B/32",
+  "split": "validation",
+  "test_scored": false,
+  "selection_gate": 0.9,
+  "clustering_cutoff": 0.75,
+  "tau": 0.05,
+  "n_candidates": 27,
+  "n_retained": 7,
+  "retained": [
+    {
+      "class_name": "aquatic_mammals",
+      "cluster_id": 1,
+      "cosine_to_mean": 0.8483724994139951
+    },
+    {
+      "class_name": "fish",
+      "cluster_id": 1,
+      "cosine_to_mean": 0.8530917162995353
+    },
+    {
+      "class_name": "flowers",
+      "cluster_id": 1,
+      "cosine_to_mean": 0.8641370182892207
+    },
+    {
+      "class_name": "flowers",
+      "cluster_id": 2,
+      "cosine_to_mean": 0.840851278488521
+    },
+    {
+      "class_name": "fruit_and_vegetables",
+      "cluster_id": 1,
+      "cosine_to_mean": 0.8909405863299953
+    },
+    {
+      "class_name": "insects",
+      "cluster_id": 1,
+      "cosine_to_mean": 0.8685326501520788
+    },
+    {
+      "class_name": "reptiles",
+      "cluster_id": 1,
+      "cosine_to_mean": 0.8653552088496436
+    }
+  ],
+  "n": 5000,
+  "mean_correct": 2925,
+  "hybrid_correct": 2918,
+  "mean_pct": 58.5,
+  "hybrid_pct": 58.36,
+  "delta_pp": -0.14,
+  "fixed": 55,
+  "lost": 62,
+  "prediction_changes": 257
+}

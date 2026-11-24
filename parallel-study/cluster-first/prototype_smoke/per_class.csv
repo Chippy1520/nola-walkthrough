@@ -1,0 +1,71 @@
+arm,class_id,name,anchors,correct_anchors,val_n,val_correct
+original,0,Annual Crop Land,5,5,32,4
+original,1,Forest,1,0,0,0
+original,2,Herbaceous Vegetation Land,0,0,0,0
+original,3,Highway or Road,1,0,0,0
+original,4,Industrial Buildings,7,0,0,0
+original,5,Pasture Land,1,0,0,0
+original,6,Permanent Crop Land,16,0,0,0
+original,7,Residential Buildings,4,0,0,0
+original,8,River,0,0,0,0
+original,9,Sea or Lake,0,0,0,0
+original_clusters,0,Annual Crop Land,5,5,32,2
+original_clusters,1,Forest,1,0,0,0
+original_clusters,2,Herbaceous Vegetation Land,0,0,0,0
+original_clusters,3,Highway or Road,1,0,0,0
+original_clusters,4,Industrial Buildings,7,0,0,0
+original_clusters,5,Pasture Land,1,0,0,0
+original_clusters,6,Permanent Crop Land,16,0,0,0
+original_clusters,7,Residential Buildings,4,0,0,0
+original_clusters,8,River,0,0,0,0
+original_clusters,9,Sea or Lake,0,0,0,0
+wrapped_mean,0,Annual Crop Land,5,5,32,2
+wrapped_mean,1,Forest,1,0,0,0
+wrapped_mean,2,Herbaceous Vegetation Land,0,0,0,0
+wrapped_mean,3,Highway or Road,1,0,0,0
+wrapped_mean,4,Industrial Buildings,7,0,0,0
+wrapped_mean,5,Pasture Land,1,0,0,0
+wrapped_mean,6,Permanent Crop Land,16,0,0,0
+wrapped_mean,7,Residential Buildings,4,0,0,0
+wrapped_mean,8,River,0,0,0,0
+wrapped_mean,9,Sea or Lake,0,0,0,0
+wrapped_mean_clusters,0,Annual Crop Land,5,5,32,2
+wrapped_mean_clusters,1,Forest,1,0,0,0
+wrapped_mean_clusters,2,Herbaceous Vegetation Land,0,0,0,0
+wrapped_mean_clusters,3,Highway or Road,1,0,0,0
+wrapped_mean_clusters,4,Industrial Buildings,7,0,0,0
+wrapped_mean_clusters,5,Pasture Land,1,0,0,0
+wrapped_mean_clusters,6,Permanent Crop Land,16,0,0,0
+wrapped_mean_clusters,7,Residential Buildings,4,0,0,0
+wrapped_mean_clusters,8,River,0,0,0,0
+wrapped_mean_clusters,9,Sea or Lake,0,0,0,0
+prototypes,0,Annual Crop Land,5,5,32,4
+prototypes,1,Forest,1,0,0,0
+prototypes,2,Herbaceous Vegetation Land,0,0,0,0
+prototypes,3,Highway or Road,1,0,0,0
+prototypes,4,Industrial Buildings,7,0,0,0
+prototypes,5,Pasture Land,1,0,0,0
+prototypes,6,Permanent Crop Land,16,0,0,0
+prototypes,7,Residential Buildings,4,0,0,0
+prototypes,8,River,0,0,0,0
+prototypes,9,Sea or Lake,0,0,0,0
+prototypes_clusters,0,Annual Crop Land,5,5,32,1
+prototypes_clusters,1,Forest,1,0,0,0
+prototypes_clusters,2,Herbaceous Vegetation Land,0,0,0,0
+prototypes_clusters,3,Highway or Road,1,0,0,0
+prototypes_clusters,4,Industrial Buildings,7,0,0,0
+prototypes_clusters,5,Pasture Land,1,0,0,0
+prototypes_clusters,6,Permanent Crop Land,16,0,0,0
+prototypes_clusters,7,Residential Buildings,4,0,0,0
+prototypes_clusters,8,River,0,0,0,0
+prototypes_clusters,9,Sea or Lake,0,0,0,0
+mapped_clusters,0,Annual Crop Land,5,5,32,1
+mapped_clusters,1,Forest,1,0,0,0
+mapped_clusters,2,Herbaceous Vegetation Land,0,0,0,0
+mapped_clusters,3,Highway or Road,1,0,0,0
+mapped_clusters,4,Industrial Buildings,7,0,0,0
+mapped_clusters,5,Pasture Land,1,0,0,0
+mapped_clusters,6,Permanent Crop Land,16,0,0,0
+mapped_clusters,7,Residential Buildings,4,0,0,0
+mapped_clusters,8,River,0,0,0,0
+mapped_clusters,9,Sea or Lake,0,0,0,0

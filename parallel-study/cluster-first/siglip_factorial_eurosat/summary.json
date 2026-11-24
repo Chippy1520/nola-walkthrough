@@ -1,0 +1,66 @@
+{
+  "dataset": "eurosat",
+  "smoke": false,
+  "train_n": 13500,
+  "val_n": 5400,
+  "natural_scarcity": true,
+  "quota": [
+    0,
+    0,
+    64,
+    0,
+    0,
+    64,
+    0,
+    0,
+    0,
+    0
+  ],
+  "base_budgets": [
+    270,
+    270,
+    7,
+    270,
+    270,
+    157,
+    270,
+    270,
+    270,
+    270
+  ],
+  "candidate_counts": [
+    0,
+    0,
+    2749,
+    0,
+    0,
+    8044,
+    0,
+    0,
+    0,
+    0
+  ],
+  "text_scale": 100.00000762939453,
+  "checkpoint_sha": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+  "convnext_sha": "a7637753a2e85d709d1a5474e13382d39e7bc581a35868b477585c970f36847f",
+  "source_sha": "a18af6b847d3a74d8a53124a46230c72d8504d18a01292e93520e81d228a366b",
+  "test_scored": false,
+  "results": {
+    "clip+dino": {
+      "correct_additions": 96,
+      "val_correct": 3673
+    },
+    "siglip2+dino": {
+      "correct_additions": 108,
+      "val_correct": 3703
+    },
+    "clip+convnext": {
+      "correct_additions": 94,
+      "val_correct": 3695
+    },
+    "siglip2+convnext": {
+      "correct_additions": 102,
+      "val_correct": 3717
+    }
+  }
+}

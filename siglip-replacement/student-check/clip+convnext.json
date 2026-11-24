@@ -1,0 +1,20 @@
+{
+  "backbone": "clip",
+  "teacher_correct": 8,
+  "frozen_correct": 5,
+  "untrained_prompt_correct": 1,
+  "student_correct": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 1,
+      "updates": 2,
+      "skips": 0,
+      "seconds": 0.82
+    }
+  ],
+  "checkpoint": "clip+convnext-epoch-1.pt",
+  "sha256": "4c90d2507c7d4da34cca406fa438a8728d27828070efd23efd68c9dfc765441b",
+  "trainable": 57344,
+  "seconds": 1.08
+}

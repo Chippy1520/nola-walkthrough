@@ -1,0 +1,97 @@
+{
+  "backbone": "siglip2",
+  "teacher_correct": 112,
+  "frozen_correct": 94,
+  "untrained_prompt_correct": 40,
+  "student_correct": 124,
+  "history": [
+    {
+      "epoch": 1,
+      "correct": 103,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.75
+    },
+    {
+      "epoch": 2,
+      "correct": 137,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.75
+    },
+    {
+      "epoch": 3,
+      "correct": 126,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.98
+    },
+    {
+      "epoch": 4,
+      "correct": 117,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.88
+    },
+    {
+      "epoch": 5,
+      "correct": 124,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.88
+    },
+    {
+      "epoch": 6,
+      "correct": 100,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.94
+    },
+    {
+      "epoch": 7,
+      "correct": 133,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.93
+    },
+    {
+      "epoch": 8,
+      "correct": 110,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.94
+    },
+    {
+      "epoch": 9,
+      "correct": 112,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.99
+    },
+    {
+      "epoch": 10,
+      "correct": 116,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.89
+    },
+    {
+      "epoch": 11,
+      "correct": 117,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 29.0
+    },
+    {
+      "epoch": 12,
+      "correct": 124,
+      "updates": 10,
+      "skips": 0,
+      "seconds": 28.91
+    }
+  ],
+  "checkpoint": "siglip2+convnext-epoch-12.pt",
+  "sha256": "db5a28920adc86376e7ad7ca1b26bcc7437022d653d42862c7c82c359f6b1053",
+  "trainable": 59904,
+  "seconds": 246.08
+}

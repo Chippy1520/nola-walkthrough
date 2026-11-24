@@ -1,0 +1,13 @@
+arm,name,added_correct,val_correct,val_n,subtypes
+clip+dino,Annual Crop Land,5,12,32,
+clip+dino,Forest,0,0,0,
+clip+dino,Industrial Buildings,0,0,0,
+siglip2+dino,Annual Crop Land,5,15,32,
+siglip2+dino,Forest,0,0,0,
+siglip2+dino,Industrial Buildings,0,0,0,
+clip+convnext,Annual Crop Land,5,15,32,
+clip+convnext,Forest,0,0,0,
+clip+convnext,Industrial Buildings,0,0,0,
+siglip2+convnext,Annual Crop Land,5,15,32,
+siglip2+convnext,Forest,0,0,0,
+siglip2+convnext,Industrial Buildings,0,0,0,

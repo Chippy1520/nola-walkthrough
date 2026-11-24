@@ -1,0 +1,31 @@
+arm,class_name,anchors,correct_anchors,val_n,val_correct
+baseline,Annual Crop Land,11,11,32,8
+baseline,Forest,1,0,0,0
+baseline,Herbaceous Vegetation Land,0,0,0,0
+baseline,Highway or Road,1,0,0,0
+baseline,Industrial Buildings,9,0,0,0
+baseline,Pasture Land,1,0,0,0
+baseline,Permanent Crop Land,16,0,0,0
+baseline,Residential Buildings,5,0,0,0
+baseline,River,0,0,0,0
+baseline,Sea or Lake,0,0,0,0
+expanded_clip,Annual Crop Land,12,12,32,7
+expanded_clip,Forest,1,0,0,0
+expanded_clip,Herbaceous Vegetation Land,0,0,0,0
+expanded_clip,Highway or Road,1,0,0,0
+expanded_clip,Industrial Buildings,9,0,0,0
+expanded_clip,Pasture Land,1,0,0,0
+expanded_clip,Permanent Crop Land,16,0,0,0
+expanded_clip,Residential Buildings,5,0,0,0
+expanded_clip,River,0,0,0,0
+expanded_clip,Sea or Lake,0,0,0,0
+dino_clusters,Annual Crop Land,12,12,32,8
+dino_clusters,Forest,1,0,0,0
+dino_clusters,Herbaceous Vegetation Land,0,0,0,0
+dino_clusters,Highway or Road,1,0,0,0
+dino_clusters,Industrial Buildings,9,0,0,0
+dino_clusters,Pasture Land,1,0,0,0
+dino_clusters,Permanent Crop Land,16,0,0,0
+dino_clusters,Residential Buildings,5,0,0,0
+dino_clusters,River,0,0,0,0
+dino_clusters,Sea or Lake,0,0,0,0

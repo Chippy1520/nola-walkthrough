@@ -1,0 +1,200 @@
+{
+  "dataset": "eurosat",
+  "smoke": false,
+  "train_n": 13500,
+  "val_n": 5400,
+  "arms": {
+    "clip+dino": {
+      "correct": 3673,
+      "anchors": 2452,
+      "correct_anchors": 1834,
+      "correct_extra": 96
+    },
+    "siglip2+dino": {
+      "correct": 3139,
+      "anchors": 2452,
+      "correct_anchors": 1648,
+      "correct_extra": 66
+    },
+    "clip+convnext": {
+      "correct": 3695,
+      "anchors": 2452,
+      "correct_anchors": 1832,
+      "correct_extra": 94
+    },
+    "siglip2+convnext": {
+      "correct": 3182,
+      "anchors": 2452,
+      "correct_anchors": 1650,
+      "correct_extra": 68
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "delta_pp": -9.88888888888889,
+      "fixes": 423,
+      "losses": 957,
+      "ci95_pp": [
+        -11.166666666666666,
+        -8.61111111111111
+      ],
+      "mcnemar_p": 7.199466249429612e-48
+    },
+    "clip+convnext vs clip+dino": {
+      "delta_pp": 0.4074074074074074,
+      "fixes": 115,
+      "losses": 93,
+      "ci95_pp": [
+        -0.1111111111111111,
+        0.9444444444444444
+      ],
+      "mcnemar_p": 0.14518799427235815
+    },
+    "siglip2+convnext vs clip+dino": {
+      "delta_pp": -9.092592592592593,
+      "fixes": 449,
+      "losses": 940,
+      "ci95_pp": [
+        -10.351851851851851,
+        -7.833333333333333
+      ],
+      "mcnemar_p": 2.660295241616054e-40
+    },
+    "clip+convnext vs siglip2+dino": {
+      "delta_pp": 10.296296296296296,
+      "fixes": 966,
+      "losses": 410,
+      "ci95_pp": [
+        9.074074074074074,
+        11.537037037037036
+      ],
+      "mcnemar_p": 5.0517157325828456e-52
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "delta_pp": 0.7962962962962963,
+      "fixes": 135,
+      "losses": 92,
+      "ci95_pp": [
+        0.25925925925925924,
+        1.3518518518518519
+      ],
+      "mcnemar_p": 0.005195571458474377
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "delta_pp": -9.5,
+      "fixes": 435,
+      "losses": 948,
+      "ci95_pp": [
+        -10.814814814814815,
+        -8.25925925925926
+      ],
+      "mcnemar_p": 4.030349283998166e-44
+    }
+  },
+  "stage": "original-DINO teacher validation",
+  "teacher": {
+    "epochs": 50,
+    "seed": 0,
+    "batch": 32,
+    "lr": 0.001,
+    "updates": 3850
+  },
+  "test_scored": false,
+  "matched_seed": [
+    270,
+    270,
+    7,
+    270,
+    270,
+    157,
+    270,
+    270,
+    270,
+    270
+  ],
+  "matched_extra": [
+    0,
+    0,
+    64,
+    0,
+    0,
+    64,
+    0,
+    0,
+    0,
+    0
+  ],
+  "raw_seed_counts": {
+    "clip": [
+      270,
+      270,
+      7,
+      270,
+      270,
+      157,
+      270,
+      270,
+      270,
+      270
+    ],
+    "siglip2": [
+      270,
+      270,
+      270,
+      270,
+      270,
+      270,
+      270,
+      270,
+      270,
+      270
+    ]
+  },
+  "matched_candidate_counts": {
+    "clip": [
+      0,
+      0,
+      2749,
+      0,
+      0,
+      8044,
+      0,
+      0,
+      0,
+      0
+    ],
+    "siglip2": [
+      0,
+      0,
+      7746,
+      0,
+      0,
+      3418,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "cifar_simulated_scarcity_classes": [],
+  "parity_previous_clip_controls": {
+    "clip+dino": {
+      "anchor_ids_equal": true,
+      "predictions_equal": true
+    },
+    "clip+convnext": {
+      "anchor_ids_equal": true,
+      "predictions_equal": true
+    }
+  },
+  "feature_signature": "205822a98903f3367a0e9843a7f04dbb9f6f3a279d64e213805e808447b13ffc",
+  "siglip_rev": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+  "siglip_sha": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+  "convnext_sha": "a7637753a2e85d709d1a5474e13382d39e7bc581a35868b477585c970f36847f",
+  "siglip_cache_sha": "7fdc910730928fc843411615188d37db9bd2d61a768b8d6a99e530f3d7085e1f",
+  "convnext_cache_sha": "8735b4310851aead4e50ba8d4580faef31a3ff69b22c169fd581b5ad793650fc",
+  "code_sha": "f6cfe396294c74b2d56fbcdc26906a1e32d31617484ba97992182221e08b3941",
+  "clip_logit_scale": 100.00000762939453,
+  "cosine_gap": 0.06,
+  "retrieval_weight": 0.5
+}

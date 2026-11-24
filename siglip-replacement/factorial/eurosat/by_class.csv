@@ -1,0 +1,41 @@
+arm,class_id,name,correct_seeds,correct_extra,val_correct,val_n
+clip+dino,0,Annual Crop Land,178,0,356,600
+clip+dino,1,Forest,165,0,359,600
+clip+dino,2,Herbaceous Vegetation Land,4,34,98,600
+clip+dino,3,Highway or Road,250,0,407,500
+clip+dino,4,Industrial Buildings,266,0,457,500
+clip+dino,5,Pasture Land,120,62,245,400
+clip+dino,6,Permanent Crop Land,84,0,234,500
+clip+dino,7,Residential Buildings,266,0,587,600
+clip+dino,8,River,204,0,348,500
+clip+dino,9,Sea or Lake,201,0,582,600
+siglip2+dino,0,Annual Crop Land,153,0,349,600
+siglip2+dino,1,Forest,126,0,169,600
+siglip2+dino,2,Herbaceous Vegetation Land,0,2,53,600
+siglip2+dino,3,Highway or Road,251,0,396,500
+siglip2+dino,4,Industrial Buildings,264,0,287,500
+siglip2+dino,5,Pasture Land,125,64,249,400
+siglip2+dino,6,Permanent Crop Land,149,0,171,500
+siglip2+dino,7,Residential Buildings,141,0,454,600
+siglip2+dino,8,River,251,0,430,500
+siglip2+dino,9,Sea or Lake,122,0,581,600
+clip+convnext,0,Annual Crop Land,178,0,355,600
+clip+convnext,1,Forest,165,0,362,600
+clip+convnext,2,Herbaceous Vegetation Land,4,30,94,600
+clip+convnext,3,Highway or Road,250,0,401,500
+clip+convnext,4,Industrial Buildings,266,0,458,500
+clip+convnext,5,Pasture Land,120,64,261,400
+clip+convnext,6,Permanent Crop Land,84,0,246,500
+clip+convnext,7,Residential Buildings,266,0,590,600
+clip+convnext,8,River,204,0,355,500
+clip+convnext,9,Sea or Lake,201,0,573,600
+siglip2+convnext,0,Annual Crop Land,153,0,350,600
+siglip2+convnext,1,Forest,126,0,178,600
+siglip2+convnext,2,Herbaceous Vegetation Land,0,6,83,600
+siglip2+convnext,3,Highway or Road,251,0,392,500
+siglip2+convnext,4,Industrial Buildings,264,0,293,500
+siglip2+convnext,5,Pasture Land,125,62,249,400
+siglip2+convnext,6,Permanent Crop Land,149,0,170,500
+siglip2+convnext,7,Residential Buildings,141,0,453,600
+siglip2+convnext,8,River,251,0,429,500
+siglip2+convnext,9,Sea or Lake,122,0,585,600

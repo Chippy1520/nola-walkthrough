@@ -1,0 +1,11 @@
+# Research for later: NoLA anchor reliability and coverage
+
+Separate from the upstream NoLA walkthrough. Public literature scan, not an experiment or a novelty claim. Discuss after the walkthrough, alongside the user's proposal.
+
+- **Zhu et al., CVPR 2025 — [Revisiting Source-Free Domain Adaptation](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Revisiting_Source-Free_Domain_Adaptation_Insights_into_Representativeness_Generalization_and_Variety_CVPR_2025_paper.pdf), §4.1.** Combines classifier confidence and geometric representativeness for cleaner pseudo-labels, using a class center. Relevant to reliability; a single center does not explicitly cover multiple modes.
+- **Ali, Arora & Khan — [RCPN](https://arxiv.org/abs/2507.22075v2), §§III-C–D.** Prototype and neighborhood consistency for filtering and refining CLIP pseudo-labels. Relevant to reliability in the same adaptation setting; not a fixed per-class budget for DINO anchors.
+- **Xie et al., CVPR 2023 — [Active Finetuning](https://openaccess.thecvf.com/content/CVPR2023/html/Xie_Active_Finetuning_Exploiting_Annotation_Budget_in_the_Pretraining-Finetuning_Paradigm_CVPR_2023_paper.html), §§3.2–3.3, 4.1.** Selects diverse, representative examples in pretrained feature space; uses DINO in classification experiments. It selects across the pool for *human annotation*, not within each pseudo-class for label-free training.
+
+## Useful test to revisit
+
+At identical realized anchor budgets per predicted class, compare reliability-only top-k with reliability-gated coverage. In addition to raw geometric coverage, use post-freeze labels to count supported subgroups reached by at least one **correctly pseudo-labeled** anchor. Keep overall anchor precision as a guardrail. Separately check held-out subgroup accuracy using groups defined on adaptation data only, with an out-of-support option; do not use held-out images or labels to fit groups or tune thresholds. A later optional factorial can cross scoring (CLIP margin alone vs. margin + DINO agreement) with selection (top-k vs. coverage), holding student weighting fixed. This asks a different question from the earlier selection-by-student-weighting ablation. No changes or experiments were run.

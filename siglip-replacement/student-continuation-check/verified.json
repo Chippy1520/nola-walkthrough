@@ -1,0 +1,195 @@
+{
+  "dataset": "eurosat",
+  "smoke": true,
+  "epochs": 2,
+  "train_n": 11,
+  "val_n": 10,
+  "train_full": 13500,
+  "val_full": 5400,
+  "steps": 2,
+  "micro": 4,
+  "effective": 8,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "2740346d6c9521dd1093c74ef3b225b5efd711236712330000e9393fb1377e33",
+  "code_sha": "54c17de51c5404b58805dd88f264fd066a3ccaa995b2148959534d35d9642d25",
+  "test_scored": false,
+  "continued_from": "/home/chip/nola-walkthrough/siglip-replacement/student-check",
+  "parent_metrics_sha": "31349eb21a1e6f497ca4e06ed8ab0f5da096b2e4d1cc4ba943e59290c9821249",
+  "arms": {
+    "clip+dino": {
+      "backbone": "clip",
+      "teacher_correct": 8,
+      "frozen_correct": 5,
+      "untrained_prompt_correct": 1,
+      "student_correct": 2,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 1,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 1.12
+        },
+        {
+          "epoch": 2,
+          "correct": 2,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 1.04
+        }
+      ],
+      "checkpoint": "clip+dino-epoch-2.pt",
+      "sha256": "75235faf95a9a22c75a293d55b80384fe79e56b5d07ebaef4f641ff0095b2663",
+      "trainable": 57344,
+      "seconds": 1.53
+    },
+    "siglip2+dino": {
+      "backbone": "siglip2",
+      "teacher_correct": 8,
+      "frozen_correct": 6,
+      "untrained_prompt_correct": 1,
+      "student_correct": 1,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 1,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 1.11
+        },
+        {
+          "epoch": 2,
+          "correct": 1,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 1.11
+        }
+      ],
+      "checkpoint": "siglip2+dino-epoch-2.pt",
+      "sha256": "ae4a27148f727a98d743148582cedc948447e5d81cdac91a7e71c1be477efd33",
+      "trainable": 59904,
+      "seconds": 1.95
+    },
+    "clip+convnext": {
+      "backbone": "clip",
+      "teacher_correct": 8,
+      "frozen_correct": 5,
+      "untrained_prompt_correct": 1,
+      "student_correct": 2,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 1,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 0.82
+        },
+        {
+          "epoch": 2,
+          "correct": 2,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 0.82
+        }
+      ],
+      "checkpoint": "clip+convnext-epoch-2.pt",
+      "sha256": "d50cf765eb31a29aa5718b3353185bd388606138708c277554e0d70267856577",
+      "trainable": 57344,
+      "seconds": 1.32
+    },
+    "siglip2+convnext": {
+      "backbone": "siglip2",
+      "teacher_correct": 8,
+      "frozen_correct": 6,
+      "untrained_prompt_correct": 1,
+      "student_correct": 2,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 1,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 1.11
+        },
+        {
+          "epoch": 2,
+          "correct": 2,
+          "updates": 2,
+          "skips": 0,
+          "seconds": 1.12
+        }
+      ],
+      "checkpoint": "siglip2+convnext-epoch-2.pt",
+      "sha256": "f49a8fc3f7b8ecd154f5530edcd47d1a40cc2b95bbe4161e888a7669b5a69e89",
+      "trainable": 59904,
+      "seconds": 1.89
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "delta_pp": -10.0,
+      "fixes": 1,
+      "losses": 2,
+      "ci95_pp": [
+        -10.0,
+        -10.0
+      ],
+      "mcnemar_p": 1.0
+    },
+    "clip+convnext vs clip+dino": {
+      "delta_pp": 0.0,
+      "fixes": 0,
+      "losses": 0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_p": 1.0
+    },
+    "siglip2+convnext vs clip+dino": {
+      "delta_pp": 0.0,
+      "fixes": 1,
+      "losses": 1,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_p": 1.0
+    },
+    "clip+convnext vs siglip2+dino": {
+      "delta_pp": 10.0,
+      "fixes": 2,
+      "losses": 1,
+      "ci95_pp": [
+        10.0,
+        10.0
+      ],
+      "mcnemar_p": 1.0
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "delta_pp": 10.0,
+      "fixes": 1,
+      "losses": 0,
+      "ci95_pp": [
+        10.0,
+        10.0
+      ],
+      "mcnemar_p": 1.0
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "delta_pp": 0.0,
+      "fixes": 1,
+      "losses": 1,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_p": 1.0
+    }
+  },
+  "seconds": 43.9
+}

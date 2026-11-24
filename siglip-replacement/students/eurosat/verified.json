@@ -1,0 +1,193 @@
+{
+  "dataset": "eurosat",
+  "smoke": false,
+  "epochs": 2,
+  "train_n": 320,
+  "val_n": 200,
+  "train_full": 13500,
+  "val_full": 5400,
+  "steps": 10,
+  "micro": 4,
+  "effective": 32,
+  "seed": 7777,
+  "prompts": 16,
+  "logit_scale": 100.0,
+  "objective": "CE on hard DINO targets, label smoothing .1",
+  "loss_lr": 0.004,
+  "teacher_cfg_sha": "2740346d6c9521dd1093c74ef3b225b5efd711236712330000e9393fb1377e33",
+  "code_sha": "d16130044059d7c240ff2f2523578f0f55d719b58fad06faf5af4a674cdebdff",
+  "test_scored": false,
+  "arms": {
+    "clip+dino": {
+      "backbone": "clip",
+      "teacher_correct": 143,
+      "frozen_correct": 103,
+      "untrained_prompt_correct": 26,
+      "student_correct": 129,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 116,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 21.51
+        },
+        {
+          "epoch": 2,
+          "correct": 129,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 21.27
+        }
+      ],
+      "checkpoint": "clip+dino-epoch-2.pt",
+      "sha256": "17148609b460ca47877bf3c627b327707b8f23745c9de30d187839f56090ceeb",
+      "trainable": 57344,
+      "seconds": 47.18
+    },
+    "siglip2+dino": {
+      "backbone": "siglip2",
+      "teacher_correct": 113,
+      "frozen_correct": 94,
+      "untrained_prompt_correct": 40,
+      "student_correct": 112,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 96,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 28.86
+        },
+        {
+          "epoch": 2,
+          "correct": 112,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 28.83
+        }
+      ],
+      "checkpoint": "siglip2+dino-epoch-2.pt",
+      "sha256": "0647a7aa971523f929c4efa2b512961d8c5e8ff61b4c8e4865023f6870f7f696",
+      "trainable": 59904,
+      "seconds": 64.94
+    },
+    "clip+convnext": {
+      "backbone": "clip",
+      "teacher_correct": 140,
+      "frozen_correct": 103,
+      "untrained_prompt_correct": 26,
+      "student_correct": 121,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 128,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 21.56
+        },
+        {
+          "epoch": 2,
+          "correct": 121,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 21.48
+        }
+      ],
+      "checkpoint": "clip+convnext-epoch-2.pt",
+      "sha256": "f6dae54c0ba82a2e0639c1b45fb92a1775d7ee518548c70e04410bc6f4e95d9e",
+      "trainable": 57344,
+      "seconds": 47.48
+    },
+    "siglip2+convnext": {
+      "backbone": "siglip2",
+      "teacher_correct": 112,
+      "frozen_correct": 94,
+      "untrained_prompt_correct": 40,
+      "student_correct": 137,
+      "history": [
+        {
+          "epoch": 1,
+          "correct": 103,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 28.75
+        },
+        {
+          "epoch": 2,
+          "correct": 137,
+          "updates": 10,
+          "skips": 0,
+          "seconds": 28.75
+        }
+      ],
+      "checkpoint": "siglip2+convnext-epoch-2.pt",
+      "sha256": "13622caddb7ffa55652d11cde90634a180a2593da32f10cdeadca3a1c6159f11",
+      "trainable": 59904,
+      "seconds": 64.63
+    }
+  },
+  "paired": {
+    "siglip2+dino vs clip+dino": {
+      "delta_pp": -8.5,
+      "fixes": 26,
+      "losses": 43,
+      "ci95_pp": [
+        -14.5,
+        -2.5
+      ],
+      "mcnemar_p": 0.05328936381651365
+    },
+    "clip+convnext vs clip+dino": {
+      "delta_pp": -4.0,
+      "fixes": 2,
+      "losses": 10,
+      "ci95_pp": [
+        -7.5,
+        -1.0
+      ],
+      "mcnemar_p": 0.03857421875
+    },
+    "siglip2+convnext vs clip+dino": {
+      "delta_pp": 4.0,
+      "fixes": 26,
+      "losses": 18,
+      "ci95_pp": [
+        -2.0,
+        9.5
+      ],
+      "mcnemar_p": 0.2912152365458951
+    },
+    "clip+convnext vs siglip2+dino": {
+      "delta_pp": 4.5,
+      "fixes": 37,
+      "losses": 28,
+      "ci95_pp": [
+        -1.5,
+        10.5
+      ],
+      "mcnemar_p": 0.3210841356849955
+    },
+    "siglip2+convnext vs siglip2+dino": {
+      "delta_pp": 12.5,
+      "fixes": 40,
+      "losses": 15,
+      "ci95_pp": [
+        6.5,
+        18.5
+      ],
+      "mcnemar_p": 0.0010158471941252854
+    },
+    "siglip2+convnext vs clip+convnext": {
+      "delta_pp": 8.0,
+      "fixes": 29,
+      "losses": 13,
+      "ci95_pp": [
+        2.5,
+        13.5
+      ],
+      "mcnemar_p": 0.019520472782460274
+    }
+  },
+  "seconds": 300.4
+}

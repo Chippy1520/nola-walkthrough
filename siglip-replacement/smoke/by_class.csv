@@ -1,0 +1,51 @@
+arm,class_id,name,anchors,correct,correct_fine_subtypes,val_n,val_correct
+clip_only,0,Annual Crop Land,11,11,,32,19
+clip_only,1,Forest,0,0,,0,0
+clip_only,2,Herbaceous Vegetation Land,0,0,,0,0
+clip_only,3,Highway or Road,1,0,,0,0
+clip_only,4,Industrial Buildings,4,0,,0,0
+clip_only,5,Pasture Land,1,0,,0,0
+clip_only,6,Permanent Crop Land,6,0,,0,0
+clip_only,7,Residential Buildings,5,0,,0,0
+clip_only,8,River,0,0,,0,0
+clip_only,9,Sea or Lake,0,0,,0,0
+clip_pool_siglip_rank,0,Annual Crop Land,11,11,,32,19
+clip_pool_siglip_rank,1,Forest,0,0,,0,0
+clip_pool_siglip_rank,2,Herbaceous Vegetation Land,0,0,,0,0
+clip_pool_siglip_rank,3,Highway or Road,1,0,,0,0
+clip_pool_siglip_rank,4,Industrial Buildings,4,0,,0,0
+clip_pool_siglip_rank,5,Pasture Land,1,0,,0,0
+clip_pool_siglip_rank,6,Permanent Crop Land,6,0,,0,0
+clip_pool_siglip_rank,7,Residential Buildings,5,0,,0,0
+clip_pool_siglip_rank,8,River,0,0,,0,0
+clip_pool_siglip_rank,9,Sea or Lake,0,0,,0,0
+siglip_only,0,Annual Crop Land,11,11,,32,23
+siglip_only,1,Forest,0,0,,0,0
+siglip_only,2,Herbaceous Vegetation Land,0,0,,0,0
+siglip_only,3,Highway or Road,1,0,,0,0
+siglip_only,4,Industrial Buildings,4,0,,0,0
+siglip_only,5,Pasture Land,1,0,,0,0
+siglip_only,6,Permanent Crop Land,6,0,,0,0
+siglip_only,7,Residential Buildings,5,0,,0,0
+siglip_only,8,River,0,0,,0,0
+siglip_only,9,Sea or Lake,0,0,,0,0
+clip_native,0,Annual Crop Land,16,16,,32,12
+clip_native,1,Forest,2,0,,0,0
+clip_native,2,Herbaceous Vegetation Land,0,0,,0,0
+clip_native,3,Highway or Road,1,0,,0,0
+clip_native,4,Industrial Buildings,11,0,,0,0
+clip_native,5,Pasture Land,1,0,,0,0
+clip_native,6,Permanent Crop Land,16,0,,0,0
+clip_native,7,Residential Buildings,5,0,,0,0
+clip_native,8,River,0,0,,0,0
+clip_native,9,Sea or Lake,0,0,,0,0
+siglip_native,0,Annual Crop Land,16,16,,32,11
+siglip_native,1,Forest,0,0,,0,0
+siglip_native,2,Herbaceous Vegetation Land,0,0,,0,0
+siglip_native,3,Highway or Road,10,0,,0,0
+siglip_native,4,Industrial Buildings,4,0,,0,0
+siglip_native,5,Pasture Land,2,0,,0,0
+siglip_native,6,Permanent Crop Land,14,0,,0,0
+siglip_native,7,Residential Buildings,13,0,,0,0
+siglip_native,8,River,0,0,,0,0
+siglip_native,9,Sea or Lake,1,0,,0,0

@@ -1,0 +1,11 @@
+id,true,clip+dino,siglip2+dino,clip+convnext,siglip2+convnext,clip+dino_teacher,siglip2+dino_teacher,clip+convnext_teacher,siglip2+convnext_teacher
+AnnualCrop/AnnualCrop_2964.jpg,0,8,8,8,8,0,0,0,0
+Forest/Forest_2571.jpg,1,8,8,8,8,1,1,1,1
+HerbaceousVegetation/HerbaceousVegetation_2796.jpg,2,8,8,8,8,1,1,8,1
+Highway/Highway_2007.jpg,3,8,8,8,8,3,3,3,3
+Industrial/Industrial_1624.jpg,4,8,8,8,7,4,7,4,7
+Pasture/Pasture_1215.jpg,5,8,8,8,8,6,5,6,5
+PermanentCrop/PermanentCrop_1407.jpg,6,8,8,8,8,6,6,6,6
+Residential/Residential_2247.jpg,7,8,8,8,8,7,7,7,7
+River/River_877.jpg,8,8,8,8,8,8,8,8,8
+SeaLake/SeaLake_2351.jpg,9,8,8,8,8,9,9,9,9

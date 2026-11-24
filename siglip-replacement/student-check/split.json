@@ -1,0 +1,27 @@
+{
+  "train": [
+    "AnnualCrop/AnnualCrop_724.jpg",
+    "AnnualCrop/AnnualCrop_2253.jpg",
+    "HerbaceousVegetation/HerbaceousVegetation_1166.jpg",
+    "HerbaceousVegetation/HerbaceousVegetation_1900.jpg",
+    "HerbaceousVegetation/HerbaceousVegetation_2915.jpg",
+    "Highway/Highway_1099.jpg",
+    "Industrial/Industrial_1664.jpg",
+    "Industrial/Industrial_2286.jpg",
+    "Pasture/Pasture_895.jpg",
+    "PermanentCrop/PermanentCrop_1976.jpg",
+    "SeaLake/SeaLake_1591.jpg"
+  ],
+  "val": [
+    "AnnualCrop/AnnualCrop_2964.jpg",
+    "Forest/Forest_2571.jpg",
+    "HerbaceousVegetation/HerbaceousVegetation_2796.jpg",
+    "Highway/Highway_2007.jpg",
+    "Industrial/Industrial_1624.jpg",
+    "Pasture/Pasture_1215.jpg",
+    "PermanentCrop/PermanentCrop_1407.jpg",
+    "Residential/Residential_2247.jpg",
+    "River/River_877.jpg",
+    "SeaLake/SeaLake_2351.jpg"
+  ]
+}

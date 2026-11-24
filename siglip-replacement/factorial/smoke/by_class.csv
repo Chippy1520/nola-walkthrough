@@ -1,0 +1,41 @@
+arm,class_id,name,correct_seeds,correct_extra,val_correct,val_n
+clip+dino,0,Annual Crop Land,1,8,20,32
+clip+dino,1,Forest,0,0,0,0
+clip+dino,2,Herbaceous Vegetation Land,0,0,0,0
+clip+dino,3,Highway or Road,0,0,0,0
+clip+dino,4,Industrial Buildings,0,0,0,0
+clip+dino,5,Pasture Land,0,0,0,0
+clip+dino,6,Permanent Crop Land,0,0,0,0
+clip+dino,7,Residential Buildings,0,0,0,0
+clip+dino,8,River,0,0,0,0
+clip+dino,9,Sea or Lake,0,0,0,0
+siglip2+dino,0,Annual Crop Land,1,8,14,32
+siglip2+dino,1,Forest,0,0,0,0
+siglip2+dino,2,Herbaceous Vegetation Land,0,0,0,0
+siglip2+dino,3,Highway or Road,0,0,0,0
+siglip2+dino,4,Industrial Buildings,0,0,0,0
+siglip2+dino,5,Pasture Land,0,0,0,0
+siglip2+dino,6,Permanent Crop Land,0,0,0,0
+siglip2+dino,7,Residential Buildings,0,0,0,0
+siglip2+dino,8,River,0,0,0,0
+siglip2+dino,9,Sea or Lake,0,0,0,0
+clip+convnext,0,Annual Crop Land,1,8,19,32
+clip+convnext,1,Forest,0,0,0,0
+clip+convnext,2,Herbaceous Vegetation Land,0,0,0,0
+clip+convnext,3,Highway or Road,0,0,0,0
+clip+convnext,4,Industrial Buildings,0,0,0,0
+clip+convnext,5,Pasture Land,0,0,0,0
+clip+convnext,6,Permanent Crop Land,0,0,0,0
+clip+convnext,7,Residential Buildings,0,0,0,0
+clip+convnext,8,River,0,0,0,0
+clip+convnext,9,Sea or Lake,0,0,0,0
+siglip2+convnext,0,Annual Crop Land,1,8,19,32
+siglip2+convnext,1,Forest,0,0,0,0
+siglip2+convnext,2,Herbaceous Vegetation Land,0,0,0,0
+siglip2+convnext,3,Highway or Road,0,0,0,0
+siglip2+convnext,4,Industrial Buildings,0,0,0,0
+siglip2+convnext,5,Pasture Land,0,0,0,0
+siglip2+convnext,6,Permanent Crop Land,0,0,0,0
+siglip2+convnext,7,Residential Buildings,0,0,0,0
+siglip2+convnext,8,River,0,0,0,0
+siglip2+convnext,9,Sea or Lake,0,0,0,0

@@ -1,0 +1,241 @@
+{
+  "dataset": "eurosat",
+  "smoke": true,
+  "model": "convnext_tiny.dinov3_lvd1689m",
+  "revision": "39c7bb32f83c11bbb13cb23058f8852a4dac88ed",
+  "sha256": "a7637753a2e85d709d1a5474e13382d39e7bc581a35868b477585c970f36847f",
+  "transform": {
+    "input_size": [
+      3,
+      224,
+      224
+    ],
+    "interpolation": "bicubic",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "crop_pct": 1.0,
+    "crop_mode": "center"
+  },
+  "train_n": 64,
+  "val_n": 32,
+  "matched_additions": 8,
+  "reference": "/home/chip/nola-walkthrough/parallel-study/cluster-first/spectral_smoke",
+  "add_quotas": [
+    5,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "results": {
+    "clip_expansion": {
+      "correct_additions": 5,
+      "val_correct": 14,
+      "target_classes": {
+        "Annual Crop Land": {
+          "new_correct": 5,
+          "val_correct": 14,
+          "val_n": 32,
+          "subtypes": null
+        },
+        "Forest": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Herbaceous Vegetation Land": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Highway or Road": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Industrial Buildings": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Pasture Land": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Residential Buildings": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "River": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Sea or Lake": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        }
+      }
+    },
+    "dino_seed_retrieval": {
+      "correct_additions": 5,
+      "val_correct": 12,
+      "target_classes": {
+        "Annual Crop Land": {
+          "new_correct": 5,
+          "val_correct": 12,
+          "val_n": 32,
+          "subtypes": null
+        },
+        "Forest": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Herbaceous Vegetation Land": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Highway or Road": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Industrial Buildings": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Pasture Land": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Residential Buildings": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "River": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Sea or Lake": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        }
+      }
+    },
+    "convnext_v3": {
+      "correct_additions": 5,
+      "val_correct": 15,
+      "target_classes": {
+        "Annual Crop Land": {
+          "new_correct": 5,
+          "val_correct": 15,
+          "val_n": 32,
+          "subtypes": null
+        },
+        "Forest": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Herbaceous Vegetation Land": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Highway or Road": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Industrial Buildings": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Pasture Land": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Residential Buildings": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "River": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        },
+        "Sea or Lake": {
+          "new_correct": 0,
+          "val_correct": 0,
+          "val_n": 0,
+          "subtypes": null
+        }
+      }
+    }
+  },
+  "paired": {
+    "clip_expansion": {
+      "delta_pp": 3.125,
+      "ci95_pp": [
+        0.0,
+        9.375
+      ]
+    },
+    "dino_seed_retrieval": {
+      "delta_pp": 9.375,
+      "ci95_pp": [
+        0.0,
+        21.875
+      ]
+    }
+  }
+}

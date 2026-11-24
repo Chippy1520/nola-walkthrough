@@ -1,0 +1,88 @@
+{
+  "argv": [
+    "/home/chip/nola-walkthrough/offline-suffix-20261121T174021-Bfe0QH/run_local.py",
+    "--dataset",
+    "eurosat",
+    "--out",
+    "/home/chip/nola-walkthrough/offline-suffix-20261121T174021-Bfe0QH/eurosat-full",
+    "--train",
+    "0",
+    "--val",
+    "0",
+    "--test",
+    "0",
+    "--epochs",
+    "2",
+    "--microbatch",
+    "8",
+    "--effective-batch",
+    "512",
+    "--feature-batch",
+    "16"
+  ],
+  "seed": 7777,
+  "counts": {
+    "train": 13500,
+    "val": 5400,
+    "test": 8100
+  },
+  "anchors_per_class": 270,
+  "provenance": {
+    "split": "/home/chip/nola-walkthrough/data/eurosat/split_zhou_EuroSAT.json",
+    "split_sha256": "541503a77d0b26b735d85ec7a3e672804fe0aa466c2e5f07da772cc6c0af8ad2",
+    "image_root": "/home/chip/nola-walkthrough/data/eurosat/EuroSAT_RGB"
+  },
+  "classes": [
+    "Annual Crop Land",
+    "Forest",
+    "Herbaceous Vegetation Land",
+    "Highway or Road",
+    "Industrial Buildings",
+    "Pasture Land",
+    "Permanent Crop Land",
+    "Residential Buildings",
+    "River",
+    "Sea or Lake"
+  ],
+  "templates": [
+    "a satellite photo of {}.",
+    "a satellite photo of a {}.",
+    "a satellite photo of the {}.",
+    "a centered satellite photo of {}.",
+    "This is an aerial image of a {}.",
+    "a aerial image of {}."
+  ],
+  "descriptions_sha256": "fe1076499e4fb8c019e83e677af2e9ecc302cb2240edcca0a1ed7fbb35af2110",
+  "manifest_sha256": "3bfbdbe3287bc792f636ef29ba21e73da6af83d6f21220b78d4a2020ac5d7d9f",
+  "prompts_sha256": "fb454f0866b57e8c054ad322e0858be71da2c063c691bfe911f1d56cf608f721",
+  "source_sha256": "08cc78b745fc6a0c5fcd515d90f764d971e9cef481ef6298dd4da029028e2e75",
+  "upstream": "caec2722bba84bd4807256645c5cb75d96d7ed12",
+  "dino_commit": "7c446df5b9f45747937fb0d72314eb9f7b66930a",
+  "clip_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af",
+  "dino_sha256": "bf34ad0f424b9029b593e8dc3ed553bf26e88bcba0d32bf3e62a6209cb64c85e",
+  "gpu": "NVIDIA GeForce GTX 1050 Ti",
+  "torch": "2.5.1+cu121",
+  "torchvision": "0.20.1+cu121",
+  "precision": "FP32 masters with CUDA FP16 autocast and student GradScaler",
+  "feature_batch": 16,
+  "epochs": 2,
+  "microbatch": 8,
+  "effective_batch": 512,
+  "teacher": {
+    "widths": [
+      768,
+      256,
+      10
+    ],
+    "epochs": 50,
+    "batch": 32,
+    "optimizer": "Adam(0.001)"
+  },
+  "student": {
+    "visual_tokens": 16,
+    "trainable": "visual LayerNorms + visual prompts + class head",
+    "optimizer": "AdamW(0.004, betas=(0.9,0.999), decay=.01 except LayerNorm bias)",
+    "smoothing": 0.1
+  },
+  "checkpoint": "first highest validation accuracy; fixed training epochs in both arms"
+}

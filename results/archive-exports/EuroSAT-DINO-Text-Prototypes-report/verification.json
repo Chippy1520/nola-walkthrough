@@ -1,0 +1,171 @@
+{
+  "stage": "validation",
+  "anchors": 2168,
+  "arms": {
+    "original": {
+      "anchor_correct": 1640,
+      "val_correct": 3569,
+      "accuracy_pct": 66.093
+    },
+    "original_clusters": {
+      "anchor_correct": 1191,
+      "val_correct": 2962,
+      "accuracy_pct": 54.852
+    },
+    "wrapped_mean": {
+      "anchor_correct": 1657,
+      "val_correct": 3624,
+      "accuracy_pct": 67.111
+    },
+    "wrapped_mean_clusters": {
+      "anchor_correct": 1277,
+      "val_correct": 3111,
+      "accuracy_pct": 57.611
+    },
+    "prototypes": {
+      "anchor_correct": 1643,
+      "val_correct": 3641,
+      "accuracy_pct": 67.426
+    },
+    "prototypes_clusters": {
+      "anchor_correct": 1213,
+      "val_correct": 3077,
+      "accuracy_pct": 56.981
+    },
+    "mapped_clusters": {
+      "anchor_correct": 1214,
+      "val_correct": 3083,
+      "accuracy_pct": 57.093
+    }
+  },
+  "pairwise": {
+    "original_clusters vs original": {
+      "delta_pp": -11.241,
+      "fixes": 163,
+      "regressions": 770,
+      "ci95_pp": [
+        -12.296,
+        -10.185
+      ]
+    },
+    "wrapped_mean_clusters vs wrapped_mean": {
+      "delta_pp": -9.5,
+      "fixes": 132,
+      "regressions": 645,
+      "ci95_pp": [
+        -10.481,
+        -8.537
+      ]
+    },
+    "prototypes_clusters vs prototypes": {
+      "delta_pp": -10.444,
+      "fixes": 164,
+      "regressions": 728,
+      "ci95_pp": [
+        -11.463,
+        -9.444
+      ]
+    },
+    "prototypes_clusters vs original_clusters": {
+      "delta_pp": 2.13,
+      "fixes": 388,
+      "regressions": 273,
+      "ci95_pp": [
+        1.204,
+        3.074
+      ]
+    },
+    "prototypes_clusters vs wrapped_mean_clusters": {
+      "delta_pp": -0.63,
+      "fixes": 256,
+      "regressions": 290,
+      "ci95_pp": [
+        -1.463,
+        0.222
+      ]
+    },
+    "mapped_clusters vs prototypes_clusters": {
+      "delta_pp": 0.111,
+      "fixes": 98,
+      "regressions": 92,
+      "ci95_pp": [
+        -0.389,
+        0.611
+      ]
+    },
+    "mapped_clusters vs original": {
+      "delta_pp": -9.0,
+      "fixes": 207,
+      "regressions": 693,
+      "ci95_pp": [
+        -10.037,
+        -7.963
+      ]
+    }
+  },
+  "herbaceous": [
+    {
+      "arm": "original",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "4",
+      "val_n": "600",
+      "val_correct": "3"
+    },
+    {
+      "arm": "original_clusters",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "4",
+      "val_n": "600",
+      "val_correct": "0"
+    },
+    {
+      "arm": "wrapped_mean",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "5",
+      "val_n": "600",
+      "val_correct": "11"
+    },
+    {
+      "arm": "wrapped_mean_clusters",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "6",
+      "val_n": "600",
+      "val_correct": "8"
+    },
+    {
+      "arm": "prototypes",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "3",
+      "val_n": "600",
+      "val_correct": "7"
+    },
+    {
+      "arm": "prototypes_clusters",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "3",
+      "val_n": "600",
+      "val_correct": "4"
+    },
+    {
+      "arm": "mapped_clusters",
+      "class_id": "2",
+      "name": "Herbaceous Vegetation Land",
+      "anchors": "7",
+      "correct_anchors": "3",
+      "val_n": "600",
+      "val_correct": "0"
+    }
+  ]
+}
